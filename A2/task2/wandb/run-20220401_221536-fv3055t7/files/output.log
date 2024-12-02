@@ -1,0 +1,80 @@
+encoder1.0.weight 7200
+encoder1.0.bias 150
+encoder1.2.weight 12000
+encoder1.2.bias 80
+encoder1.4.weight 2800
+encoder1.4.bias 35
+decoder1.0.weight 2800
+decoder1.0.bias 80
+decoder1.2.weight 12000
+decoder1.2.bias 150
+decoder1.4.weight 7200
+decoder1.4.bias 48
+Total Trainable Params: 44543
+Val loss: 3930.562109375	 Val error: 188666.98018092106
+Epoch - 0	 step - 158 	Train loss - 2262.8364603294517 	 MAE - 2262.8364527373774
+Val loss: 1761.6618743896483	 Val error: 84559.76943873355
+Epoch - 1	 step - 158 	Train loss - 1490.7332356770833 	 MAE - 1490.7332216871941
+encoder2.0.weight 2450
+encoder2.0.bias 70
+encoder2.2.weight 3500
+encoder2.2.bias 50
+encoder2.4.weight 1100
+encoder2.4.bias 22
+decoder2.0.weight 1100
+decoder2.0.bias 50
+decoder2.2.weight 3500
+decoder2.2.bias 70
+decoder2.4.weight 2450
+decoder2.4.bias 35
+Total Trainable Params: 14397
+Val loss: 4868.898718261718	 Val error: 170411.4575863487
+Epoch - 0	 step - 158 	Train loss - 2142.091613385662 	 MAE - 2142.091623848832
+Val loss: 1118.9422576904296	 Val error: 39162.97806846217
+Epoch - 1	 step - 158 	Train loss - 825.3537766558569 	 MAE - 825.3537756907009
+encoder3.0.weight 1100
+encoder3.0.bias 50
+encoder3.2.weight 1750
+encoder3.2.bias 35
+encoder3.4.weight 350
+encoder3.4.bias 10
+decoder3.0.weight 350
+decoder3.0.bias 35
+decoder3.2.weight 1750
+decoder3.2.bias 50
+decoder3.4.weight 1100
+decoder3.4.bias 22
+Total Trainable Params: 6602
+Val loss: 8830.992651367187	 Val error: 194281.83307976974
+Epoch - 0	 step - 158 	Train loss - 3666.0043722668534 	 MAE - 3666.0044121194255
+Val loss: 2293.2065673828124	 Val error: 50450.54407380756
+Epoch - 1	 step - 158 	Train loss - 1959.48932460569 	 MAE - 1959.489316067515
+/home/atharva1511/Downloads/CS6910/assignment2/task2/model.py:75: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  y=self.soft(self.linear(x))
+encoder1.0.weight 7200
+encoder1.0.bias 150
+encoder1.2.weight 12000
+encoder1.2.bias 80
+encoder1.4.weight 2800
+encoder1.4.bias 35
+encoder2.0.weight 2450
+encoder2.0.bias 70
+encoder2.2.weight 3500
+encoder2.2.bias 50
+encoder2.4.weight 1100
+encoder2.4.bias 22
+encoder3.0.weight 1100
+encoder3.0.bias 50
+encoder3.2.weight 1750
+encoder3.2.bias 35
+encoder3.4.weight 350
+encoder3.4.bias 10
+linear.weight 50
+linear.bias 5
+Total Trainable Params: 32807
+Epoch - 0	 step - 158 	Train loss - 1.7473260681584197 	 ACC - 0.15749475890985323
+Val loss: 1.7411097794771195	 Val acc: 0.16369243421052632
+Epoch - 1	 step - 158 	Train loss - 1.5389022294830226 	 ACC - 0.36022667714884693
+Val loss: 1.4683739691972733	 Val acc: 0.37974917763157895
+Epoch - 2	 step - 158 	Train loss - 1.463466577559897 	 ACC - 0.44487028301886794
+Val loss: 1.4611651659011842	 Val acc: 0.44921875

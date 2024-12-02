@@ -1,0 +1,25 @@
+encoder1.0.weight 7200
+encoder1.0.bias 150
+encoder1.2.weight 12000
+encoder1.2.bias 80
+encoder1.4.weight 2400
+encoder1.4.bias 30
+decoder1.0.weight 2400
+decoder1.0.bias 80
+decoder1.2.weight 12000
+decoder1.2.bias 150
+decoder1.4.weight 7200
+decoder1.4.bias 48
+Total Trainable Params: 43738
+Val loss: 3934.211590576172	 Val error: 188842.1578125
+Epoch - 0	 step - 158 	Train loss - 2209.688355259925 	 MAE - 2209.688353042016
+Val loss: 1695.8047790527344	 Val error: 81398.62918379935
+Epoch - 1	 step - 158 	Train loss - 1441.7999114030563 	 MAE - 1441.7999109765353
+Traceback (most recent call last):
+  File "train.py", line 62, in <module>
+    dataset = DatasetReader2(file_path = cfg.train_file_path,num = cfg.ae1_input)
+TypeError: __init__() missing 1 required positional argument: 'mode'
+Traceback (most recent call last):
+  File "train.py", line 62, in <module>
+    dataset = DatasetReader2(file_path = cfg.train_file_path,num = cfg.ae1_input)
+TypeError: __init__() missing 1 required positional argument: 'mode'

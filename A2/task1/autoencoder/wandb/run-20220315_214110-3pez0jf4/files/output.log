@@ -1,0 +1,33 @@
+Epoch - 0	 step - 1199 	Train loss - 0.6576152673612038 	 ACC - 0.6458333333333334
+Val loss: 0.6425099316239357	 Val acc: 0.63
+[-10.28205    10.838702   -2.2615285 ...   3.3244176  14.15677
+  -1.5206492] [  8.468937   -7.0568266 -12.516167  ... -12.959394   -7.4069657
+ -11.574049 ]
+Traceback (most recent call last):
+  File "train.py", line 160, in <module>
+    get_plot(model, trainloader, name = 'q2_done', title= 'q2_done')
+  File "train.py", line 43, in get_plot
+    output=model(grid)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/atharva1511/Downloads/CS6910/CS6910/code2/model.py", line 16, in forward
+    h1 = self.activation(self.linear1(x))
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/nn/modules/linear.py", line 103, in forward
+    return F.linear(input, self.weight, self.bias)
+TypeError: linear(): argument 'input' (position 1) must be Tensor, not numpy.ndarray
+Traceback (most recent call last):
+  File "train.py", line 160, in <module>
+    get_plot(model, trainloader, name = 'q2_done', title= 'q2_done')
+  File "train.py", line 43, in get_plot
+    output=model(grid)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/atharva1511/Downloads/CS6910/CS6910/code2/model.py", line 16, in forward
+    h1 = self.activation(self.linear1(x))
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/nn/modules/linear.py", line 103, in forward
+    return F.linear(input, self.weight, self.bias)
+TypeError: linear(): argument 'input' (position 1) must be Tensor, not numpy.ndarray

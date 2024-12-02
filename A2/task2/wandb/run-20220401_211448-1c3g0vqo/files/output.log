@@ -1,0 +1,49 @@
+encoder1.0.weight 7200
+encoder1.0.bias 150
+encoder1.2.weight 12000
+encoder1.2.bias 80
+encoder1.4.weight 2400
+encoder1.4.bias 30
+decoder1.0.weight 4500
+decoder1.0.bias 150
+decoder1.2.weight 12000
+decoder1.2.bias 150
+decoder1.4.weight 7200
+decoder1.4.bias 48
+Total Trainable Params: 45908
+Traceback (most recent call last):
+  File "train.py", line 54, in <module>
+    val_error = eval1(model1,
+  File "/home/atharva1511/Downloads/CS6910/assignment2/task2/encoder_functions.py", line 61, in eval1
+    output = model(data)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/atharva1511/Downloads/CS6910/assignment2/task2/model.py", line 24, in forward
+    return self.decoder1(code)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/nn/modules/container.py", line 141, in forward
+    input = module(input)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/nn/modules/linear.py", line 103, in forward
+    return F.linear(input, self.weight, self.bias)
+RuntimeError: mat1 and mat2 shapes cannot be multiplied (64x150 and 80x150)
+Traceback (most recent call last):
+  File "train.py", line 54, in <module>
+    val_error = eval1(model1,
+  File "/home/atharva1511/Downloads/CS6910/assignment2/task2/encoder_functions.py", line 61, in eval1
+    output = model(data)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/atharva1511/Downloads/CS6910/assignment2/task2/model.py", line 24, in forward
+    return self.decoder1(code)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/nn/modules/container.py", line 141, in forward
+    input = module(input)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/nn/modules/linear.py", line 103, in forward
+    return F.linear(input, self.weight, self.bias)
+RuntimeError: mat1 and mat2 shapes cannot be multiplied (64x150 and 80x150)

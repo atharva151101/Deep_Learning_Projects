@@ -1,0 +1,21 @@
+Val loss: 3937.5411933765076	 Val error: 189001.97752192983
+Epoch - 0	 step - 1266 	Train loss - 3904.565964792879 	 MAE - 3904.5659630586524
+yoooo [0.2871256  0.15180565 0.16452289 0.1445822  0.2519637 ] 4
+/home/atharva1511/Downloads/CS6910/assignment2/code2/model.py:40: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  y=self.soft(self.linear3(h2))
+Traceback (most recent call last):
+  File "train.py", line 212, in <module>
+    train_one_epoch2(model, trainloader, optimizer,
+  File "train.py", line 93, in train_one_epoch2
+    acc.append(accuracy(idxs, target))
+  File "train.py", line 19, in accuracy
+    assert len(input) == len(target)
+TypeError: object of type 'builtin_function_or_method' has no len()
+Traceback (most recent call last):
+  File "train.py", line 212, in <module>
+    train_one_epoch2(model, trainloader, optimizer,
+  File "train.py", line 93, in train_one_epoch2
+    acc.append(accuracy(idxs, target))
+  File "train.py", line 19, in accuracy
+    assert len(input) == len(target)
+TypeError: object of type 'builtin_function_or_method' has no len()

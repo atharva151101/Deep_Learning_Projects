@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "train.py", line 31, in <module>
+    train_dataset = DatasetReader1(file_path = cfg.train_file_path, mode = 'train')
+  File "/home/atharva1511/Downloads/CS6910/assignment2/code2/dataloader.py", line 14, in __init__
+    self.cols = ["x{i}".format(i) for i in range(48)]
+  File "/home/atharva1511/Downloads/CS6910/assignment2/code2/dataloader.py", line 14, in <listcomp>
+    self.cols = ["x{i}".format(i) for i in range(48)]
+KeyError: 'i'
+Traceback (most recent call last):
+  File "train.py", line 31, in <module>
+    train_dataset = DatasetReader1(file_path = cfg.train_file_path, mode = 'train')
+  File "/home/atharva1511/Downloads/CS6910/assignment2/code2/dataloader.py", line 14, in __init__
+    self.cols = ["x{i}".format(i) for i in range(48)]
+  File "/home/atharva1511/Downloads/CS6910/assignment2/code2/dataloader.py", line 14, in <listcomp>
+    self.cols = ["x{i}".format(i) for i in range(48)]

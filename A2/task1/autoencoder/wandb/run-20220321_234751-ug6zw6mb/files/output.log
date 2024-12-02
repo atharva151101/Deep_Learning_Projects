@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "train.py", line 98, in <module>
+    model = AutoEncoder(cfg)
+  File "/home/atharva1511/Downloads/CS6910/assignment2/code2/model.py", line 10, in __init__
+    self.encoder=nn.sequential(nn.Linear(cfg.input_num,cfg.num_ae_hidden),
+AttributeError: module 'torch.nn' has no attribute 'sequential'
+Traceback (most recent call last):
+  File "train.py", line 98, in <module>
+    model = AutoEncoder(cfg)
+  File "/home/atharva1511/Downloads/CS6910/assignment2/code2/model.py", line 10, in __init__
+    self.encoder=nn.sequential(nn.Linear(cfg.input_num,cfg.num_ae_hidden),
+AttributeError: module 'torch.nn' has no attribute 'sequential'

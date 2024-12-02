@@ -1,0 +1,237 @@
+Epoch - 0	 step - 1880 	Train loss - 1.5675103663130683 	 ACC - 0.33067517278043596
+Val loss: 1.5161322420293635	 Val acc: 0.46545454545454545
+Epoch - 1	 step - 1880 	Train loss - 1.4988065560341894 	 ACC - 0.41626794258373206
+Val loss: 1.4524616781148043	 Val acc: 0.48727272727272725
+Epoch - 2	 step - 1880 	Train loss - 1.454520804555032 	 ACC - 0.4582668793195109
+Val loss: 1.4208199719949202	 Val acc: 0.48727272727272725
+Epoch - 3	 step - 1880 	Train loss - 1.4307111644922323 	 ACC - 0.48431685273790537
+Val loss: 1.3975929945165462	 Val acc: 0.5163636363636364
+Epoch - 4	 step - 1880 	Train loss - 1.4098329128007316 	 ACC - 0.49760765550239233
+Val loss: 1.3915838705409658	 Val acc: 0.5418181818181819
+Epoch - 5	 step - 1880 	Train loss - 1.391026202571449 	 ACC - 0.5162147793726741
+Val loss: 1.3724001121520997	 Val acc: 0.5381818181818182
+Epoch - 6	 step - 1880 	Train loss - 1.375263206981586 	 ACC - 0.5390749601275917
+Val loss: 1.3576127680865202	 Val acc: 0.5345454545454545
+Epoch - 7	 step - 1880 	Train loss - 1.3622247046260743 	 ACC - 0.5555555555555556
+Val loss: 1.3475345119563016	 Val acc: 0.5490909090909091
+Epoch - 8	 step - 1880 	Train loss - 1.3500168157156194 	 ACC - 0.5619351408825093
+Val loss: 1.346696391322396	 Val acc: 0.5672727272727273
+Epoch - 9	 step - 1880 	Train loss - 1.341397896369425 	 ACC - 0.5688463583200425
+Val loss: 1.3386159081892535	 Val acc: 0.5709090909090909
+Epoch - 10	 step - 1880 	Train loss - 1.3331607718660374 	 ACC - 0.5810738968633705
+Val loss: 1.3283035083250565	 Val acc: 0.5745454545454546
+Epoch - 11	 step - 1880 	Train loss - 1.32297237428942 	 ACC - 0.5901116427432217
+Val loss: 1.329265859777277	 Val acc: 0.5818181818181818
+Epoch - 12	 step - 1880 	Train loss - 1.3156899626365308 	 ACC - 0.6039340776182881
+Val loss: 1.319304482720115	 Val acc: 0.5927272727272728
+Epoch - 13	 step - 1880 	Train loss - 1.307539712806004 	 ACC - 0.6145667198298778
+Val loss: 1.3157002405686813	 Val acc: 0.5963636363636363
+Epoch - 14	 step - 1880 	Train loss - 1.2980804996944246 	 ACC - 0.6294524189261032
+Val loss: 1.3202291065996343	 Val acc: 0.5890909090909091
+Epoch - 15	 step - 1880 	Train loss - 1.2915263154733567 	 ACC - 0.6299840510366826
+Val loss: 1.316000788862055	 Val acc: 0.6145454545454545
+Epoch - 16	 step - 1880 	Train loss - 1.281923724038369 	 ACC - 0.6432748538011696
+Val loss: 1.3085829849676653	 Val acc: 0.6145454545454545
+Epoch - 17	 step - 1880 	Train loss - 1.2745024973188925 	 ACC - 0.6485911749069644
+Val loss: 1.312969651222229	 Val acc: 0.6145454545454545
+Epoch - 18	 step - 1880 	Train loss - 1.2658581479884792 	 ACC - 0.6570972886762361
+Val loss: 1.3150712154128334	 Val acc: 0.6145454545454545
+Epoch - 19	 step - 1880 	Train loss - 1.259649460553996 	 ACC - 0.6650717703349283
+Val loss: 1.3076182892105797	 Val acc: 0.6072727272727273
+Epoch - 20	 step - 1880 	Train loss - 1.2516056256748018 	 ACC - 0.6804891015417331
+Val loss: 1.300785406069322	 Val acc: 0.6218181818181818
+Epoch - 21	 step - 1880 	Train loss - 1.2448390140804695 	 ACC - 0.6820839978734715
+Val loss: 1.2982508819753473	 Val acc: 0.6218181818181818
+Epoch - 22	 step - 1880 	Train loss - 1.2360795530659414 	 ACC - 0.6900584795321637
+Val loss: 1.3099609461697665	 Val acc: 0.5963636363636363
+Epoch - 23	 step - 1880 	Train loss - 1.2310120241240197 	 ACC - 0.6980329611908559
+Val loss: 1.3022880079529502	 Val acc: 0.6181818181818182
+Epoch - 24	 step - 1880 	Train loss - 1.2249944351062947 	 ACC - 0.6996278575225944
+Val loss: 1.3005141370946711	 Val acc: 0.610909090909091
+Epoch - 25	 step - 1880 	Train loss - 1.2171385933084098 	 ACC - 0.7097288676236044
+Val loss: 1.3030114618214694	 Val acc: 0.6036363636363636
+Epoch - 26	 step - 1880 	Train loss - 1.2118869876367244 	 ACC - 0.7139819245082403
+Val loss: 1.2948872449181297	 Val acc: 0.6327272727272727
+Epoch - 27	 step - 1880 	Train loss - 1.2070820640212103 	 ACC - 0.7177033492822966
+Val loss: 1.3000523671236905	 Val acc: 0.6072727272727273
+Epoch - 28	 step - 1880 	Train loss - 1.1990201374370326 	 ACC - 0.7288676236044657
+Val loss: 1.2909340446645563	 Val acc: 0.6072727272727273
+Epoch - 29	 step - 1880 	Train loss - 1.1938804497685855 	 ACC - 0.7315257841573631
+Val loss: 1.2950167627768083	 Val acc: 0.6181818181818182
+Epoch - 30	 step - 1880 	Train loss - 1.187422212136039 	 ACC - 0.7373737373737373
+Val loss: 1.2896546365998007	 Val acc: 0.6363636363636364
+Epoch - 31	 step - 1880 	Train loss - 1.1794866161546702 	 ACC - 0.7490696438064859
+Val loss: 1.2885104110024193	 Val acc: 0.6254545454545455
+Epoch - 32	 step - 1880 	Train loss - 1.1755957885475503 	 ACC - 0.7501329080276449
+Val loss: 1.2981630171429028	 Val acc: 0.610909090909091
+Epoch - 33	 step - 1880 	Train loss - 1.1704151965657934 	 ACC - 0.7581073896863371
+Val loss: 1.2955402179197832	 Val acc: 0.610909090909091
+Epoch - 34	 step - 1880 	Train loss - 1.1659872015697534 	 ACC - 0.7597022860180755
+Val loss: 1.2849272300980308	 Val acc: 0.6181818181818182
+Epoch - 35	 step - 1880 	Train loss - 1.1614442852061837 	 ACC - 0.7623604465709729
+Val loss: 1.280903751633384	 Val acc: 0.6218181818181818
+Epoch - 36	 step - 1880 	Train loss - 1.1557598944866296 	 ACC - 0.7692716640085061
+Val loss: 1.287458140633323	 Val acc: 0.6181818181818182
+Epoch - 37	 step - 1880 	Train loss - 1.1509435682585745 	 ACC - 0.7703349282296651
+Val loss: 1.288514283136888	 Val acc: 0.6072727272727273
+Epoch - 38	 step - 1880 	Train loss - 1.147025389249245 	 ACC - 0.7713981924508241
+Val loss: 1.2824995584921404	 Val acc: 0.6181818181818182
+Epoch - 39	 step - 1880 	Train loss - 1.1421008954841618 	 ACC - 0.7825624667729931
+Val loss: 1.2816663683544505	 Val acc: 0.6181818181818182
+Epoch - 40	 step - 1880 	Train loss - 1.137102855481346 	 ACC - 0.7841573631047315
+Val loss: 1.2880522725798866	 Val acc: 0.6072727272727273
+Epoch - 41	 step - 1880 	Train loss - 1.1353278968132663 	 ACC - 0.7852206273258905
+Val loss: 1.2830402062155983	 Val acc: 0.6145454545454545
+Epoch - 42	 step - 1880 	Train loss - 1.1313418123330417 	 ACC - 0.7905369484316853
+Val loss: 1.2789902739091352	 Val acc: 0.6218181818181818
+Epoch - 43	 step - 1880 	Train loss - 1.1280468425365409 	 ACC - 0.7916002126528442
+Val loss: 1.28820214249871	 Val acc: 0.6036363636363636
+Epoch - 44	 step - 1880 	Train loss - 1.1239959600439482 	 ACC - 0.79585326953748
+Val loss: 1.2820250840620562	 Val acc: 0.6181818181818182
+Epoch - 45	 step - 1880 	Train loss - 1.1181332043736998 	 ACC - 0.8006379585326954
+Val loss: 1.2878657113422047	 Val acc: 0.6072727272727273
+Epoch - 46	 step - 1880 	Train loss - 1.1157624263639212 	 ACC - 0.8001063264221159
+Val loss: 1.2822137121720747	 Val acc: 0.6145454545454545
+Epoch - 47	 step - 1880 	Train loss - 1.1133488125461395 	 ACC - 0.8006379585326954
+Val loss: 1.2824855730750344	 Val acc: 0.6181818181818182
+Epoch - 48	 step - 1880 	Train loss - 1.109419487214735 	 ACC - 0.8059542796384902
+Val loss: 1.2812040563063187	 Val acc: 0.6254545454545455
+Epoch - 49	 step - 1880 	Train loss - 1.1068368889371618 	 ACC - 0.8096757044125465
+Val loss: 1.2870489417422901	 Val acc: 0.6145454545454545
+Epoch - 50	 step - 1880 	Train loss - 1.1036819869187966 	 ACC - 0.8112706007442849
+Val loss: 1.2853014035658403	 Val acc: 0.6181818181818182
+Epoch - 51	 step - 1880 	Train loss - 1.1015592980803104 	 ACC - 0.8118022328548644
+Val loss: 1.2806788919188759	 Val acc: 0.6181818181818182
+Epoch - 52	 step - 1880 	Train loss - 1.098521679433846 	 ACC - 0.8149920255183413
+Val loss: 1.2854157928986982	 Val acc: 0.6072727272727273
+Epoch - 53	 step - 1880 	Train loss - 1.0953955135403763 	 ACC - 0.8192450824029771
+Val loss: 1.2828775007074529	 Val acc: 0.6145454545454545
+Epoch - 54	 step - 1880 	Train loss - 1.0921248656394063 	 ACC - 0.8187134502923976
+Val loss: 1.282083995775743	 Val acc: 0.6218181818181818
+Epoch - 55	 step - 1880 	Train loss - 1.0910946957168903 	 ACC - 0.8208399787347156
+Val loss: 1.2874423451857133	 Val acc: 0.6145454545454545
+Epoch - 56	 step - 1880 	Train loss - 1.0867849087727823 	 ACC - 0.8261562998405104
+Val loss: 1.28063378572464	 Val acc: 0.6218181818181818
+Epoch - 57	 step - 1880 	Train loss - 1.0842807368988816 	 ACC - 0.8261562998405104
+Val loss: 1.2853112444010648	 Val acc: 0.6218181818181818
+Epoch - 58	 step - 1880 	Train loss - 1.0826257311999956 	 ACC - 0.8277511961722488
+Val loss: 1.2863557652993636	 Val acc: 0.6218181818181818
+Epoch - 59	 step - 1880 	Train loss - 1.0805939003104292 	 ACC - 0.8314726209463051
+Val loss: 1.2913702657006003	 Val acc: 0.6
+Epoch - 60	 step - 1880 	Train loss - 1.0788936824763093 	 ACC - 0.8325358851674641
+Val loss: 1.2765547030622308	 Val acc: 0.6218181818181818
+Epoch - 61	 step - 1880 	Train loss - 1.0768184710981237 	 ACC - 0.8330675172780436
+Val loss: 1.2748531205003912	 Val acc: 0.6290909090909091
+Epoch - 62	 step - 1880 	Train loss - 1.0730539234251117 	 ACC - 0.8389154704944178
+Val loss: 1.2757816410064697	 Val acc: 0.6363636363636364
+Epoch - 63	 step - 1880 	Train loss - 1.0702348660117194 	 ACC - 0.8421052631578947
+Val loss: 1.2752244593880393	 Val acc: 0.6218181818181818
+Epoch - 64	 step - 1880 	Train loss - 1.068033144487972 	 ACC - 0.8415736310473153
+Val loss: 1.2804927468299865	 Val acc: 0.6181818181818182
+Epoch - 65	 step - 1880 	Train loss - 1.0684363836623583 	 ACC - 0.8415736310473153
+Val loss: 1.2851876891743053	 Val acc: 0.6072727272727273
+Epoch - 66	 step - 1880 	Train loss - 1.063530347278814 	 ACC - 0.8463583200425305
+Val loss: 1.286447016325864	 Val acc: 0.6072727272727273
+Epoch - 67	 step - 1880 	Train loss - 1.062755011390461 	 ACC - 0.84688995215311
+Val loss: 1.284978358745575	 Val acc: 0.6145454545454545
+Epoch - 68	 step - 1880 	Train loss - 1.0619804917783702 	 ACC - 0.847953216374269
+Val loss: 1.296166210608049	 Val acc: 0.5963636363636363
+Epoch - 69	 step - 1880 	Train loss - 1.059414336365756 	 ACC - 0.849016480595428
+Val loss: 1.2942724403468044	 Val acc: 0.5963636363636363
+Epoch - 70	 step - 1880 	Train loss - 1.0578977306557107 	 ACC - 0.8500797448165869
+Val loss: 1.2988377679478038	 Val acc: 0.5890909090909091
+Epoch - 71	 step - 1880 	Train loss - 1.0562027713074955 	 ACC - 0.8511430090377459
+Val loss: 1.2984303632649508	 Val acc: 0.5963636363636363
+Epoch - 72	 step - 1880 	Train loss - 1.0552542116146402 	 ACC - 0.8527379053694844
+Val loss: 1.286252838048068	 Val acc: 0.610909090909091
+Epoch - 73	 step - 1880 	Train loss - 1.0536433723554657 	 ACC - 0.8532695374800638
+Val loss: 1.3011284760995345	 Val acc: 0.6
+Epoch - 74	 step - 1880 	Train loss - 1.0517805212992801 	 ACC - 0.8553960659223817
+Val loss: 1.297575414614244	 Val acc: 0.5927272727272728
+Epoch - 75	 step - 1880 	Train loss - 1.0504866772544694 	 ACC - 0.8559276980329612
+Val loss: 1.2900079239498485	 Val acc: 0.610909090909091
+Epoch - 76	 step - 1880 	Train loss - 1.0503669211929114 	 ACC - 0.8553960659223817
+Val loss: 1.3122858506982977	 Val acc: 0.5890909090909091
+Epoch - 77	 step - 1880 	Train loss - 1.04919240875234 	 ACC - 0.8575225943646996
+Val loss: 1.2984917623346501	 Val acc: 0.5927272727272728
+Epoch - 78	 step - 1880 	Train loss - 1.0473025484265068 	 ACC - 0.8585858585858586
+Val loss: 1.301869841705669	 Val acc: 0.5890909090909091
+Epoch - 79	 step - 1880 	Train loss - 1.0528166643613708 	 ACC - 0.8532695374800638
+Val loss: 1.3100026520815762	 Val acc: 0.5890909090909091
+Epoch - 80	 step - 1880 	Train loss - 1.0447673909148278 	 ACC - 0.8596491228070176
+Val loss: 1.3074384808540345	 Val acc: 0.5890909090909091
+Epoch - 81	 step - 1880 	Train loss - 1.0474120015986481 	 ACC - 0.8575225943646996
+Val loss: 1.2943822813034058	 Val acc: 0.6072727272727273
+Epoch - 82	 step - 1880 	Train loss - 1.0449064618916286 	 ACC - 0.860180754917597
+Val loss: 1.307737242525274	 Val acc: 0.5927272727272728
+Epoch - 83	 step - 1880 	Train loss - 1.0436887571242563 	 ACC - 0.8617756512493354
+Val loss: 1.2952538323402405	 Val acc: 0.5927272727272728
+Epoch - 84	 step - 1880 	Train loss - 1.0412890201613727 	 ACC - 0.8623072833599149
+Val loss: 1.3100052324208347	 Val acc: 0.5890909090909091
+Epoch - 85	 step - 1880 	Train loss - 1.0399763644977429 	 ACC - 0.8654970760233918
+Val loss: 1.2953356630151922	 Val acc: 0.5963636363636363
+Epoch - 86	 step - 1880 	Train loss - 1.040620674547016 	 ACC - 0.8649654439128124
+Val loss: 1.3017811987616799	 Val acc: 0.5963636363636363
+Epoch - 87	 step - 1880 	Train loss - 1.0384590236637454 	 ACC - 0.8665603402445508
+Val loss: 1.3036258029937744	 Val acc: 0.5927272727272728
+Epoch - 88	 step - 1880 	Train loss - 1.0379277839424887 	 ACC - 0.8660287081339713
+Val loss: 1.3018568994782187	 Val acc: 0.5927272727272728
+Epoch - 89	 step - 1880 	Train loss - 1.0373651935089654 	 ACC - 0.8681552365762892
+Val loss: 1.3077564040097323	 Val acc: 0.5963636363636363
+Epoch - 90	 step - 1880 	Train loss - 1.0354035225147773 	 ACC - 0.8713450292397661
+Val loss: 1.3055257194692438	 Val acc: 0.5927272727272728
+Epoch - 91	 step - 1880 	Train loss - 1.0334450401631141 	 ACC - 0.8713450292397661
+Val loss: 1.3016587901115417	 Val acc: 0.5963636363636363
+Epoch - 92	 step - 1880 	Train loss - 1.032580674898745 	 ACC - 0.8729399255715046
+Val loss: 1.3225197809392755	 Val acc: 0.5709090909090909
+Epoch - 93	 step - 1880 	Train loss - 1.0321549800150829 	 ACC - 0.8724082934609251
+Val loss: 1.3015839145400308	 Val acc: 0.6
+Epoch - 94	 step - 1880 	Train loss - 1.0323414659005794 	 ACC - 0.8713450292397661
+Val loss: 1.302611940123818	 Val acc: 0.6036363636363636
+Epoch - 95	 step - 1880 	Train loss - 1.0310179209975345 	 ACC - 0.8740031897926634
+Val loss: 1.30752521536567	 Val acc: 0.5818181818181818
+Epoch - 96	 step - 1880 	Train loss - 1.0298128172731476 	 ACC - 0.8745348219032429
+Val loss: 1.2978911111571572	 Val acc: 0.6
+Epoch - 97	 step - 1880 	Train loss - 1.0281582911999412 	 ACC - 0.8761297182349814
+Val loss: 1.3093552734635092	 Val acc: 0.5854545454545454
+Epoch - 98	 step - 1880 	Train loss - 1.0289493002579733 	 ACC - 0.8761297182349814
+Traceback (most recent call last):
+  File "train.py", line 124, in <module>
+    val_acc = eval(model,
+  File "train.py", line 71, in eval
+    for data, target in valloader:
+  File "/Users/tanay/opt/anaconda3/envs/pytorch_x86/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 521, in __next__
+    data = self._next_data()
+  File "/Users/tanay/opt/anaconda3/envs/pytorch_x86/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 561, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/Users/tanay/opt/anaconda3/envs/pytorch_x86/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 44, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/Users/tanay/opt/anaconda3/envs/pytorch_x86/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 44, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/Users/tanay/Documents/sem6/CS6910/code3/dataloader.py", line 29, in __getitem__
+    input = self.X.loc[idx, self.cols].values.astype(np.float32)
+  File "/Users/tanay/opt/anaconda3/envs/pytorch_x86/lib/python3.8/site-packages/pandas/core/indexing.py", line 925, in __getitem__
+    return self._getitem_tuple(key)
+  File "/Users/tanay/opt/anaconda3/envs/pytorch_x86/lib/python3.8/site-packages/pandas/core/indexing.py", line 1100, in _getitem_tuple
+    return self._getitem_lowerdim(tup)
+  File "/Users/tanay/opt/anaconda3/envs/pytorch_x86/lib/python3.8/site-packages/pandas/core/indexing.py", line 862, in _getitem_lowerdim
+    return getattr(section, self.name)[new_key]
+  File "/Users/tanay/opt/anaconda3/envs/pytorch_x86/lib/python3.8/site-packages/pandas/core/indexing.py", line 931, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "/Users/tanay/opt/anaconda3/envs/pytorch_x86/lib/python3.8/site-packages/pandas/core/indexing.py", line 1153, in _getitem_axis
+    return self._getitem_iterable(key, axis=axis)
+  File "/Users/tanay/opt/anaconda3/envs/pytorch_x86/lib/python3.8/site-packages/pandas/core/indexing.py", line 1093, in _getitem_iterable
+    keyarr, indexer = self._get_listlike_indexer(key, axis)
+  File "/Users/tanay/opt/anaconda3/envs/pytorch_x86/lib/python3.8/site-packages/pandas/core/indexing.py", line 1309, in _get_listlike_indexer
+    indexer = ax.get_indexer_for(keyarr)
+  File "/Users/tanay/opt/anaconda3/envs/pytorch_x86/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 5276, in get_indexer_for
+    return self.get_indexer(target, **kwargs)
+  File "/Users/tanay/opt/anaconda3/envs/pytorch_x86/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 3461, in get_indexer
+    if is_categorical_dtype(target.dtype):
+  File "/Users/tanay/opt/anaconda3/envs/pytorch_x86/lib/python3.8/site-packages/pandas/core/dtypes/common.py", line 529, in is_categorical_dtype
+    return CategoricalDtype.is_dtype(arr_or_dtype)
+  File "/Users/tanay/opt/anaconda3/envs/pytorch_x86/lib/python3.8/site-packages/pandas/core/dtypes/base.py", line 289, in is_dtype
+    if isinstance(dtype, (ABCSeries, ABCIndex, ABCDataFrame, np.dtype)):
+  File "/Users/tanay/opt/anaconda3/envs/pytorch_x86/lib/python3.8/site-packages/pandas/core/dtypes/generic.py", line 43, in _check
+    @classmethod  # type: ignore[misc]
+KeyboardInterrupt

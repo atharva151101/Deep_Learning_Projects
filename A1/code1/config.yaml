@@ -1,0 +1,21 @@
+
+checkpoint_dir: models_v2
+file_path: ../20/task1/func_app2.csv
+cuda: False
+wandb: False
+do_train: True
+do_val: True
+do_predict: True
+use_trained: True
+model_path: ../code1/models_v2/models.ckpt
+
+batch_size: 1
+epochs: 100
+val_batch_size: 1
+output_num: 1
+input_num: 2
+
+num_hidden1: 22
+num_hidden2: 14
+learning_rate: 0.0000119
+momentum: 0.9704

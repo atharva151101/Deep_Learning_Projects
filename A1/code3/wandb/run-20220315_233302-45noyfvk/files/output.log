@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "train.py", line 108, in <module>
+    train_dataset = DatasetReader(file_path = cfg.train_file_path, mode = 'train')
+  File "/Users/tanay/Documents/sem6/CS6910/code3/dataloader.py", line 14, in __init__
+    X_test, X_val, y_test, y_val = train_test_split(X_val, y_val, train_size = 0.66, random_state = 42, stratify =y )
+  File "/Users/tanay/opt/anaconda3/envs/pytorch_x86/lib/python3.8/site-packages/sklearn/model_selection/_split.py", line 2197, in train_test_split
+    train, test = next(cv.split(X=arrays[0], y=stratify))
+  File "/Users/tanay/opt/anaconda3/envs/pytorch_x86/lib/python3.8/site-packages/sklearn/model_selection/_split.py", line 1386, in split
+    X, y, groups = indexable(X, y, groups)
+  File "/Users/tanay/opt/anaconda3/envs/pytorch_x86/lib/python3.8/site-packages/sklearn/utils/validation.py", line 356, in indexable
+    check_consistent_length(*result)
+  File "/Users/tanay/opt/anaconda3/envs/pytorch_x86/lib/python3.8/site-packages/sklearn/utils/validation.py", line 319, in check_consistent_length
+    raise ValueError("Found input variables with inconsistent numbers of"
+ValueError: Found input variables with inconsistent numbers of samples: [807, 2688]

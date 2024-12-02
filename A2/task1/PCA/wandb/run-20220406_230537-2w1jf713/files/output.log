@@ -1,0 +1,3 @@
+/home/atharva1511/.local/lib/python3.8/site-packages/numpy/core/fromnumeric.py:3370: FutureWarning: In a future version, DataFrame.mean(axis=None) will return a scalar mean over the entire DataFrame. To retain the old behavior, use 'frame.mean(axis=0)' or just 'frame.mean()'
+  return mean(axis=axis, dtype=dtype, out=out, **kwargs)
+Train MAE - 1198.3975437365664	 Val MAE - 1215.8968927807907

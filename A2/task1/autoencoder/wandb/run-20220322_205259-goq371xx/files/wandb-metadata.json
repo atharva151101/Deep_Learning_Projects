@@ -1,0 +1,29 @@
+{
+    "os": "Linux-5.13.0-35-generic-x86_64-with-glibc2.29",
+    "python": "3.8.10",
+    "heartbeatAt": "2022-03-22T15:23:00.886299",
+    "startedAt": "2022-03-22T15:22:59.462463",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "--batch_size=149",
+        "--epochs=189",
+        "--learning_rate=0.00963950027005861",
+        "--num_ae_hidden1=32",
+        "--num_ae_hidden2=13",
+        "--weight_decay=0.1332467382263669"
+    ],
+    "state": "running",
+    "program": "train.py",
+    "codePath": "Downloads/CS6910/assignment2/code2/train.py",
+    "git": {
+        "remote": "https://github.com/AtharvaC1511/PRML.git",
+        "commit": null
+    },
+    "email": null,
+    "root": "/home/atharva1511",
+    "host": "atharva1511-HP-Pavilion-Gaming-Laptop-15-dk0xxx",
+    "username": "atharva1511",
+    "executable": "/usr/bin/python3"
+}

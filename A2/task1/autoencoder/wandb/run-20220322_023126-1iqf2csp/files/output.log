@@ -1,0 +1,112 @@
+Epoch - 0	 step - 1266 	Train loss - 3937.5105562398257 	 MAE - 3937.5105574602085
+Val loss: 3937.472195809348	 Val error: 188998.66557017545
+/home/atharva1511/.local/lib/python3.8/site-packages/torch/nn/modules/loss.py:96: UserWarning: Using a target size (torch.Size([1, 48])) that is different to the input size (torch.Size([48])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.l1_loss(input, target, reduction=self.reduction)
+Epoch - 1	 step - 1266 	Train loss - 3937.4175550405116 	 MAE - 3937.417552535517
+Val loss: 3937.3516931366503	 Val error: 188992.88212719298
+Epoch - 2	 step - 1266 	Train loss - 3937.229014311612 	 MAE - 3937.229014568535
+Val loss: 3937.074053847999	 Val error: 188979.55523574562
+Epoch - 3	 step - 1266 	Train loss - 3936.7973603908717 	 MAE - 3936.797360069719
+Val loss: 3936.4846255653783	 Val error: 188951.26356907896
+Epoch - 4	 step - 1266 	Train loss - 3936.0551748177904 	 MAE - 3936.0551728266414
+Val loss: 3935.6308165433115	 Val error: 188910.27796052632
+Epoch - 5	 step - 1266 	Train loss - 3935.125023123027 	 MAE - 3935.1250282614774
+Val loss: 3934.654650236431	 Val error: 188863.42447916666
+Epoch - 6	 step - 1266 	Train loss - 3934.120020263479 	 MAE - 3934.1200162169494
+Val loss: 3933.632960269326	 Val error: 188814.3828125
+Epoch - 7	 step - 1266 	Train loss - 3933.0765252719266 	 MAE - 3933.0765405588163
+Val loss: 3932.5833547491775	 Val error: 188764.00068530702
+Epoch - 8	 step - 1266 	Train loss - 3932.0156325149837 	 MAE - 3932.015631936908
+Val loss: 3931.529740182977	 Val error: 188713.42489035087
+Epoch - 9	 step - 1266 	Train loss - 3930.9558215303127 	 MAE - 3930.955823457232
+Val loss: 3930.4813789233826	 Val error: 188663.10663377194
+Epoch - 10	 step - 1266 	Train loss - 3929.9009773718058 	 MAE - 3929.900986685248
+Val loss: 3929.4389776932567	 Val error: 188613.0701754386
+Epoch - 11	 step - 1266 	Train loss - 3928.8510349096046 	 MAE - 3928.8510340103753
+Val loss: 3928.4011808696546	 Val error: 188563.2582236842
+Epoch - 12	 step - 1266 	Train loss - 3927.8048938730144 	 MAE - 3927.804904856452
+Val loss: 3927.366251627604	 Val error: 188513.57990679826
+Epoch - 13	 step - 1266 	Train loss - 3926.762718820911 	 MAE - 3926.762729483196
+Val loss: 3926.335757606908	 Val error: 188464.11773574562
+Epoch - 14	 step - 1266 	Train loss - 3925.724665833724 	 MAE - 3925.724668467179
+Val loss: 3925.3091120134322	 Val error: 188414.83689692983
+Epoch - 15	 step - 1266 	Train loss - 3924.6903377734684 	 MAE - 3924.6903192108157
+Val loss: 3924.28680955318	 Val error: 188365.76864035087
+Epoch - 16	 step - 1266 	Train loss - 3923.658671558985 	 MAE - 3923.6586732932124
+Val loss: 3923.268963730126	 Val error: 188316.9066611842
+Epoch - 17	 step - 1266 	Train loss - 3922.629508797541 	 MAE - 3922.6295182394438
+Val loss: 3922.254054019326	 Val error: 188268.1951754386
+Epoch - 18	 step - 1266 	Train loss - 3921.603200766451 	 MAE - 3921.6031926733917
+Val loss: 3921.2415964226975	 Val error: 188219.59978070174
+Epoch - 19	 step - 1266 	Train loss - 3920.580027447033 	 MAE - 3920.580041128157
+Val loss: 3920.2318072402686	 Val error: 188171.13171600876
+Epoch - 20	 step - 1266 	Train loss - 3919.559617329321 	 MAE - 3919.559624266229
+Val loss: 3919.224714312637	 Val error: 188122.78330592104
+Epoch - 21	 step - 1266 	Train loss - 3918.542099709575 	 MAE - 3918.5421098580136
+Val loss: 3918.2187521415844	 Val error: 188074.5037006579
+Epoch - 22	 step - 1266 	Train loss - 3917.5270069245757 	 MAE - 3917.5270017861253
+Val loss: 3917.2158138877467	 Val error: 188026.35635964913
+Epoch - 23	 step - 1266 	Train loss - 3916.514288489049 	 MAE - 3916.514288232126
+Val loss: 3916.2155825966283	 Val error: 187978.34580592104
+Epoch - 24	 step - 1266 	Train loss - 3915.5041120449387 	 MAE - 3915.504112558784
+Val loss: 3915.217441491913	 Val error: 187930.4417489035
+Epoch - 25	 step - 1266 	Train loss - 3914.496053862779 	 MAE - 3914.4960618916075
+Val loss: 3914.2213584498354	 Val error: 187882.62171052632
+Epoch - 26	 step - 1266 	Train loss - 3913.490014513553 	 MAE - 3913.4900141924004
+Val loss: 3913.2262005722314	 Val error: 187834.86033442983
+Epoch - 27	 step - 1266 	Train loss - 3912.4861897722226 	 MAE - 3912.4861934975997
+Val loss: 3912.2335954632676	 Val error: 187787.20970394736
+Epoch - 28	 step - 1266 	Train loss - 3911.484155138553 	 MAE - 3911.484155588167
+Val loss: 3911.242247464364	 Val error: 187739.62801535087
+Epoch - 29	 step - 1266 	Train loss - 3910.4839967458192 	 MAE - 3910.484003233113
+Val loss: 3910.2540240371436	 Val error: 187692.19216008772
+Epoch - 30	 step - 1266 	Train loss - 3909.4854278684884 	 MAE - 3909.4854348053964
+Val loss: 3909.2677880002743	 Val error: 187644.8518366228
+Epoch - 31	 step - 1266 	Train loss - 3908.4886492915107 	 MAE - 3908.488647621514
+Val loss: 3908.2846615439967	 Val error: 187597.65816885966
+Epoch - 32	 step - 1266 	Train loss - 3907.4934831602704 	 MAE - 3907.493499603312
+Val loss: 3907.304015042489	 Val error: 187550.5933388158
+Epoch - 33	 step - 1266 	Train loss - 3906.5003081143327 	 MAE - 3906.500297516279
+Val loss: 3906.325351648163	 Val error: 187503.61581688595
+Epoch - 34	 step - 1266 	Train loss - 3905.509019522001 	 MAE - 3905.509020292768
+Val loss: 3905.3478190104165	 Val error: 187456.69435307017
+Epoch - 35	 step - 1266 	Train loss - 3904.5195663199243 	 MAE - 3904.519573128371
+Val loss: 3904.3717083847314	 Val error: 187409.83826754385
+Epoch - 36	 step - 1266 	Train loss - 3903.532132143474 	 MAE - 3903.532133556548
+Val loss: 3903.3972981770835	 Val error: 187363.06592653508
+Epoch - 37	 step - 1266 	Train loss - 3902.546791949795 	 MAE - 3902.546777883287
+Val loss: 3902.4236096833883	 Val error: 187316.33401864034
+Epoch - 38	 step - 1266 	Train loss - 3901.5628483869377 	 MAE - 3901.562853011543
+Val loss: 3901.4513025116503	 Val error: 187269.66324013157
+Epoch - 39	 step - 1266 	Train loss - 3900.58019431821 	 MAE - 3900.5801914278313
+Val loss: 3900.4803423965186	 Val error: 187223.0550986842
+Epoch - 40	 step - 1266 	Train loss - 3899.5993806497263 	 MAE - 3899.5993604170776
+Val loss: 3899.511234751919	 Val error: 187176.53385416666
+Epoch - 41	 step - 1266 	Train loss - 3898.6205628838425 	 MAE - 3898.6205547265527
+Val loss: 3898.5416623834976	 Val error: 187130.00328947368
+Epoch - 42	 step - 1266 	Train loss - 3897.643384155177 	 MAE - 3897.643381778644
+Val loss: 3897.574702748081	 Val error: 187083.59566885966
+Epoch - 43	 step - 1266 	Train loss - 3896.66788107519 	 MAE - 3896.6678752302023
+Val loss: 3896.610315155565	 Val error: 187037.29756030702
+Epoch - 44	 step - 1266 	Train loss - 3895.6940941091775 	 MAE - 3895.6940962287886
+Val loss: 3895.6473495751097	 Val error: 186991.06455592104
+Traceback (most recent call last):
+  File "train.py", line 178, in <module>
+    train_one_epoch1(model, trainloader, optimizer,
+  File "train.py", line 49, in train_one_epoch1
+    loss.backward()
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/_tensor.py", line 363, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/autograd/__init__.py", line 173, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "train.py", line 178, in <module>
+    train_one_epoch1(model, trainloader, optimizer,
+  File "train.py", line 49, in train_one_epoch1
+    loss.backward()
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/_tensor.py", line 363, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/autograd/__init__.py", line 173, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt

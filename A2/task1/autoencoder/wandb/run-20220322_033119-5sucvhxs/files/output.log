@@ -1,0 +1,43 @@
+
+Val loss: 3937.499973986595	 Val error: 188999.9984954617
+/home/atharva1511/.local/lib/python3.8/site-packages/torch/nn/modules/loss.py:96: UserWarning: Using a target size (torch.Size([1, 48])) that is different to the input size (torch.Size([48])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.l1_loss(input, target, reduction=self.reduction)
+Epoch - 0	 step - 10135 	Train loss - 3662.899386965203 	 MAE - 3662.899388884093
+Val loss: 3435.7224274283803	 Val error: 164914.67775749802
+Traceback (most recent call last):
+  File "train.py", line 178, in <module>
+    val_error = eval1(model,
+  File "train.py", line 110, in eval1
+    for data, target in valloader:
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 530, in __next__
+    data = self._next_data()
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 570, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 49, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 49, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/atharva1511/Downloads/CS6910/assignment2/code2/dataloader.py", line 33, in __getitem__
+    input = self.X.loc[idx, :'x47'].values.astype(np.float32)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/core/indexing.py", line 958, in __getitem__
+    key = tuple(com.apply_if_callable(x, self.obj) for x in key)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "train.py", line 178, in <module>
+    val_error = eval1(model,
+  File "train.py", line 110, in eval1
+    for data, target in valloader:
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 530, in __next__
+    data = self._next_data()
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 570, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 49, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 49, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/atharva1511/Downloads/CS6910/assignment2/code2/dataloader.py", line 33, in __getitem__
+    input = self.X.loc[idx, :'x47'].values.astype(np.float32)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/core/indexing.py", line 958, in __getitem__
+    key = tuple(com.apply_if_callable(x, self.obj) for x in key)
+KeyboardInterrupt
+Epoch - 1	 step - 10135 	Train loss - 3285.191368795514 	 MAE - 3285.1913680006596

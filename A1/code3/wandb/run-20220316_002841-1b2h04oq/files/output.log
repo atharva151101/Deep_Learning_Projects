@@ -1,0 +1,32 @@
+Epoch - 0	 step - 1880 	Train loss - 1.597148582315521 	 ACC - 0.24880382775119617
+Val loss: 1.5899409848993475	 Val acc: 0.2581818181818182
+Epoch - 1	 step - 1880 	Train loss - 1.589240596371721 	 ACC - 0.2567783094098884
+Val loss: 1.5832323096015237	 Val acc: 0.2690909090909091
+Epoch - 2	 step - 1880 	Train loss - 1.5817186645470294 	 ACC - 0.29718234981392877
+Val loss: 1.5738396926359697	 Val acc: 0.34545454545454546
+Epoch - 3	 step - 1880 	Train loss - 1.5715690114788399 	 ACC - 0.32270069112174377
+Val loss: 1.5615978483720259	 Val acc: 0.3490909090909091
+Epoch - 4	 step - 1880 	Train loss - 1.5596881215715586 	 ACC - 0.34609250398724084
+Val loss: 1.5489128893071955	 Val acc: 0.4
+Epoch - 5	 step - 1880 	Train loss - 1.547635348029494 	 ACC - 0.366294524189261
+Val loss: 1.5349833869934082	 Val acc: 0.36
+Epoch - 6	 step - 1880 	Train loss - 1.5361822744685878 	 ACC - 0.3774587985114301
+Val loss: 1.5232773915204134	 Val acc: 0.38545454545454544
+Epoch - 7	 step - 1880 	Train loss - 1.525720938667853 	 ACC - 0.3769271664008506
+Val loss: 1.514007482095198	 Val acc: 0.3890909090909091
+Epoch - 8	 step - 1880 	Train loss - 1.5165857926510167 	 ACC - 0.3864965443912812
+Val loss: 1.5036545766483653	 Val acc: 0.41454545454545455
+Traceback (most recent call last):
+  File "train.py", line 141, in <module>
+    get_matrix(y_ped, y_tue, name = f'tain{cfg.optim}')
+  File "/Users/tanay/Documents/sem6/CS6910/code3/utils.py", line 8, in get_matrix
+    mat = confusion_matrix(y_tue, y_ped)
+  File "/Users/tanay/opt/anaconda3/envs/pytorch_x86/lib/python3.8/site-packages/sklearn/utils/validation.py", line 63, in inner_f
+    return f(*args, **kwargs)
+  File "/Users/tanay/opt/anaconda3/envs/pytorch_x86/lib/python3.8/site-packages/sklearn/metrics/_classification.py", line 299, in confusion_matrix
+    y_type, y_true, y_pred = _check_targets(y_true, y_pred)
+  File "/Users/tanay/opt/anaconda3/envs/pytorch_x86/lib/python3.8/site-packages/sklearn/metrics/_classification.py", line 92, in _check_targets
+    raise ValueError("Classification metrics can't handle a mix of {0} "
+ValueError: Classification metrics can't handle a mix of multiclass and unknown targets
+Epoch - 9	 step - 1880 	Train loss - 1.507898712145528 	 ACC - 0.3997873471557682
+Val loss: 1.49519174229015	 Val acc: 0.41818181818181815

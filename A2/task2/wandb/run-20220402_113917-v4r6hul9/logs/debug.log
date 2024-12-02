@@ -1,0 +1,83 @@
+2022-04-02 11:39:17,534 INFO    MainThread:7041 [wandb_setup.py:_flush():75] Loading settings from /home/atharva1511/.config/wandb/settings
+2022-04-02 11:39:17,535 INFO    MainThread:7041 [wandb_setup.py:_flush():75] Loading settings from /home/atharva1511/Downloads/CS6910/assignment2/task2/wandb/settings
+2022-04-02 11:39:17,535 INFO    MainThread:7041 [wandb_setup.py:_flush():75] Loading settings from environment variables: {}
+2022-04-02 11:39:17,535 INFO    MainThread:7041 [wandb_setup.py:_flush():75] Inferring run settings from compute environment: {'program_relpath': 'Downloads/CS6910/assignment2/task2/train.py', 'program': 'train.py'}
+2022-04-02 11:39:17,535 INFO    MainThread:7041 [wandb_init.py:_log_setup():405] Logging user logs to /home/atharva1511/Downloads/CS6910/assignment2/task2/wandb/run-20220402_113917-v4r6hul9/logs/debug.log
+2022-04-02 11:39:17,535 INFO    MainThread:7041 [wandb_init.py:_log_setup():406] Logging internal logs to /home/atharva1511/Downloads/CS6910/assignment2/task2/wandb/run-20220402_113917-v4r6hul9/logs/debug-internal.log
+2022-04-02 11:39:17,536 INFO    MainThread:7041 [wandb_init.py:init():439] calling init triggers
+2022-04-02 11:39:17,536 INFO    MainThread:7041 [wandb_init.py:init():442] wandb.init called with sweep_config: {}
+config: {'checkpoint_dir': 'models', 'train_file_path': '../20/dataset1.csv', 'val_file_path': '../20/dataset1.csv', 'cuda': False, 'wandb': False, 'do_train': True, 'do_val': True, 'do_predict': True, 'use_trained': True, 'log_step': 100, 'batch_size': 64, 'val_batch_size': 64, 'output_num': 5, 'input_num': 48, 'ae1_input': 48, 'ae1_hidden1': 150, 'ae1_hidden2': 80, 'ae1_output': 35, 'ae1_epochs': 100, 'ae1_learning_rate': 0.001, 'ae1_momentum': 0.9198, 'ae1_weight_decay': 0.01, 'ae2_input': 35, 'ae2_hidden1': 70, 'ae2_hidden2': 50, 'ae2_output': 22, 'ae2_epochs': 100, 'ae2_learning_rate': 0.001, 'ae2_momentum': 0.9198, 'ae2_weight_decay': 0.01, 'ae3_input': 22, 'ae3_hidden1': 50, 'ae3_hidden2': 35, 'ae3_output': 10, 'ae3_epochs': 100, 'ae3_learning_rate': 0.001, 'ae3_momentum': 0.9198, 'ae3_weight_decay': 0.01, 'epochs': 100, 'learning_rate': 0.001, 'momentum': 0.9198, 'weight_decay': 0.01}
+2022-04-02 11:39:17,536 INFO    MainThread:7041 [wandb_init.py:init():492] starting backend
+2022-04-02 11:39:17,536 INFO    MainThread:7041 [backend.py:_multiprocessing_setup():99] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2022-04-02 11:39:17,562 INFO    MainThread:7041 [backend.py:ensure_launched():219] starting backend process...
+2022-04-02 11:39:17,567 INFO    MainThread:7041 [backend.py:ensure_launched():224] started backend process with pid: 7067
+2022-04-02 11:39:17,568 INFO    MainThread:7041 [wandb_init.py:init():501] backend started and connected
+2022-04-02 11:39:17,572 INFO    MainThread:7041 [wandb_init.py:init():565] updated telemetry
+2022-04-02 11:39:17,574 INFO    MainThread:7041 [wandb_init.py:init():596] communicating run to backend with 30 second timeout
+2022-04-02 11:39:45,814 ERROR   Thread-1  :7041 [retry.py:__call__():126] Retry attempt failed:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/lib/python3/dist-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/usr/lib/python3/dist-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 665, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 376, in _make_request
+    self._validate_conn(conn)
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 996, in _validate_conn
+    conn.connect()
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 314, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 164, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.VerifiedHTTPSConnection object at 0x7fa5f73ec6a0>, 'Connection to api.wandb.ai timed out. (connect timeout=10)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 719, in urlopen
+    retries = retries.increment(
+  File "/usr/lib/python3/dist-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x7fa5f73ec6a0>, 'Connection to api.wandb.ai timed out. (connect timeout=10)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/wandb/sdk/lib/retry.py", line 102, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/wandb/sdk/internal/internal_api.py", line 140, in execute
+    return self.client.execute(*args, **kwargs)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/transport/requests.py", line 38, in execute
+    request = requests.post(self.url, **post_args)
+  File "/usr/lib/python3/dist-packages/requests/api.py", line 116, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 504, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x7fa5f73ec6a0>, 'Connection to api.wandb.ai timed out. (connect timeout=10)'))
+2022-04-02 11:39:47,575 INFO    MainThread:7041 [interface_shared.py:_communicate_run():322] couldn't get run from backend
+2022-04-02 11:39:47,575 ERROR   MainThread:7041 [wandb_init.py:init():601] backend process timed out
+2022-04-02 11:39:47,575 ERROR   MainThread:7041 [wandb_init.py:init():610] encountered error: Error communicating with wandb process
+try: wandb.init(settings=wandb.Settings(start_method='fork'))
+or:  wandb.init(settings=wandb.Settings(start_method='thread'))
+For more info see: https://docs.wandb.ai/library/init#init-start-error
+2022-04-02 11:39:59,671 INFO    MainThread:7041 [wandb_init.py:teardown():253] tearing down wandb.init

@@ -1,0 +1,28 @@
+/home/atharva1511/Downloads/CS6910/assignment2/task1/MLFFN/model.py:17: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  y=self.soft(self.linear3(h2))
+Epoch - 0	 step - 158 	Train loss - 1.6058328699015971 	 ACC - 0.20590932914046117
+Val loss: 1.5962492495775222	 Val acc: 0.2565583881578947
+Traceback (most recent call last):
+  File "train.py", line 62, in <module>
+    get_predictions(model,valloader,"plot","")
+  File "/home/atharva1511/Downloads/CS6910/assignment2/task1/MLFFN/utils.py", line 50, in get_predictions
+    inv_tensor = inv_normalize(img)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torchvision/transforms/transforms.py", line 270, in forward
+    return F.normalize(tensor, self.mean, self.std, self.inplace)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torchvision/transforms/functional.py", line 347, in normalize
+    raise ValueError(
+ValueError: Expected tensor to be a tensor image of size (..., C, H, W). Got tensor.size() = torch.Size([10])
+Traceback (most recent call last):
+  File "train.py", line 62, in <module>
+    get_predictions(model,valloader,"plot","")
+  File "/home/atharva1511/Downloads/CS6910/assignment2/task1/MLFFN/utils.py", line 50, in get_predictions
+    inv_tensor = inv_normalize(img)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torchvision/transforms/transforms.py", line 270, in forward
+    return F.normalize(tensor, self.mean, self.std, self.inplace)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torchvision/transforms/functional.py", line 347, in normalize
+    raise ValueError(
+ValueError: Expected tensor to be a tensor image of size (..., C, H, W). Got tensor.size() = torch.Size([10])

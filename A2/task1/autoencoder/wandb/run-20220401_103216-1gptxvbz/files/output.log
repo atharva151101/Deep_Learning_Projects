@@ -1,0 +1,21 @@
+
+Val loss: 3946.026086425781	 Val error: 189409.25191200658
+Epoch - 0	 step - 316 	Train loss - 2123.002383259193 	 MAE - 2123.0023750013693
+Val loss: 1683.3534912109376	 Val error: 80800.96829769737
+Epoch - 1	 step - 316 	Train loss - 1613.2754942114798 	 MAE - 1613.2754889487217
+Val loss: 1531.8779907226562	 Val error: 73530.14545127467
+Epoch - 2	 step - 316 	Train loss - 1403.813651196212 	 MAE - 1403.813651987765
+Val loss: 1252.786798095703	 Val error: 60133.76552220395
+Epoch - 3	 step - 316 	Train loss - 1176.1092810405166 	 MAE - 1176.1092839500086
+Traceback (most recent call last):
+  File "train.py", line 59, in <module>
+    compress(model,dataloader,device)
+  File "/home/atharva1511/Downloads/CS6910/assignment2/code2/autoencoder/encoder_functions.py", line 16, in compress
+    outputs.append((output.numpy()[0]).append(target.numpy()))
+AttributeError: 'numpy.ndarray' object has no attribute 'append'
+Traceback (most recent call last):
+  File "train.py", line 59, in <module>
+    compress(model,dataloader,device)
+  File "/home/atharva1511/Downloads/CS6910/assignment2/code2/autoencoder/encoder_functions.py", line 16, in compress
+    outputs.append((output.numpy()[0]).append(target.numpy()))
+AttributeError: 'numpy.ndarray' object has no attribute 'append'

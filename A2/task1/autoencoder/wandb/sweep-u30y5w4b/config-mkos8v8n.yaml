@@ -1,0 +1,14 @@
+wandb_version: 1
+
+batch_size:
+  value: 234
+epochs:
+  value: 166
+learning_rate:
+  value: 0.006304020886450178
+momentum:
+  value: 0.6266552831060919
+num_ae_hidden1:
+  value: 28
+num_ae_hidden2:
+  value: 13

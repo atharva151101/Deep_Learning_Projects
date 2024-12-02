@@ -1,0 +1,4 @@
+name: pytorch_x86
+channels:
+  - conda-forge
+prefix: /Users/tanay/clear/envs/pytorch_x86

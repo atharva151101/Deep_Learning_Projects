@@ -1,0 +1,150 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.12.11
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.8.10
+    start_time: 1648830415
+    t:
+      1:
+      - 1
+      - 5
+      2:
+      - 1
+      - 5
+      3:
+      - 16
+      4: 3.8.10
+      5: 0.12.11
+      8:
+      - 5
+ae1_epochs:
+  desc: null
+  value: 2
+ae1_hidden1:
+  desc: null
+  value: 150
+ae1_hidden2:
+  desc: null
+  value: 80
+ae1_input:
+  desc: null
+  value: 48
+ae1_learning_rate:
+  desc: null
+  value: 0.001
+ae1_momentum:
+  desc: null
+  value: 0.9198
+ae1_output:
+  desc: null
+  value: 35
+ae1_weight_decay:
+  desc: null
+  value: 0.01
+ae2_epochs:
+  desc: null
+  value: 2
+ae2_hidden1:
+  desc: null
+  value: 70
+ae2_hidden2:
+  desc: null
+  value: 50
+ae2_input:
+  desc: null
+  value: 35
+ae2_learning_rate:
+  desc: null
+  value: 0.001
+ae2_momentum:
+  desc: null
+  value: 0.9198
+ae2_output:
+  desc: null
+  value: 22
+ae2_weight_decay:
+  desc: null
+  value: 0.01
+ae3_epochs:
+  desc: null
+  value: 2
+ae3_hidden1:
+  desc: null
+  value: 50
+ae3_hidden2:
+  desc: null
+  value: 35
+ae3_input:
+  desc: null
+  value: 22
+ae3_learning_rate:
+  desc: null
+  value: 0.001
+ae3_momentum:
+  desc: null
+  value: 0.9198
+ae3_output:
+  desc: null
+  value: 10
+ae3_weight_decay:
+  desc: null
+  value: 0.01
+batch_size:
+  desc: null
+  value: 64
+checkpoint_dir:
+  desc: null
+  value: models
+cuda:
+  desc: null
+  value: false
+do_predict:
+  desc: null
+  value: true
+do_train:
+  desc: null
+  value: true
+do_val:
+  desc: null
+  value: true
+epochs:
+  desc: null
+  value: 3
+input_num:
+  desc: null
+  value: 48
+learning_rate:
+  desc: null
+  value: 0.001
+log_step:
+  desc: null
+  value: 100
+momentum:
+  desc: null
+  value: 0.9198
+output_num:
+  desc: null
+  value: 5
+train_file_path:
+  desc: null
+  value: ../20/dataset1.csv
+use_trained:
+  desc: null
+  value: true
+val_batch_size:
+  desc: null
+  value: 64
+val_file_path:
+  desc: null
+  value: ../20/dataset1.csv
+wandb:
+  desc: null
+  value: false
+weight_decay:
+  desc: null
+  value: 0.01

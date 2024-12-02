@@ -1,0 +1,45 @@
+encoder1.0.weight 7200
+encoder1.0.bias 150
+encoder1.2.weight 12000
+encoder1.2.bias 80
+encoder1.4.weight 2400
+encoder1.4.bias 30
+decoder1.0.weight 2400
+decoder1.0.bias 80
+decoder1.2.weight 12000
+decoder1.2.bias 150
+decoder1.4.weight 7200
+decoder1.4.bias 48
+Total Trainable Params: 43738
+Traceback (most recent call last):
+  File "train.py", line 56, in <module>
+    val_error = eval1(model1,
+  File "/home/atharva1511/Downloads/CS6910/assignment2/task2/encoder_functions.py", line 76, in eval1
+    for data, target in valloader:
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 530, in __next__
+    data = self._next_data()
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 570, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 49, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 49, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/atharva1511/Downloads/CS6910/assignment2/task2/dataloader.py", line 34, in __getitem__
+    string=f'x{num}'
+NameError: name 'num' is not defined
+Traceback (most recent call last):
+  File "train.py", line 56, in <module>
+    val_error = eval1(model1,
+  File "/home/atharva1511/Downloads/CS6910/assignment2/task2/encoder_functions.py", line 76, in eval1
+    for data, target in valloader:
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 530, in __next__
+    data = self._next_data()
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 570, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 49, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 49, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/atharva1511/Downloads/CS6910/assignment2/task2/dataloader.py", line 34, in __getitem__
+    string=f'x{num}'
+NameError: name 'num' is not defined

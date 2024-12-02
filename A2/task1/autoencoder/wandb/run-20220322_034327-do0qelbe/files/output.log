@@ -1,0 +1,20 @@
+Val loss: 3937.5411933765076	 Val error: 189001.97752192983
+Epoch - 0	 step - 1266 	Train loss - 3904.565964792879 	 MAE - 3904.5659630586524
+/home/atharva1511/.local/lib/python3.8/site-packages/torch/nn/modules/loss.py:96: UserWarning: Using a target size (torch.Size([1, 48])) that is different to the input size (torch.Size([48])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.l1_loss(input, target, reduction=self.reduction)
+Traceback (most recent call last):
+  File "train.py", line 190, in <module>
+    model = MLFFN(cfg,model.encoder)
+  File "/home/atharva1511/Downloads/CS6910/assignment2/code2/model.py", line 30, in __init__
+    self.linear1=nn.Linear(cfg.num_ae_output,cfg.num_hidden1)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1185, in __getattr__
+    raise AttributeError("'{}' object has no attribute '{}'".format(
+AttributeError: 'Sequential' object has no attribute 'num_ae_output'
+Traceback (most recent call last):
+  File "train.py", line 190, in <module>
+    model = MLFFN(cfg,model.encoder)
+  File "/home/atharva1511/Downloads/CS6910/assignment2/code2/model.py", line 30, in __init__
+    self.linear1=nn.Linear(cfg.num_ae_output,cfg.num_hidden1)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1185, in __getattr__
+    raise AttributeError("'{}' object has no attribute '{}'".format(
+AttributeError: 'Sequential' object has no attribute 'num_ae_output'

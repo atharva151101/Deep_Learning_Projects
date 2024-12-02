@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "train.py", line 37, in <module>
+    print(np.mean(np.abs(pca.inverse_transform(compressed)-val_dataset)))
+NameError: name 'val_dataset' is not defined
+Traceback (most recent call last):
+  File "train.py", line 37, in <module>
+    print(np.mean(np.abs(pca.inverse_transform(compressed)-val_dataset)))
+NameError: name 'val_dataset' is not defined

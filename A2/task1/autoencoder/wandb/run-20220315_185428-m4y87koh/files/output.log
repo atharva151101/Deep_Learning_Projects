@@ -1,0 +1,21 @@
+Epoch - 0	 step - 1199 	Train loss - 0.6879159529507161 	 ACC - 0.5291666666666667
+Val loss: 0.6639185774326325	 Val acc: 0.64
+Epoch - 1	 step - 1199 	Train loss - 0.6851569602141777 	 ACC - 0.5416666666666666
+Val loss: 0.66255027115345	 Val acc: 0.64
+Epoch - 2	 step - 1199 	Train loss - 0.6824898745119572 	 ACC - 0.5491666666666667
+Val loss: 0.6612417939305305	 Val acc: 0.65
+Epoch - 3	 step - 1199 	Train loss - 0.6799140816926956 	 ACC - 0.5608333333333333
+Val loss: 0.660019407570362	 Val acc: 0.63
+Epoch - 4	 step - 1199 	Train loss - 0.6774198705206315 	 ACC - 0.57
+Val loss: 0.6587755277752876	 Val acc: 0.63
+Epoch - 5	 step - 1199 	Train loss - 0.6749944628526767 	 ACC - 0.5741666666666667
+Val loss: 0.6576405546069145	 Val acc: 0.64
+Epoch - 6	 step - 1199 	Train loss - 0.6726458098987739 	 ACC - 0.5816666666666667
+Val loss: 0.65649768024683	 Val acc: 0.64
+Epoch - 7	 step - 1199 	Train loss - 0.6703685772418976 	 ACC - 0.585
+Val loss: 0.6554034858942032	 Val acc: 0.64
+Epoch - 8	 step - 1199 	Train loss - 0.6681381002813578 	 ACC - 0.5883333333333334
+Val loss: 0.6543249666690827	 Val acc: 0.65
+Epoch - 9	 step - 1199 	Train loss - 0.6659704264005025 	 ACC - 0.5891666666666666
+Val loss: 0.6532812249660492	 Val acc: 0.66
+Epoch - 10	 step - 1199 	Train loss - 0.6638636021067699 	 ACC - 0.5925

@@ -1,0 +1,17 @@
+Traceback (most recent call last):
+  File "train.py", line 158, in <module>
+    get_plot(model, trainloader, name = 'q2_done', title= 'q2_done')
+  File "train.py", line 29, in get_plot
+    model_outputs[model_outputs>0.5]=1
+TypeError: '>' not supported between instances of 'list' and 'float'
+Traceback (most recent call last):
+  File "train.py", line 158, in <module>
+    get_plot(model, trainloader, name = 'q2_done', title= 'q2_done')
+  File "train.py", line 29, in get_plot
+    model_outputs[model_outputs>0.5]=1
+TypeError: '>' not supported between instances of 'list' and 'float'
+Epoch - 0	 step - 1199 	Train loss - 0.6576152673612038 	 ACC - 0.6458333333333334
+Val loss: 0.6425099316239357	 Val acc: 0.63
+[-10.28205    10.838702   -2.2615285 ...   3.3244176  14.15677
+  -1.5206492] [  8.468937   -7.0568266 -12.516167  ... -12.959394   -7.4069657
+ -11.574049 ]

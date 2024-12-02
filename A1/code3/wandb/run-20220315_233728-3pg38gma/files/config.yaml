@@ -1,0 +1,67 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.12.11
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.8.11
+    start_time: 1647367648
+    t:
+      1:
+      - 1
+      - 5
+      2:
+      - 1
+      - 5
+      3:
+      - 13
+      - 16
+      4: 3.8.11
+      5: 0.12.11
+      8:
+      - 5
+batch_size:
+  desc: null
+  value: 1
+checkpoint_dir:
+  desc: null
+  value: models
+cuda:
+  desc: null
+  value: false
+epochs:
+  desc: null
+  value: 100
+input_num:
+  desc: null
+  value: 60
+learning_rate:
+  desc: null
+  value: 0.0001
+momentum:
+  desc: null
+  value: 0.9
+num_hidden1:
+  desc: null
+  value: 6
+num_hidden2:
+  desc: null
+  value: 8
+optim:
+  desc: null
+  value: adam
+output_num:
+  desc: null
+  value: 5
+train_file_path:
+  desc: null
+  value: ../20/task2b/single_label_image_dataset/task2b.csv
+val_batch_size:
+  desc: null
+  value: 1
+wandb:
+  desc: null
+  value: false

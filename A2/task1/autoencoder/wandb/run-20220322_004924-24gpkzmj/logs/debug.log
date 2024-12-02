@@ -1,0 +1,730 @@
+2022-03-22 00:49:24,269 INFO    MainThread:5225 [wandb_setup.py:_flush():75] Loading settings from /home/atharva1511/.config/wandb/settings
+2022-03-22 00:49:24,269 INFO    MainThread:5225 [wandb_setup.py:_flush():75] Loading settings from /home/atharva1511/Downloads/CS6910/assignment2/code2/wandb/settings
+2022-03-22 00:49:24,269 INFO    MainThread:5225 [wandb_setup.py:_flush():75] Loading settings from environment variables: {}
+2022-03-22 00:49:24,269 INFO    MainThread:5225 [wandb_setup.py:_flush():75] Inferring run settings from compute environment: {'program_relpath': 'Downloads/CS6910/assignment2/code2/train.py', 'program': 'train.py'}
+2022-03-22 00:49:24,269 INFO    MainThread:5225 [wandb_init.py:_log_setup():405] Logging user logs to /home/atharva1511/Downloads/CS6910/assignment2/code2/wandb/run-20220322_004924-24gpkzmj/logs/debug.log
+2022-03-22 00:49:24,269 INFO    MainThread:5225 [wandb_init.py:_log_setup():406] Logging internal logs to /home/atharva1511/Downloads/CS6910/assignment2/code2/wandb/run-20220322_004924-24gpkzmj/logs/debug-internal.log
+2022-03-22 00:49:24,269 INFO    MainThread:5225 [wandb_init.py:init():439] calling init triggers
+2022-03-22 00:49:24,270 INFO    MainThread:5225 [wandb_init.py:init():442] wandb.init called with sweep_config: {}
+config: {'checkpoint_dir': 'models', 'train_file_path': '../20/func_app2.csv', 'val_file_path': '../20/func_app2.csv', 'cuda': False, 'wandb': False, 'do_train': True, 'do_val': True, 'do_predict': True, 'use_trained': True, 'batch_size': 32, 'epochs': 100, 'val_batch_size': 1, 'output_num': 1, 'input_num': 48, 'num_ae_hidden': 18, 'num_ae_output': 10, 'num_hidden1': 13, 'num_hidden2': 18, 'learning_rate': 9.2e-05, 'momentum': 0.9198}
+2022-03-22 00:49:24,270 INFO    MainThread:5225 [wandb_init.py:init():492] starting backend
+2022-03-22 00:49:24,270 INFO    MainThread:5225 [backend.py:_multiprocessing_setup():99] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2022-03-22 00:49:24,274 INFO    MainThread:5225 [backend.py:ensure_launched():219] starting backend process...
+2022-03-22 00:49:24,277 INFO    MainThread:5225 [backend.py:ensure_launched():224] started backend process with pid: 5247
+2022-03-22 00:49:24,279 INFO    MainThread:5225 [wandb_init.py:init():501] backend started and connected
+2022-03-22 00:49:24,281 INFO    MainThread:5225 [wandb_init.py:init():565] updated telemetry
+2022-03-22 00:49:24,283 INFO    MainThread:5225 [wandb_init.py:init():596] communicating run to backend with 30 second timeout
+2022-03-22 00:49:29,658 INFO    MainThread:5225 [wandb_run.py:_on_init():1759] communicating current version
+2022-03-22 00:49:31,000 INFO    MainThread:5225 [wandb_run.py:_on_init():1763] got version response 
+2022-03-22 00:49:31,000 INFO    MainThread:5225 [wandb_init.py:init():625] starting run threads in backend
+2022-03-22 00:49:32,320 INFO    MainThread:5225 [wandb_run.py:_console_start():1733] atexit reg
+2022-03-22 00:49:32,321 INFO    MainThread:5225 [wandb_run.py:_redirect():1606] redirect: SettingsConsole.REDIRECT
+2022-03-22 00:49:32,321 INFO    MainThread:5225 [wandb_run.py:_redirect():1611] Redirecting console.
+2022-03-22 00:49:32,323 INFO    MainThread:5225 [wandb_run.py:_redirect():1667] Redirects installed.
+2022-03-22 00:49:32,323 INFO    MainThread:5225 [wandb_init.py:init():664] run started, returning control to user process
+2022-03-22 00:49:32,359 INFO    MainThread:5225 [wandb_run.py:_atexit_cleanup():1702] got exitcode: 1
+2022-03-22 00:49:32,359 INFO    MainThread:5225 [wandb_run.py:_restore():1674] restore
+2022-03-22 00:49:34,848 INFO    MainThread:5225 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 659
+  total_bytes: 659
+}
+
+2022-03-22 00:49:35,337 INFO    MainThread:5225 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 659
+  total_bytes: 659
+}
+
+2022-03-22 00:49:35,681 INFO    MainThread:5225 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 3
+}
+pusher_stats {
+  uploaded_bytes: 659
+  total_bytes: 6135
+}
+
+2022-03-22 00:49:35,783 INFO    MainThread:5225 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 659
+  total_bytes: 7304
+}
+
+2022-03-22 00:49:35,887 INFO    MainThread:5225 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 659
+  total_bytes: 7304
+}
+
+2022-03-22 00:49:35,990 INFO    MainThread:5225 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 659
+  total_bytes: 7304
+}
+
+2022-03-22 00:49:36,094 INFO    MainThread:5225 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 659
+  total_bytes: 7304
+}
+
+2022-03-22 00:49:36,197 INFO    MainThread:5225 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 659
+  total_bytes: 7304
+}
+
+2022-03-22 00:49:36,300 INFO    MainThread:5225 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 659
+  total_bytes: 7304
+}
+
+2022-03-22 00:49:36,404 INFO    MainThread:5225 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 659
+  total_bytes: 7304
+}
+
+2022-03-22 00:49:36,508 INFO    MainThread:5225 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 659
+  total_bytes: 7304
+}
+
+2022-03-22 00:49:36,612 INFO    MainThread:5225 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 659
+  total_bytes: 7304
+}
+
+2022-03-22 00:49:36,715 INFO    MainThread:5225 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 659
+  total_bytes: 7304
+}
+
+2022-03-22 00:49:36,819 INFO    MainThread:5225 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 659
+  total_bytes: 7304
+}
+
+2022-03-22 00:49:36,921 INFO    MainThread:5225 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 659
+  total_bytes: 7304
+}
+
+2022-03-22 00:49:37,025 INFO    MainThread:5225 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 659
+  total_bytes: 7304
+}
+
+2022-03-22 00:49:37,129 INFO    MainThread:5225 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 659
+  total_bytes: 7304
+}
+
+2022-03-22 00:49:37,232 INFO    MainThread:5225 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 659
+  total_bytes: 7304
+}
+
+2022-03-22 00:49:37,336 INFO    MainThread:5225 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 659
+  total_bytes: 7304
+}
+
+2022-03-22 00:49:37,439 INFO    MainThread:5225 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 659
+  total_bytes: 7304
+}
+
+2022-03-22 00:49:37,543 INFO    MainThread:5225 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 659
+  total_bytes: 7304
+}
+
+2022-03-22 00:49:37,647 INFO    MainThread:5225 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 659
+  total_bytes: 7304
+}
+
+2022-03-22 00:49:37,751 INFO    MainThread:5225 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 659
+  total_bytes: 7304
+}
+
+2022-03-22 00:49:37,854 INFO    MainThread:5225 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 659
+  total_bytes: 7304
+}
+
+2022-03-22 00:49:37,958 INFO    MainThread:5225 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 659
+  total_bytes: 7304
+}
+
+2022-03-22 00:49:38,061 INFO    MainThread:5225 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 659
+  total_bytes: 7304
+}
+
+2022-03-22 00:49:38,165 INFO    MainThread:5225 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 659
+  total_bytes: 7304
+}
+
+2022-03-22 00:49:38,268 INFO    MainThread:5225 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 659
+  total_bytes: 7304
+}
+
+2022-03-22 00:49:38,371 INFO    MainThread:5225 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 3714
+  total_bytes: 7304
+}
+
+2022-03-22 00:49:38,475 INFO    MainThread:5225 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 3714
+  total_bytes: 7304
+}
+
+2022-03-22 00:49:38,579 INFO    MainThread:5225 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 3714
+  total_bytes: 7304
+}
+
+2022-03-22 00:49:38,680 INFO    MainThread:5225 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 3714
+  total_bytes: 7304
+}
+
+2022-03-22 00:49:38,781 INFO    MainThread:5225 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 3714
+  total_bytes: 7304
+}
+
+2022-03-22 00:49:38,882 INFO    MainThread:5225 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 3714
+  total_bytes: 7304
+}
+
+2022-03-22 00:49:38,984 INFO    MainThread:5225 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 3714
+  total_bytes: 7304
+}
+
+2022-03-22 00:49:39,085 INFO    MainThread:5225 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 3714
+  total_bytes: 7304
+}
+
+2022-03-22 00:49:39,186 INFO    MainThread:5225 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 3714
+  total_bytes: 7304
+}
+
+2022-03-22 00:49:39,288 INFO    MainThread:5225 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 3714
+  total_bytes: 7304
+}
+
+2022-03-22 00:49:39,389 INFO    MainThread:5225 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 3714
+  total_bytes: 7304
+}
+
+2022-03-22 00:49:39,490 INFO    MainThread:5225 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 3714
+  total_bytes: 7304
+}
+
+2022-03-22 00:49:39,593 INFO    MainThread:5225 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 3714
+  total_bytes: 7304
+}
+
+2022-03-22 00:49:39,696 INFO    MainThread:5225 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 3714
+  total_bytes: 7304
+}
+
+2022-03-22 00:49:39,800 INFO    MainThread:5225 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 3714
+  total_bytes: 7304
+}
+
+2022-03-22 00:49:39,903 INFO    MainThread:5225 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 3714
+  total_bytes: 7304
+}
+
+2022-03-22 00:49:40,007 INFO    MainThread:5225 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 3714
+  total_bytes: 7304
+}
+
+2022-03-22 00:49:40,110 INFO    MainThread:5225 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 3714
+  total_bytes: 7304
+}
+
+2022-03-22 00:49:40,214 INFO    MainThread:5225 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 3714
+  total_bytes: 7304
+}
+
+2022-03-22 00:49:40,317 INFO    MainThread:5225 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 3714
+  total_bytes: 7304
+}
+
+2022-03-22 00:49:40,421 INFO    MainThread:5225 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 3714
+  total_bytes: 7304
+}
+
+2022-03-22 00:49:40,524 INFO    MainThread:5225 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 3714
+  total_bytes: 7304
+}
+
+2022-03-22 00:49:40,628 INFO    MainThread:5225 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 3714
+  total_bytes: 7304
+}
+
+2022-03-22 00:49:40,731 INFO    MainThread:5225 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 3714
+  total_bytes: 7304
+}
+
+2022-03-22 00:49:40,835 INFO    MainThread:5225 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 3714
+  total_bytes: 7304
+}
+
+2022-03-22 00:49:40,938 INFO    MainThread:5225 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 3714
+  total_bytes: 7304
+}
+
+2022-03-22 00:49:41,041 INFO    MainThread:5225 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 3714
+  total_bytes: 7304
+}
+
+2022-03-22 00:49:41,145 INFO    MainThread:5225 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 3714
+  total_bytes: 7304
+}
+
+2022-03-22 00:49:41,255 INFO    MainThread:5225 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 3714
+  total_bytes: 7304
+}
+
+2022-03-22 00:49:41,358 INFO    MainThread:5225 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 3714
+  total_bytes: 7304
+}
+
+2022-03-22 00:49:41,460 INFO    MainThread:5225 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 3714
+  total_bytes: 7304
+}
+
+2022-03-22 00:49:41,563 INFO    MainThread:5225 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 3714
+  total_bytes: 7304
+}
+
+2022-03-22 00:49:41,666 INFO    MainThread:5225 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 3740
+  total_bytes: 7304
+}
+
+2022-03-22 00:49:41,769 INFO    MainThread:5225 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 3740
+  total_bytes: 7304
+}
+
+2022-03-22 00:49:41,873 INFO    MainThread:5225 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 3740
+  total_bytes: 7304
+}
+
+2022-03-22 00:49:41,976 INFO    MainThread:5225 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 3740
+  total_bytes: 7304
+}
+
+2022-03-22 00:49:42,080 INFO    MainThread:5225 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 3740
+  total_bytes: 7304
+}
+
+2022-03-22 00:49:42,183 INFO    MainThread:5225 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 3740
+  total_bytes: 7304
+}
+
+2022-03-22 00:49:42,287 INFO    MainThread:5225 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 3740
+  total_bytes: 7304
+}
+
+2022-03-22 00:49:42,390 INFO    MainThread:5225 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 3740
+  total_bytes: 7304
+}
+
+2022-03-22 00:49:42,494 INFO    MainThread:5225 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 3740
+  total_bytes: 7304
+}
+
+2022-03-22 00:49:42,597 INFO    MainThread:5225 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 3740
+  total_bytes: 7304
+}
+
+2022-03-22 00:49:42,701 INFO    MainThread:5225 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 3740
+  total_bytes: 7304
+}
+
+2022-03-22 00:49:42,805 INFO    MainThread:5225 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 3740
+  total_bytes: 7304
+}
+
+2022-03-22 00:49:42,908 INFO    MainThread:5225 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 3740
+  total_bytes: 7304
+}
+
+2022-03-22 00:49:43,012 INFO    MainThread:5225 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 3740
+  total_bytes: 7304
+}
+
+2022-03-22 00:49:43,115 INFO    MainThread:5225 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 3740
+  total_bytes: 7304
+}
+
+2022-03-22 00:49:43,218 INFO    MainThread:5225 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 3740
+  total_bytes: 7304
+}
+
+2022-03-22 00:49:43,322 INFO    MainThread:5225 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 3740
+  total_bytes: 7304
+}
+
+2022-03-22 00:49:43,425 INFO    MainThread:5225 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 3740
+  total_bytes: 7304
+}
+
+2022-03-22 00:49:43,528 INFO    MainThread:5225 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 6161
+  total_bytes: 7304
+}
+
+2022-03-22 00:49:43,631 INFO    MainThread:5225 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 7304
+  total_bytes: 7304
+}
+
+2022-03-22 00:49:43,735 INFO    MainThread:5225 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 7304
+  total_bytes: 7304
+}
+
+2022-03-22 00:49:43,839 INFO    MainThread:5225 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 7304
+  total_bytes: 7304
+}
+
+2022-03-22 00:49:43,942 INFO    MainThread:5225 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 7304
+  total_bytes: 7304
+}
+
+2022-03-22 00:49:44,045 INFO    MainThread:5225 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 7304
+  total_bytes: 7304
+}
+
+2022-03-22 00:49:44,149 INFO    MainThread:5225 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 7304
+  total_bytes: 7304
+}
+
+2022-03-22 00:49:44,509 INFO    MainThread:5225 [wandb_run.py:_on_finish():1831] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 7304
+  total_bytes: 7304
+}
+
+2022-03-22 00:49:45,304 INFO    MainThread:5225 [wandb_run.py:_on_finish():1831] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 7304
+  total_bytes: 7304
+}
+local_info {
+}
+
+2022-03-22 00:49:46,427 INFO    MainThread:5225 [wandb_run.py:_footer_history_summary_info():2865] rendering history
+2022-03-22 00:49:46,427 INFO    MainThread:5225 [wandb_run.py:_footer_history_summary_info():2894] rendering summary
+2022-03-22 00:49:46,428 INFO    MainThread:5225 [wandb_run.py:_footer_sync_info():2822] logging synced files

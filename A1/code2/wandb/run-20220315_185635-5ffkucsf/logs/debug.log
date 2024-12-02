@@ -1,0 +1,25 @@
+2022-03-15 18:56:35,410 INFO    MainThread:19503 [wandb_setup.py:_flush():75] Loading settings from /Users/tanay/.config/wandb/settings
+2022-03-15 18:56:35,411 INFO    MainThread:19503 [wandb_setup.py:_flush():75] Loading settings from wandb/settings
+2022-03-15 18:56:35,411 INFO    MainThread:19503 [wandb_setup.py:_flush():75] Loading settings from environment variables: {'entity': 'tanay07', 'project': 'assignment1', 'sweep_id': '5g0iu09l', 'root_dir': '/Users/tanay/Documents/sem6/CS6910/code2', 'run_id': '5ffkucsf', 'sweep_param_path': '/Users/tanay/Documents/sem6/CS6910/code2/wandb/sweep-5g0iu09l/config-5ffkucsf.yaml'}
+2022-03-15 18:56:35,411 INFO    MainThread:19503 [wandb_setup.py:_flush():75] Inferring run settings from compute environment: {'program_relpath': 'train.py', 'program': 'train.py'}
+2022-03-15 18:56:35,411 INFO    MainThread:19503 [wandb_init.py:_log_setup():405] Logging user logs to /Users/tanay/Documents/sem6/CS6910/code2/wandb/run-20220315_185635-5ffkucsf/logs/debug.log
+2022-03-15 18:56:35,411 INFO    MainThread:19503 [wandb_init.py:_log_setup():406] Logging internal logs to /Users/tanay/Documents/sem6/CS6910/code2/wandb/run-20220315_185635-5ffkucsf/logs/debug-internal.log
+2022-03-15 18:56:35,412 INFO    MainThread:19503 [wandb_init.py:init():439] calling init triggers
+2022-03-15 18:56:35,412 INFO    MainThread:19503 [wandb_init.py:init():442] wandb.init called with sweep_config: {'learning_rate': 5.2883293098343856e-05, 'momentum': 0.8370386424262612, 'num_hidden1': 19, 'num_hidden2': 5}
+config: {'checkpoint_dir': 'models', 'train_file_path': '/Users/tanay/Documents/sem6/CS6910/20/task2a/train_t20.csv', 'val_file_path': '/Users/tanay/Documents/sem6/CS6910/20/task2a/dev_t20.csv', 'cuda': False, 'wandb': False, 'batch_size': 1, 'epochs': 100, 'val_batch_size': 1, 'output_num': 1, 'input_num': 2, 'num_hidden1': 6, 'num_hidden2': 8, 'learning_rate': 0.0001, 'momentum': 0.9}
+2022-03-15 18:56:35,412 INFO    MainThread:19503 [wandb_init.py:init():492] starting backend
+2022-03-15 18:56:35,413 INFO    MainThread:19503 [backend.py:_multiprocessing_setup():99] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2022-03-15 18:56:35,442 INFO    MainThread:19503 [backend.py:ensure_launched():219] starting backend process...
+2022-03-15 18:56:35,456 INFO    MainThread:19503 [backend.py:ensure_launched():224] started backend process with pid: 19509
+2022-03-15 18:56:35,460 INFO    MainThread:19503 [wandb_init.py:init():501] backend started and connected
+2022-03-15 18:56:35,467 INFO    MainThread:19503 [wandb_run.py:_config_callback():992] config_cb None None {'learning_rate': 5.2883293098343856e-05, 'momentum': 0.8370386424262612, 'num_hidden1': 19, 'num_hidden2': 5}
+2022-03-15 18:56:35,470 INFO    MainThread:19503 [wandb_init.py:init():565] updated telemetry
+2022-03-15 18:56:35,471 INFO    MainThread:19503 [wandb_init.py:init():596] communicating run to backend with 30 second timeout
+2022-03-15 18:56:36,549 INFO    MainThread:19503 [wandb_run.py:_on_init():1759] communicating current version
+2022-03-15 18:56:36,860 INFO    MainThread:19503 [wandb_run.py:_on_init():1763] got version response 
+2022-03-15 18:56:36,860 INFO    MainThread:19503 [wandb_init.py:init():625] starting run threads in backend
+2022-03-15 18:56:37,333 INFO    MainThread:19503 [wandb_run.py:_console_start():1733] atexit reg
+2022-03-15 18:56:37,333 INFO    MainThread:19503 [wandb_run.py:_redirect():1606] redirect: SettingsConsole.REDIRECT
+2022-03-15 18:56:37,333 INFO    MainThread:19503 [wandb_run.py:_redirect():1611] Redirecting console.
+2022-03-15 18:56:37,334 INFO    MainThread:19503 [wandb_run.py:_redirect():1667] Redirects installed.
+2022-03-15 18:56:37,334 INFO    MainThread:19503 [wandb_init.py:init():664] run started, returning control to user process

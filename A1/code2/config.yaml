@@ -1,0 +1,22 @@
+
+checkpoint_dir: models
+train_file_path: ../20/task2a/train_t20.csv
+val_file_path: ../20/task2a/dev_t20.csv
+cuda: False
+wandb: False
+do_train: True
+do_val: True
+do_predict: True
+use_trained: True
+
+
+batch_size: 1
+epochs: 100
+val_batch_size: 1
+output_num: 1
+input_num: 2
+
+num_hidden1: 13
+num_hidden2: 18
+learning_rate: 0.000092
+momentum: 0.9198

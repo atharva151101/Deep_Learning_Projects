@@ -1,0 +1,4 @@
+Val loss: 3937.5411933765076	 Val error: 189001.97752192983
+Epoch - 0	 step - 1266 	Train loss - 3904.565964792879 	 MAE - 3904.5659630586524
+Val loss: 3870.2383112321822	 Val error: 185771.44325657896
+/home/atharva1511/.local/lib/python3.8/site-packages/torch/nn/modules/loss.py:96: UserWarning: Using a target size (torch.Size([1, 48])) that is different to the input size (torch.Size([48])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.

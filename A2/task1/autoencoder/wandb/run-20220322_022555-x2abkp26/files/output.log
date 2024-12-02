@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "train.py", line 159, in <module>
+    model = AutoEncoder(cfg)
+  File "/home/atharva1511/Downloads/CS6910/assignment2/code2/model.py", line 10, in __init__
+    self.encoder=nn.Sequential(nn.Linear(cfg.input_num,cfg.num_ae_hidden),
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/wandb/sdk/wandb_config.py", line 163, in __getattr__
+    return self.__getitem__(key)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/wandb/sdk/wandb_config.py", line 131, in __getitem__
+    return self._items[key]
+KeyError: 'num_ae_hidden'
+Traceback (most recent call last):
+  File "train.py", line 159, in <module>
+    model = AutoEncoder(cfg)
+  File "/home/atharva1511/Downloads/CS6910/assignment2/code2/model.py", line 10, in __init__
+    self.encoder=nn.Sequential(nn.Linear(cfg.input_num,cfg.num_ae_hidden),
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/wandb/sdk/wandb_config.py", line 163, in __getattr__
+    return self.__getitem__(key)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/wandb/sdk/wandb_config.py", line 131, in __getitem__
+    return self._items[key]
+KeyError: 'num_ae_hidden'

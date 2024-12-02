@@ -1,0 +1,171 @@
+/home/atharva1511/Downloads/CS6910/assignment2/code2/MLFFN/model.py:17: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  y=self.soft(self.linear3(h2))
+2
+2
+1
+1
+1
+1
+1
+1
+4
+1
+1
+1
+1
+1
+2
+1
+1
+1
+1
+4
+3
+4
+2
+1
+4
+4
+4
+4
+1
+4
+4
+4
+4
+4
+1
+1
+4
+4
+4
+4
+4
+4
+4
+2
+4
+4
+4
+2
+4
+4
+4
+4
+4
+4
+1
+4
+2
+4
+1
+1
+4
+4
+4
+4
+3
+3
+4
+4
+4
+4
+4
+4
+1
+4
+4
+4
+1
+1
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+1
+1
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+2
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+1
+4
+4
+4
+1
+1
+4
+4
+4
+4
+4
+2
+4
+4
+1
+1
+Traceback (most recent call last):
+  File "train.py", line 48, in <module>
+    train_one_epoch2(model, trainloader, optimizer,
+  File "/home/atharva1511/Downloads/CS6910/assignment2/code2/MLFFN/mlffn_functions.py", line 35, in train_one_epoch2
+    for i, (data, target) in enumerate(dataset):
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 530, in __next__
+    data = self._next_data()
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 570, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 52, in fetch
+    return self.collate_fn(data)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/utils/data/_utils/collate.py", line 172, in default_collate
+    return [default_collate(samples) for samples in transposed]  # Backwards compatibility.
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/utils/data/_utils/collate.py", line 172, in <listcomp>
+    return [default_collate(samples) for samples in transposed]  # Backwards compatibility.
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/utils/data/_utils/collate.py", line 146, in default_collate
+    return default_collate([torch.as_tensor(b) for b in batch])
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/utils/data/_utils/collate.py", line 146, in <listcomp>
+    return default_collate([torch.as_tensor(b) for b in batch])
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "train.py", line 48, in <module>
+    train_one_epoch2(model, trainloader, optimizer,
+  File "/home/atharva1511/Downloads/CS6910/assignment2/code2/MLFFN/mlffn_functions.py", line 35, in train_one_epoch2
+    for i, (data, target) in enumerate(dataset):
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 530, in __next__
+    data = self._next_data()
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 570, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 52, in fetch
+    return self.collate_fn(data)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/utils/data/_utils/collate.py", line 172, in default_collate
+    return [default_collate(samples) for samples in transposed]  # Backwards compatibility.
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/utils/data/_utils/collate.py", line 172, in <listcomp>
+    return [default_collate(samples) for samples in transposed]  # Backwards compatibility.
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/utils/data/_utils/collate.py", line 146, in default_collate
+    return default_collate([torch.as_tensor(b) for b in batch])
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/utils/data/_utils/collate.py", line 146, in <listcomp>
+    return default_collate([torch.as_tensor(b) for b in batch])
+KeyboardInterrupt

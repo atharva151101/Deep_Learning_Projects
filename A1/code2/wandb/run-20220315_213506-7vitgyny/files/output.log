@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "train.py", line 156, in <module>
+    get_plot(model, trainloader, name = 'q2_done', title= 'q2_done')
+  File "train.py", line 28, in get_plot
+    min1=x1.min()-0.5
+TypeError: unsupported operand type(s) for -: 'NoneType' and 'float'
+Traceback (most recent call last):
+  File "train.py", line 156, in <module>
+    get_plot(model, trainloader, name = 'q2_done', title= 'q2_done')
+  File "train.py", line 28, in get_plot
+    min1=x1.min()-0.5
+TypeError: unsupported operand type(s) for -: 'NoneType' and 'float'
+Epoch - 0	 step - 1199 	Train loss - 0.6576152673612038 	 ACC - 0.6458333333333334
+Val loss: 0.6425099316239357	 Val acc: 0.63

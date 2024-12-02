@@ -1,0 +1,167 @@
+2022-04-06 23:04:08,760 INFO    MainThread:10602 [internal.py:wandb_internal():92] W&B internal server running at pid: 10602, started at: 2022-04-06 23:04:08.760450
+2022-04-06 23:04:08,762 INFO    WriterThread:10602 [datastore.py:open_for_write():77] open: /home/atharva1511/Downloads/CS6910/assignment2/task1/autoencoder/wandb/run-20220406_230408-346p6px9/run-346p6px9.wandb
+2022-04-06 23:04:08,763 DEBUG   SenderThread:10602 [sender.py:send():235] send: header
+2022-04-06 23:04:08,763 DEBUG   SenderThread:10602 [sender.py:send():235] send: run
+2022-04-06 23:04:09,097 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: check_version
+2022-04-06 23:04:09,098 INFO    SenderThread:10602 [dir_watcher.py:__init__():169] watching files in: /home/atharva1511/Downloads/CS6910/assignment2/task1/autoencoder/wandb/run-20220406_230408-346p6px9/files
+2022-04-06 23:04:09,098 INFO    SenderThread:10602 [sender.py:_start_run_threads():812] run started: 346p6px9 with start time 1649266448
+2022-04-06 23:04:09,098 DEBUG   SenderThread:10602 [sender.py:send():235] send: summary
+2022-04-06 23:04:09,099 INFO    SenderThread:10602 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-06 23:04:09,099 DEBUG   SenderThread:10602 [sender.py:send_request():249] send_request: check_version
+2022-04-06 23:04:10,104 INFO    Thread-7  :10602 [dir_watcher.py:_on_file_created():217] file/dir created: /home/atharva1511/Downloads/CS6910/assignment2/task1/autoencoder/wandb/run-20220406_230408-346p6px9/files/wandb-summary.json
+2022-04-06 23:04:10,118 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: run_start
+2022-04-06 23:04:10,396 DEBUG   HandlerThread:10602 [meta.py:__init__():37] meta init
+2022-04-06 23:04:10,396 DEBUG   HandlerThread:10602 [meta.py:__init__():51] meta init done
+2022-04-06 23:04:10,396 DEBUG   HandlerThread:10602 [meta.py:probe():211] probe
+2022-04-06 23:04:10,682 DEBUG   HandlerThread:10602 [meta.py:_setup_git():201] setup git
+2022-04-06 23:04:10,686 DEBUG   HandlerThread:10602 [meta.py:_setup_git():208] setup git done
+2022-04-06 23:04:10,686 DEBUG   HandlerThread:10602 [meta.py:_save_pip():55] save pip
+2022-04-06 23:04:10,687 DEBUG   HandlerThread:10602 [meta.py:_save_pip():69] save pip done
+2022-04-06 23:04:10,687 DEBUG   HandlerThread:10602 [meta.py:probe():249] probe done
+2022-04-06 23:04:10,689 DEBUG   SenderThread:10602 [sender.py:send():235] send: files
+2022-04-06 23:04:10,689 INFO    SenderThread:10602 [sender.py:_save_file():947] saving file wandb-metadata.json with policy now
+2022-04-06 23:04:10,693 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-06 23:04:10,693 DEBUG   SenderThread:10602 [sender.py:send_request():249] send_request: stop_status
+2022-04-06 23:04:11,028 DEBUG   SenderThread:10602 [sender.py:send():235] send: telemetry
+2022-04-06 23:04:11,100 INFO    Thread-7  :10602 [dir_watcher.py:_on_file_created():217] file/dir created: /home/atharva1511/Downloads/CS6910/assignment2/task1/autoencoder/wandb/run-20220406_230408-346p6px9/files/output.log
+2022-04-06 23:04:11,100 INFO    Thread-7  :10602 [dir_watcher.py:_on_file_created():217] file/dir created: /home/atharva1511/Downloads/CS6910/assignment2/task1/autoencoder/wandb/run-20220406_230408-346p6px9/files/wandb-metadata.json
+2022-04-06 23:04:11,100 INFO    Thread-7  :10602 [dir_watcher.py:_on_file_created():217] file/dir created: /home/atharva1511/Downloads/CS6910/assignment2/task1/autoencoder/wandb/run-20220406_230408-346p6px9/files/requirements.txt
+2022-04-06 23:04:11,173 DEBUG   SenderThread:10602 [sender.py:send():235] send: telemetry
+2022-04-06 23:04:11,174 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-06 23:04:12,143 INFO    Thread-11 :10602 [upload_job.py:push():137] Uploaded file /tmp/tmpbc_qp8vzwandb/67xvcy4s-wandb-metadata.json
+2022-04-06 23:04:13,102 INFO    Thread-7  :10602 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/atharva1511/Downloads/CS6910/assignment2/task1/autoencoder/wandb/run-20220406_230408-346p6px9/files/output.log
+2022-04-06 23:04:13,206 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-06 23:04:13,206 DEBUG   SenderThread:10602 [sender.py:send():235] send: exit
+2022-04-06 23:04:13,207 INFO    SenderThread:10602 [sender.py:send_exit():371] handling exit code: 1
+2022-04-06 23:04:13,207 INFO    SenderThread:10602 [sender.py:send_exit():373] handling runtime: 3
+2022-04-06 23:04:13,212 INFO    SenderThread:10602 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-06 23:04:13,212 INFO    SenderThread:10602 [sender.py:send_exit():379] send defer
+2022-04-06 23:04:13,213 DEBUG   SenderThread:10602 [sender.py:send_request():249] send_request: poll_exit
+2022-04-06 23:04:13,214 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: defer
+2022-04-06 23:04:13,214 INFO    HandlerThread:10602 [handler.py:handle_request_defer():164] handle defer: 0
+2022-04-06 23:04:13,214 DEBUG   SenderThread:10602 [sender.py:send_request():249] send_request: defer
+2022-04-06 23:04:13,215 INFO    SenderThread:10602 [sender.py:send_request_defer():388] handle sender defer: 0
+2022-04-06 23:04:13,215 INFO    SenderThread:10602 [sender.py:transition_state():392] send defer: 1
+2022-04-06 23:04:13,216 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: defer
+2022-04-06 23:04:13,216 INFO    HandlerThread:10602 [handler.py:handle_request_defer():164] handle defer: 1
+2022-04-06 23:04:13,313 DEBUG   SenderThread:10602 [sender.py:send_request():249] send_request: defer
+2022-04-06 23:04:13,313 INFO    SenderThread:10602 [sender.py:send_request_defer():388] handle sender defer: 1
+2022-04-06 23:04:13,313 INFO    SenderThread:10602 [sender.py:transition_state():392] send defer: 2
+2022-04-06 23:04:13,313 DEBUG   SenderThread:10602 [sender.py:send():235] send: stats
+2022-04-06 23:04:13,313 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: defer
+2022-04-06 23:04:13,314 INFO    HandlerThread:10602 [handler.py:handle_request_defer():164] handle defer: 2
+2022-04-06 23:04:13,314 DEBUG   SenderThread:10602 [sender.py:send_request():249] send_request: defer
+2022-04-06 23:04:13,314 INFO    SenderThread:10602 [sender.py:send_request_defer():388] handle sender defer: 2
+2022-04-06 23:04:13,314 INFO    SenderThread:10602 [sender.py:transition_state():392] send defer: 3
+2022-04-06 23:04:13,314 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: defer
+2022-04-06 23:04:13,314 INFO    HandlerThread:10602 [handler.py:handle_request_defer():164] handle defer: 3
+2022-04-06 23:04:13,314 DEBUG   SenderThread:10602 [sender.py:send_request():249] send_request: defer
+2022-04-06 23:04:13,314 INFO    SenderThread:10602 [sender.py:send_request_defer():388] handle sender defer: 3
+2022-04-06 23:04:13,314 INFO    SenderThread:10602 [sender.py:transition_state():392] send defer: 4
+2022-04-06 23:04:13,315 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-06 23:04:13,315 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: defer
+2022-04-06 23:04:13,315 INFO    HandlerThread:10602 [handler.py:handle_request_defer():164] handle defer: 4
+2022-04-06 23:04:13,315 DEBUG   SenderThread:10602 [sender.py:send_request():249] send_request: poll_exit
+2022-04-06 23:04:13,315 DEBUG   SenderThread:10602 [sender.py:send():235] send: summary
+2022-04-06 23:04:13,316 INFO    SenderThread:10602 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-06 23:04:13,316 DEBUG   SenderThread:10602 [sender.py:send_request():249] send_request: defer
+2022-04-06 23:04:13,316 INFO    SenderThread:10602 [sender.py:send_request_defer():388] handle sender defer: 4
+2022-04-06 23:04:13,316 INFO    SenderThread:10602 [sender.py:transition_state():392] send defer: 5
+2022-04-06 23:04:13,316 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: defer
+2022-04-06 23:04:13,316 INFO    HandlerThread:10602 [handler.py:handle_request_defer():164] handle defer: 5
+2022-04-06 23:04:13,317 DEBUG   SenderThread:10602 [sender.py:send_request():249] send_request: defer
+2022-04-06 23:04:13,317 INFO    SenderThread:10602 [sender.py:send_request_defer():388] handle sender defer: 5
+2022-04-06 23:04:13,417 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-06 23:04:13,859 INFO    SenderThread:10602 [sender.py:transition_state():392] send defer: 6
+2022-04-06 23:04:13,859 DEBUG   SenderThread:10602 [sender.py:send_request():249] send_request: poll_exit
+2022-04-06 23:04:13,860 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: defer
+2022-04-06 23:04:13,860 INFO    HandlerThread:10602 [handler.py:handle_request_defer():164] handle defer: 6
+2022-04-06 23:04:13,860 DEBUG   SenderThread:10602 [sender.py:send_request():249] send_request: defer
+2022-04-06 23:04:13,860 INFO    SenderThread:10602 [sender.py:send_request_defer():388] handle sender defer: 6
+2022-04-06 23:04:13,860 INFO    SenderThread:10602 [dir_watcher.py:finish():283] shutting down directory watcher
+2022-04-06 23:04:13,962 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-06 23:04:14,102 INFO    Thread-7  :10602 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/atharva1511/Downloads/CS6910/assignment2/task1/autoencoder/wandb/run-20220406_230408-346p6px9/files/config.yaml
+2022-04-06 23:04:14,104 INFO    SenderThread:10602 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/atharva1511/Downloads/CS6910/assignment2/task1/autoencoder/wandb/run-20220406_230408-346p6px9/files/output.log
+2022-04-06 23:04:14,104 INFO    SenderThread:10602 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/atharva1511/Downloads/CS6910/assignment2/task1/autoencoder/wandb/run-20220406_230408-346p6px9/files/wandb-summary.json
+2022-04-06 23:04:14,105 INFO    SenderThread:10602 [dir_watcher.py:finish():313] scan: /home/atharva1511/Downloads/CS6910/assignment2/task1/autoencoder/wandb/run-20220406_230408-346p6px9/files
+2022-04-06 23:04:14,105 INFO    SenderThread:10602 [dir_watcher.py:finish():327] scan save: /home/atharva1511/Downloads/CS6910/assignment2/task1/autoencoder/wandb/run-20220406_230408-346p6px9/files/wandb-metadata.json wandb-metadata.json
+2022-04-06 23:04:14,105 INFO    SenderThread:10602 [dir_watcher.py:finish():327] scan save: /home/atharva1511/Downloads/CS6910/assignment2/task1/autoencoder/wandb/run-20220406_230408-346p6px9/files/requirements.txt requirements.txt
+2022-04-06 23:04:14,106 INFO    SenderThread:10602 [dir_watcher.py:finish():327] scan save: /home/atharva1511/Downloads/CS6910/assignment2/task1/autoencoder/wandb/run-20220406_230408-346p6px9/files/output.log output.log
+2022-04-06 23:04:14,106 INFO    SenderThread:10602 [dir_watcher.py:finish():327] scan save: /home/atharva1511/Downloads/CS6910/assignment2/task1/autoencoder/wandb/run-20220406_230408-346p6px9/files/wandb-summary.json wandb-summary.json
+2022-04-06 23:04:14,112 INFO    SenderThread:10602 [dir_watcher.py:finish():327] scan save: /home/atharva1511/Downloads/CS6910/assignment2/task1/autoencoder/wandb/run-20220406_230408-346p6px9/files/config.yaml config.yaml
+2022-04-06 23:04:14,113 INFO    SenderThread:10602 [sender.py:transition_state():392] send defer: 7
+2022-04-06 23:04:14,113 DEBUG   SenderThread:10602 [sender.py:send_request():249] send_request: poll_exit
+2022-04-06 23:04:14,115 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: defer
+2022-04-06 23:04:14,115 INFO    HandlerThread:10602 [handler.py:handle_request_defer():164] handle defer: 7
+2022-04-06 23:04:14,119 DEBUG   SenderThread:10602 [sender.py:send_request():249] send_request: defer
+2022-04-06 23:04:14,119 INFO    SenderThread:10602 [sender.py:send_request_defer():388] handle sender defer: 7
+2022-04-06 23:04:14,119 INFO    SenderThread:10602 [file_pusher.py:finish():145] shutting down file pusher
+2022-04-06 23:04:14,215 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-06 23:04:14,215 DEBUG   SenderThread:10602 [sender.py:send_request():249] send_request: poll_exit
+2022-04-06 23:04:14,317 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-06 23:04:14,318 DEBUG   SenderThread:10602 [sender.py:send_request():249] send_request: poll_exit
+2022-04-06 23:04:14,421 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-06 23:04:14,421 DEBUG   SenderThread:10602 [sender.py:send_request():249] send_request: poll_exit
+2022-04-06 23:04:14,524 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-06 23:04:14,524 DEBUG   SenderThread:10602 [sender.py:send_request():249] send_request: poll_exit
+2022-04-06 23:04:14,631 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-06 23:04:14,633 DEBUG   SenderThread:10602 [sender.py:send_request():249] send_request: poll_exit
+2022-04-06 23:04:14,736 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-06 23:04:14,737 DEBUG   SenderThread:10602 [sender.py:send_request():249] send_request: poll_exit
+2022-04-06 23:04:14,840 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-06 23:04:14,840 DEBUG   SenderThread:10602 [sender.py:send_request():249] send_request: poll_exit
+2022-04-06 23:04:14,943 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-06 23:04:14,944 DEBUG   SenderThread:10602 [sender.py:send_request():249] send_request: poll_exit
+2022-04-06 23:04:15,047 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-06 23:04:15,047 DEBUG   SenderThread:10602 [sender.py:send_request():249] send_request: poll_exit
+2022-04-06 23:04:15,150 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-06 23:04:15,151 DEBUG   SenderThread:10602 [sender.py:send_request():249] send_request: poll_exit
+2022-04-06 23:04:15,253 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-06 23:04:15,254 DEBUG   SenderThread:10602 [sender.py:send_request():249] send_request: poll_exit
+2022-04-06 23:04:15,357 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-06 23:04:15,357 DEBUG   SenderThread:10602 [sender.py:send_request():249] send_request: poll_exit
+2022-04-06 23:04:15,389 INFO    Thread-12 :10602 [upload_job.py:push():137] Uploaded file /home/atharva1511/Downloads/CS6910/assignment2/task1/autoencoder/wandb/run-20220406_230408-346p6px9/files/requirements.txt
+2022-04-06 23:04:15,390 INFO    Thread-14 :10602 [upload_job.py:push():137] Uploaded file /home/atharva1511/Downloads/CS6910/assignment2/task1/autoencoder/wandb/run-20220406_230408-346p6px9/files/wandb-summary.json
+2022-04-06 23:04:15,423 INFO    Thread-15 :10602 [upload_job.py:push():137] Uploaded file /home/atharva1511/Downloads/CS6910/assignment2/task1/autoencoder/wandb/run-20220406_230408-346p6px9/files/config.yaml
+2022-04-06 23:04:15,460 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-06 23:04:15,460 DEBUG   SenderThread:10602 [sender.py:send_request():249] send_request: poll_exit
+2022-04-06 23:04:15,563 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-06 23:04:15,564 DEBUG   SenderThread:10602 [sender.py:send_request():249] send_request: poll_exit
+2022-04-06 23:04:15,667 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-06 23:04:15,667 DEBUG   SenderThread:10602 [sender.py:send_request():249] send_request: poll_exit
+2022-04-06 23:04:15,743 INFO    Thread-13 :10602 [upload_job.py:push():137] Uploaded file /home/atharva1511/Downloads/CS6910/assignment2/task1/autoencoder/wandb/run-20220406_230408-346p6px9/files/output.log
+2022-04-06 23:04:15,770 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-06 23:04:15,771 DEBUG   SenderThread:10602 [sender.py:send_request():249] send_request: poll_exit
+2022-04-06 23:04:15,874 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-06 23:04:15,875 DEBUG   SenderThread:10602 [sender.py:send_request():249] send_request: poll_exit
+2022-04-06 23:04:15,944 INFO    Thread-6  :10602 [sender.py:transition_state():392] send defer: 8
+2022-04-06 23:04:15,945 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: defer
+2022-04-06 23:04:15,945 INFO    HandlerThread:10602 [handler.py:handle_request_defer():164] handle defer: 8
+2022-04-06 23:04:15,945 DEBUG   SenderThread:10602 [sender.py:send_request():249] send_request: defer
+2022-04-06 23:04:15,945 INFO    SenderThread:10602 [sender.py:send_request_defer():388] handle sender defer: 8
+2022-04-06 23:04:15,978 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-06 23:04:17,547 INFO    SenderThread:10602 [sender.py:transition_state():392] send defer: 9
+2022-04-06 23:04:17,547 DEBUG   SenderThread:10602 [sender.py:send_request():249] send_request: poll_exit
+2022-04-06 23:04:17,549 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: defer
+2022-04-06 23:04:17,549 INFO    HandlerThread:10602 [handler.py:handle_request_defer():164] handle defer: 9
+2022-04-06 23:04:17,549 DEBUG   SenderThread:10602 [sender.py:send_request():249] send_request: defer
+2022-04-06 23:04:17,549 INFO    SenderThread:10602 [sender.py:send_request_defer():388] handle sender defer: 9
+2022-04-06 23:04:17,550 INFO    SenderThread:10602 [sender.py:transition_state():392] send defer: 10
+2022-04-06 23:04:17,551 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: defer
+2022-04-06 23:04:17,551 INFO    HandlerThread:10602 [handler.py:handle_request_defer():164] handle defer: 10
+2022-04-06 23:04:17,552 DEBUG   SenderThread:10602 [sender.py:send():235] send: final
+2022-04-06 23:04:17,552 DEBUG   SenderThread:10602 [sender.py:send():235] send: footer
+2022-04-06 23:04:17,552 DEBUG   SenderThread:10602 [sender.py:send_request():249] send_request: defer
+2022-04-06 23:04:17,553 INFO    SenderThread:10602 [sender.py:send_request_defer():388] handle sender defer: 10
+2022-04-06 23:04:17,651 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-06 23:04:17,651 DEBUG   SenderThread:10602 [sender.py:send_request():249] send_request: poll_exit
+2022-04-06 23:04:17,651 INFO    SenderThread:10602 [file_pusher.py:join():150] waiting for file pusher
+2022-04-06 23:04:18,586 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: sampled_history
+2022-04-06 23:04:18,588 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: get_summary
+2022-04-06 23:04:18,590 DEBUG   HandlerThread:10602 [handler.py:handle_request():141] handle_request: shutdown
+2022-04-06 23:04:18,590 INFO    HandlerThread:10602 [handler.py:finish():778] shutting down handler
+2022-04-06 23:04:19,484 INFO    SenderThread:10602 [sender.py:finish():1078] shutting down sender
+2022-04-06 23:04:19,484 INFO    SenderThread:10602 [file_pusher.py:finish():145] shutting down file pusher
+2022-04-06 23:04:19,484 INFO    SenderThread:10602 [file_pusher.py:join():150] waiting for file pusher
+2022-04-06 23:04:19,552 INFO    WriterThread:10602 [datastore.py:close():281] close: /home/atharva1511/Downloads/CS6910/assignment2/task1/autoencoder/wandb/run-20220406_230408-346p6px9/run-346p6px9.wandb
+2022-04-06 23:04:19,554 INFO    MainThread:10602 [internal.py:handle_exit():82] Internal process exited

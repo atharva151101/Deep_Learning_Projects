@@ -1,0 +1,35 @@
+2022-03-15 21:30:42,866 INFO    MainThread:10203 [wandb_setup.py:_flush():75] Loading settings from /home/atharva1511/.config/wandb/settings
+2022-03-15 21:30:42,866 INFO    MainThread:10203 [wandb_setup.py:_flush():75] Loading settings from /home/atharva1511/Downloads/CS6910/CS6910/code2/wandb/settings
+2022-03-15 21:30:42,866 INFO    MainThread:10203 [wandb_setup.py:_flush():75] Loading settings from environment variables: {}
+2022-03-15 21:30:42,866 INFO    MainThread:10203 [wandb_setup.py:_flush():75] Inferring run settings from compute environment: {'program_relpath': 'Downloads/CS6910/CS6910/code2/train.py', 'program': 'train.py'}
+2022-03-15 21:30:42,866 INFO    MainThread:10203 [wandb_init.py:_log_setup():405] Logging user logs to /home/atharva1511/Downloads/CS6910/CS6910/code2/wandb/run-20220315_213042-3jrc9ezd/logs/debug.log
+2022-03-15 21:30:42,866 INFO    MainThread:10203 [wandb_init.py:_log_setup():406] Logging internal logs to /home/atharva1511/Downloads/CS6910/CS6910/code2/wandb/run-20220315_213042-3jrc9ezd/logs/debug-internal.log
+2022-03-15 21:30:42,867 INFO    MainThread:10203 [wandb_init.py:init():439] calling init triggers
+2022-03-15 21:30:42,867 INFO    MainThread:10203 [wandb_init.py:init():442] wandb.init called with sweep_config: {}
+config: {'checkpoint_dir': 'models', 'train_file_path': '../20/task2a/train_t20.csv', 'val_file_path': '../20/task2a/dev_t20.csv', 'cuda': False, 'wandb': False, 'do_train': True, 'do_val': True, 'do_predict': True, 'use_trained': True, 'batch_size': 1, 'epochs': 1, 'val_batch_size': 1, 'output_num': 1, 'input_num': 2, 'num_hidden1': 13, 'num_hidden2': 18, 'learning_rate': 9.2e-05, 'momentum': 0.9198}
+2022-03-15 21:30:42,867 INFO    MainThread:10203 [wandb_init.py:init():492] starting backend
+2022-03-15 21:30:42,867 INFO    MainThread:10203 [backend.py:_multiprocessing_setup():99] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2022-03-15 21:30:42,871 INFO    MainThread:10203 [backend.py:ensure_launched():219] starting backend process...
+2022-03-15 21:30:42,874 INFO    MainThread:10203 [backend.py:ensure_launched():224] started backend process with pid: 10218
+2022-03-15 21:30:42,875 INFO    MainThread:10203 [wandb_init.py:init():501] backend started and connected
+2022-03-15 21:30:42,877 INFO    MainThread:10203 [wandb_init.py:init():565] updated telemetry
+2022-03-15 21:30:42,878 INFO    MainThread:10203 [wandb_init.py:init():596] communicating run to backend with 30 second timeout
+2022-03-15 21:31:11,716 WARNING MainThread:10203 [wandb_init.py:init():975] interrupted
+Traceback (most recent call last):
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 954, in init
+    run = wi.init()
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 597, in init
+    run_result = backend.interface.communicate_run(run, timeout=30)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/wandb/sdk/interface/interface.py", line 210, in communicate_run
+    return self._communicate_run(run, timeout=timeout)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/wandb/sdk/interface/interface_shared.py", line 320, in _communicate_run
+    resp = self._communicate(req, timeout=timeout)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/wandb/sdk/interface/interface_shared.py", line 222, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/wandb/sdk/interface/router.py", line 37, in get
+    is_set = self._object_ready.wait(timeout)
+  File "/usr/lib/python3.8/threading.py", line 558, in wait
+    signaled = self._cond.wait(timeout)
+  File "/usr/lib/python3.8/threading.py", line 306, in wait
+    gotit = waiter.acquire(True, timeout)
+KeyboardInterrupt

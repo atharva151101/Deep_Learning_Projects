@@ -1,0 +1,11 @@
+/home/atharva1511/Downloads/CS6910/assignment2/code2/MLFFN/model.py:17: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  y=self.soft(self.linear3(h2))
+[2 1 1 2 1 1 1 1 2 2 1 1 1 1 1 1 1 1 2 3 1 3 1 1 1 2 1 1 2 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 2 2 1 2 1 1 1 1 2 1 2 2 1 2 2 1 1 1 1 1 1 2]
+Traceback (most recent call last):
+  File "train.py", line 48, in <module>
+    train_one_epoch2(model, trainloader, optimizer,
+  File "/home/atharva1511/Downloads/CS6910/assignment2/code2/MLFFN/mlffn_functions.py", line 48, in train_one_epoch2
+    acc.append(accuracy(idxs, target))
+  File "/home/atharva1511/Downloads/CS6910/assignment2/code2/MLFFN/mlffn_functions.py", line 12, in accuracy
+    return (1 if pred_copy == target_copy else 0)

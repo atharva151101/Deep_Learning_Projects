@@ -1,0 +1,15 @@
+/home/atharva1511/.local/lib/python3.8/site-packages/torch/nn/modules/loss.py:529: UserWarning: Using a target size (torch.Size([1, 48])) that is different to the input size (torch.Size([48])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+Epoch - 0	 step - 12669 	Train loss - 24745168.00165746 	 MAE - 139038.35503527033
+Val loss: 21537683.576553866	 Val error: 134521.66836692853
+Epoch - 1	 step - 12669 	Train loss - 20770814.678995658 	 MAE - 132946.63011450524
+Val loss: 20239808.520755228	 Val error: 132236.71783432813
+Epoch - 2	 step - 12669 	Train loss - 19974811.274691693 	 MAE - 131409.8081069332
+Val loss: 19767976.205968823	 Val error: 130760.3666655362
+Epoch - 3	 step - 12669 	Train loss - 19650711.546046272 	 MAE - 130564.47709941669
+Val loss: 19541702.138777625	 Val error: 130285.86015085463
+Epoch - 4	 step - 12669 	Train loss - 19477186.08898974 	 MAE - 130068.20074286578
+Val loss: 19409435.009888023	 Val error: 129872.25171495782
+Epoch - 5	 step - 12669 	Train loss - 19362963.54855589 	 MAE - 129707.48522561908
+Val loss: 19308800.162909433	 Val error: 129748.52423663181
+Epoch - 6	 step - 12669 	Train loss - 19273611.42559195 	 MAE - 129503.51166148197

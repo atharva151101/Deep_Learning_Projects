@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "train.py", line 113, in <module>
+    train_one_epoch(model, trainloader, optimizer,
+  File "train.py", line 49, in train_one_epoch
+    classes = [1 if i > 0.5 else 0 for i in output.numpy()]
+RuntimeError: Can't call numpy() on Tensor that requires grad. Use tensor.detach().numpy() instead.

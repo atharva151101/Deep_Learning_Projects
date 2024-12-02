@@ -1,0 +1,38 @@
+encoder1.0.weight 7200
+encoder1.0.bias 150
+encoder1.2.weight 12000
+encoder1.2.bias 80
+encoder1.4.weight 2800
+encoder1.4.bias 35
+decoder1.0.weight 2800
+decoder1.0.bias 80
+decoder1.2.weight 12000
+decoder1.2.bias 150
+decoder1.4.weight 7200
+decoder1.4.bias 48
+Total Trainable Params: 44543
+Val loss: 3930.562109375	 Val error: 188666.98018092106
+[34m[1mwandb[39m[22m: Network error resolved after 0:00:07.966116, resuming normal operation.
+Epoch - 0	 step - 158 	Train loss - 2262.8364603294517 	 MAE - 2262.8364527373774
+Val loss: 1761.6618743896483	 Val error: 84559.76943873355
+Epoch - 1	 step - 158 	Train loss - 1490.7332356770833 	 MAE - 1490.7332216871941
+Val loss: 1280.9618041992187	 Val error: 61486.166205797694
+Epoch - 2	 step - 158 	Train loss - 1190.2351603957843 	 MAE - 1190.2351577513539
+Val loss: 1124.244920349121	 Val error: 53963.755592105255
+Epoch - 3	 step - 158 	Train loss - 1061.702897365738 	 MAE - 1061.7028965553482
+Val loss: 1025.8813186645507	 Val error: 49242.303541324014
+Epoch - 4	 step - 158 	Train loss - 969.2634215924725 	 MAE - 969.2634251752488
+Val loss: 934.9956237792969	 Val error: 44879.790542763156
+Epoch - 5	 step - 158 	Train loss - 904.067026966023 	 MAE - 904.0670293118887
+Val loss: 880.7950164794922	 Val error: 42278.16136924342
+Epoch - 6	 step - 158 	Train loss - 851.669735314711 	 MAE - 851.6697422243515
+Val loss: 854.6038009643555	 Val error: 41020.982442434215
+Epoch - 7	 step - 158 	Train loss - 812.4027583284198 	 MAE - 812.4027591814618
+Val loss: 797.7355438232422	 Val error: 38291.30607267681
+Epoch - 8	 step - 158 	Train loss - 778.3839829162981 	 MAE - 778.3839773288729
+Val loss: 783.5690841674805	 Val error: 37611.31627261513
+Epoch - 9	 step - 158 	Train loss - 754.0978324458284 	 MAE - 754.0978311236132
+Val loss: 749.9179046630859	 Val error: 35996.05942382813
+Epoch - 10	 step - 158 	Train loss - 721.6038660973123 	 MAE - 721.6038681872653
+Val loss: 724.6943801879883	 Val error: 34785.33008583471
+Epoch - 11	 step - 158 	Train loss - 705.6952376455631 	 MAE - 705.6952415269043

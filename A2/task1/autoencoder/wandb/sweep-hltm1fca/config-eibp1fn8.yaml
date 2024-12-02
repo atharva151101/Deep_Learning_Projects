@@ -1,0 +1,10 @@
+wandb_version: 1
+
+learning_rate:
+  value: 8.568560971613835e-05
+momentum:
+  value: 0.94228743310269
+num_hidden1:
+  value: 10
+num_hidden2:
+  value: 15

@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "train.py", line 98, in <module>
+    model = ClassificationImage(cfg)
+NameError: name 'ClassificationImage' is not defined
+Traceback (most recent call last):
+  File "train.py", line 98, in <module>
+    model = ClassificationImage(cfg)
+NameError: name 'ClassificationImage' is not defined

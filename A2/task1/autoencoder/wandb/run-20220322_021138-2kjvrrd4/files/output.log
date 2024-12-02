@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "train.py", line 178, in <module>
+    train_one_epoch1(model, trainloader, optimizer,
+  File "train.py", line 53, in train_one_epoch1
+    diff = (target/squeeze() - output.squeeze()).detach().numpy()
+NameError: name 'squeeze' is not defined
+Traceback (most recent call last):
+  File "train.py", line 178, in <module>
+    train_one_epoch1(model, trainloader, optimizer,
+  File "train.py", line 53, in train_one_epoch1
+    diff = (target/squeeze() - output.squeeze()).detach().numpy()
+NameError: name 'squeeze' is not defined

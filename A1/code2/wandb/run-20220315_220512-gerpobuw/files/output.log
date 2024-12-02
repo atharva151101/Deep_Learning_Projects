@@ -1,0 +1,18 @@
+Epoch - 0	 step - 1199 	Train loss - 0.6576152673612038 	 ACC - 0.6458333333333334
+Val loss: 0.6425099316239357	 Val acc: 0.63
+Traceback (most recent call last):
+  File "train.py", line 161, in <module>
+    get_plot(model, trainloader, name = 'q2_done', title= 'q2_done')
+  File "train.py", line 45, in get_plot
+    plot_decision_boundary(x1, x2, true_outputs,xx,yy,zz)
+  File "/home/atharva1511/Downloads/CS6910/CS6910/code2/plotting.py", line 9, in plot_decision_boundary
+    print(x1[z1==1])
+IndexError: too many indices for array: array is 1-dimensional, but 2 were indexed
+Traceback (most recent call last):
+  File "train.py", line 161, in <module>
+    get_plot(model, trainloader, name = 'q2_done', title= 'q2_done')
+  File "train.py", line 45, in get_plot
+    plot_decision_boundary(x1, x2, true_outputs,xx,yy,zz)
+  File "/home/atharva1511/Downloads/CS6910/CS6910/code2/plotting.py", line 9, in plot_decision_boundary
+    print(x1[z1==1])
+IndexError: too many indices for array: array is 1-dimensional, but 2 were indexed

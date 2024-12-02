@@ -1,0 +1,18 @@
+
+checkpoint_dir: models
+train_file_path: ../20/task2b/single_label_image_dataset/task2b.csv
+cuda: False
+wandb: False
+
+
+optim: adam
+batch_size: 1
+epochs: 250
+val_batch_size: 1
+output_num: 5
+input_num: 60
+
+num_hidden1: 95
+num_hidden2: 65
+learning_rate: 0.000086
+momentum: 0.9

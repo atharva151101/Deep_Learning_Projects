@@ -1,0 +1,10 @@
+
+checkpoint_dir: models
+train_file_path: ../../20/dataset1.csv
+val_file_path: ../../20/dataset1.csv
+out_file_path: ../../20/pca_compressed.csv
+
+output_num: 10
+
+input_num: 48
+

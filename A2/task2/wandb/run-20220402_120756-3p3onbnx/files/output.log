@@ -1,0 +1,100 @@
+encoder1.0.weight 7200
+encoder1.0.bias 150
+encoder1.2.weight 12000
+encoder1.2.bias 80
+encoder1.4.weight 2800
+encoder1.4.bias 35
+decoder1.0.weight 2800
+decoder1.0.bias 80
+decoder1.2.weight 12000
+decoder1.2.bias 150
+decoder1.4.weight 7200
+decoder1.4.bias 48
+Total Trainable Params: 44543
+encoder2.0.weight 2450
+encoder2.0.bias 70
+encoder2.2.weight 3500
+encoder2.2.bias 50
+encoder2.4.weight 1100
+encoder2.4.bias 22
+decoder2.0.weight 1100
+decoder2.0.bias 50
+decoder2.2.weight 3500
+decoder2.2.bias 70
+decoder2.4.weight 2450
+decoder2.4.bias 35
+Total Trainable Params: 14397
+/home/atharva1511/Downloads/CS6910/assignment2/task2/model.py:75: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  y=self.soft(self.linear(x))
+encoder3.0.weight 1100
+encoder3.0.bias 50
+encoder3.2.weight 1750
+encoder3.2.bias 35
+encoder3.4.weight 350
+encoder3.4.bias 10
+decoder3.0.weight 350
+decoder3.0.bias 35
+decoder3.2.weight 1750
+decoder3.2.bias 50
+decoder3.4.weight 1100
+decoder3.4.bias 22
+Total Trainable Params: 6602
+encoder1.0.weight 7200
+encoder1.0.bias 150
+encoder1.2.weight 12000
+encoder1.2.bias 80
+encoder1.4.weight 2800
+encoder1.4.bias 35
+encoder2.0.weight 2450
+encoder2.0.bias 70
+encoder2.2.weight 3500
+encoder2.2.bias 50
+encoder2.4.weight 1100
+encoder2.4.bias 22
+encoder3.0.weight 1100
+encoder3.0.bias 50
+encoder3.2.weight 1750
+encoder3.2.bias 35
+encoder3.4.weight 350
+encoder3.4.bias 10
+linear.weight 50
+linear.bias 5
+Total Trainable Params: 32807
+Parameter containing:
+tensor([[ 0.1104,  0.1198, -0.0338,  ..., -0.0631,  0.0833,  0.0258],
+        [ 0.0733, -0.0880, -0.1429,  ...,  0.0981, -0.1047, -0.0771],
+        [ 0.1322, -0.0487, -0.0512,  ..., -0.1185,  0.1072, -0.1060],
+        ...,
+        [ 0.0713, -0.0593,  0.0212,  ...,  0.1244, -0.1126, -0.0014],
+        [ 0.0459,  0.0931, -0.0259,  ...,  0.0714, -0.1167, -0.1297],
+        [ 0.1335,  0.0943, -0.0622,  ...,  0.1011, -0.0327,  0.0088]],
+       requires_grad=True)
+Parameter containing:
+tensor([[ 0.1104,  0.1198, -0.0338,  ..., -0.0631,  0.0833,  0.0258],
+        [ 0.0733, -0.0880, -0.1429,  ...,  0.0981, -0.1047, -0.0771],
+        [ 0.1322, -0.0487, -0.0512,  ..., -0.1185,  0.1072, -0.1060],
+        ...,
+        [ 0.0713, -0.0593,  0.0212,  ...,  0.1244, -0.1126, -0.0014],
+        [ 0.0459,  0.0931, -0.0259,  ...,  0.0714, -0.1167, -0.1297],
+        [ 0.1335,  0.0943, -0.0622,  ...,  0.1011, -0.0327,  0.0088]],
+       requires_grad=True)
+Epoch - 0	 step - 158 	Train loss - 1.4602217554296337 	 ACC - 0.4304900419287211
+Val loss: 1.4348066329956055	 Val acc: 0.45830592105263157
+Epoch - 1	 step - 158 	Train loss - 1.4212996659788695 	 ACC - 0.47795466457023056
+Val loss: 1.429715883731842	 Val acc: 0.45859375
+Epoch - 2	 step - 158 	Train loss - 1.410245661465627 	 ACC - 0.4883058176100629
+Val loss: 1.4161898165941238	 Val acc: 0.4812294407894736
+Epoch - 3	 step - 158 	Train loss - 1.4046531330864385 	 ACC - 0.4911884171907757
+Val loss: 1.4096060812473297	 Val acc: 0.4860402960526316
+Epoch - 4	 step - 158 	Train loss - 1.397507648048161 	 ACC - 0.4997051886792453
+Val loss: 1.3887259662151337	 Val acc: 0.5090049342105264
+Epoch - 5	 step - 158 	Train loss - 1.3942729961947076 	 ACC - 0.5042583857442349
+Val loss: 1.4079676628112794	 Val acc: 0.49284539473684214
+Epoch - 6	 step - 158 	Train loss - 1.3918788418080072 	 ACC - 0.5073375262054507
+Val loss: 1.3941573739051818	 Val acc: 0.5025904605263157
+Epoch - 7	 step - 158 	Train loss - 1.3842444277409487 	 ACC - 0.5136268343815513
+Val loss: 1.4082554429769516	 Val acc: 0.48725328947368424
+Epoch - 8	 step - 158 	Train loss - 1.394937255097635 	 ACC - 0.5024895178197065
+Val loss: 1.4085249811410905	 Val acc: 0.48957648026315786
+Epoch - 9	 step - 158 	Train loss - 1.3873823903641611 	 ACC - 0.5109735324947589
+Val loss: 1.4136304944753646	 Val acc: 0.4825246710526316

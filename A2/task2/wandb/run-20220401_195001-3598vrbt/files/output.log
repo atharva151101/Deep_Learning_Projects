@@ -1,0 +1,28 @@
+
+Val loss: 3934.211590576172	 Val error: 188842.1578125
+Epoch - 0	 step - 158 	Train loss - 2209.688355259925 	 MAE - 2209.688353042016
+encoder1.0.weight 7200
+encoder1.0.bias 150
+encoder1.2.weight 12000
+encoder1.2.bias 80
+encoder1.4.weight 2400
+encoder1.4.bias 30
+decoder1.0.weight 2400
+decoder1.0.bias 80
+decoder1.2.weight 12000
+decoder1.2.bias 150
+decoder1.4.weight 7200
+decoder1.4.bias 48
+encoder.0.weight 1800
+encoder.0.bias 60
+encoder.2.weight 2400
+encoder.2.bias 40
+encoder.4.weight 400
+encoder.4.bias 10
+decoder.0.weight 400
+decoder.0.bias 40
+decoder.2.weight 2400
+decoder.2.bias 60
+decoder.4.weight 1800
+decoder.4.bias 30
+Total Trainable Params: 53178

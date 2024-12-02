@@ -1,0 +1,11 @@
+/home/atharva1511/Downloads/CS6910/assignment2/code2/model.py:40: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  y=self.soft(self.linear3(h2))
+Epoch - 0	 step - 10135 	Train loss - 1.5187778443203916 	 ACC - 0.380327545382794
+Val loss: 1.5244472237111266	 Val acc: 0.3713496448303078
+Epoch - 1	 step - 10135 	Train loss - 1.517528955678396 	 ACC - 0.3821033938437253
+Val loss: 1.528132364165623	 Val acc: 0.3713496448303078
+Epoch - 2	 step - 10135 	Train loss - 1.5168401173359312 	 ACC - 0.3814127861089187
+Val loss: 1.5283141529221373	 Val acc: 0.3713496448303078
+Epoch - 3	 step - 10135 	Train loss - 1.5170833068152254 	 ACC - 0.3819060773480663
+Val loss: 1.5260141372398401	 Val acc: 0.3713496448303078
+Epoch - 4	 step - 10135 	Train loss - 1.5173534368353747 	 ACC - 0.38279400157853194

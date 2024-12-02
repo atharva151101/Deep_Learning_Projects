@@ -1,0 +1,117 @@
+/home/atharva1511/Downloads/CS6910/assignment2/task1/MLFFN/model.py:17: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  y=self.soft(self.linear3(h2))
+Epoch - 0	 step - 158 	Train loss - 1.587342951282765 	 ACC - 0.29621986373165615
+Val loss: 1.5764640420675278	 Val acc: 0.33484786184210524
+Epoch - 1	 step - 158 	Train loss - 1.5630446664942135 	 ACC - 0.3587853773584906
+Val loss: 1.5542230427265167	 Val acc: 0.37142269736842104
+Epoch - 2	 step - 158 	Train loss - 1.5428569339356333 	 ACC - 0.3727070230607966
+Val loss: 1.537483388185501	 Val acc: 0.38020148026315786
+Epoch - 3	 step - 158 	Train loss - 1.5301409794849419 	 ACC - 0.37834119496855345
+Val loss: 1.5274395585060119	 Val acc: 0.38279194078947365
+Epoch - 4	 step - 158 	Train loss - 1.5216731290397405 	 ACC - 0.38060141509433965
+Val loss: 1.519989949464798	 Val acc: 0.3838404605263158
+Epoch - 5	 step - 158 	Train loss - 1.5149157114748686 	 ACC - 0.38076519916142554
+Val loss: 1.5153104394674302	 Val acc: 0.38001644736842105
+Epoch - 6	 step - 158 	Train loss - 1.509126143635444 	 ACC - 0.38089622641509435
+Val loss: 1.5108133196830749	 Val acc: 0.37249177631578945
+Epoch - 7	 step - 158 	Train loss - 1.5032164608157657 	 ACC - 0.38374606918238996
+Val loss: 1.505299484729767	 Val acc: 0.3787623355263158
+Epoch - 8	 step - 158 	Train loss - 1.4991023795409772 	 ACC - 0.3922955974842767
+Val loss: 1.5017710626125336	 Val acc: 0.39189967105263157
+Epoch - 9	 step - 158 	Train loss - 1.494437801013203 	 ACC - 0.40520178197064993
+Val loss: 1.4984161406755447	 Val acc: 0.39734786184210524
+Epoch - 10	 step - 158 	Train loss - 1.4911721712388333 	 ACC - 0.40661032494758903
+Val loss: 1.494870737195015	 Val acc: 0.39983552631578945
+Epoch - 11	 step - 158 	Train loss - 1.4880759596074902 	 ACC - 0.40988600628930816
+Val loss: 1.4919139295816422	 Val acc: 0.40532483552631576
+Epoch - 12	 step - 158 	Train loss - 1.484813225344292 	 ACC - 0.4141116352201258
+Val loss: 1.4890843212604523	 Val acc: 0.4059621710526316
+Epoch - 13	 step - 158 	Train loss - 1.4823903175270032 	 ACC - 0.4147667714884695
+Val loss: 1.4862659335136414	 Val acc: 0.40703125
+Epoch - 14	 step - 158 	Train loss - 1.4803162003463168 	 ACC - 0.41434093291404617
+Val loss: 1.4856583148241043	 Val acc: 0.4047697368421053
+Epoch - 15	 step - 158 	Train loss - 1.478237639433183 	 ACC - 0.4180096960167714
+Val loss: 1.4828647434711457	 Val acc: 0.40466694078947363
+Epoch - 16	 step - 158 	Train loss - 1.4760019186907594 	 ACC - 0.41866483228511536
+Val loss: 1.4820195972919463	 Val acc: 0.4063527960526316
+Epoch - 17	 step - 158 	Train loss - 1.4741423932261437 	 ACC - 0.4222680817610063
+Val loss: 1.4801993876695634	 Val acc: 0.4077919407894736
+Epoch - 18	 step - 158 	Train loss - 1.472722072271431 	 ACC - 0.42151467505241097
+Val loss: 1.4792007714509965	 Val acc: 0.4068667763157895
+Epoch - 19	 step - 158 	Train loss - 1.4707946334994815 	 ACC - 0.4232180293501048
+Val loss: 1.4781846404075623	 Val acc: 0.4118009868421053
+Epoch - 20	 step - 158 	Train loss - 1.4692499390188254 	 ACC - 0.4261988993710692
+Val loss: 1.4771065711975098	 Val acc: 0.41675575657894737
+Epoch - 21	 step - 158 	Train loss - 1.4683519729278371 	 ACC - 0.42744365828092235
+Val loss: 1.4754323214292526	 Val acc: 0.41936677631578945
+Epoch - 22	 step - 158 	Train loss - 1.4672309700048194 	 ACC - 0.4270833333333333
+Val loss: 1.4729842722415925	 Val acc: 0.42119654605263157
+Traceback (most recent call last):
+  File "train.py", line 54, in <module>
+    train_one_epoch2(model, trainloader, optimizer,
+  File "/home/atharva1511/Downloads/CS6910/assignment2/task1/MLFFN/mlffn_functions.py", line 35, in train_one_epoch2
+    for i, (data, target) in enumerate(dataset):
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 530, in __next__
+    data = self._next_data()
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 570, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 49, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 49, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/atharva1511/Downloads/CS6910/assignment2/task1/MLFFN/dataloader.py", line 33, in __getitem__
+    input = self.X.loc[idx, :'x9'].values.astype(np.float32)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/core/indexing.py", line 961, in __getitem__
+    return self._getitem_tuple(key)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/core/indexing.py", line 1140, in _getitem_tuple
+    return self._getitem_lowerdim(tup)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/core/indexing.py", line 867, in _getitem_lowerdim
+    section = self._getitem_axis(key, axis=i)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/core/indexing.py", line 1202, in _getitem_axis
+    return self._get_label(key, axis=axis)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/core/indexing.py", line 1153, in _get_label
+    return self.obj.xs(label, axis=axis)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/core/generic.py", line 3898, in xs
+    result = self._constructor_sliced(
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/core/series.py", line 455, in __init__
+    data = SingleBlockManager.from_array(data, index)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/core/internals/managers.py", line 1736, in from_array
+    block = new_block(array, placement=slice(0, len(index)), ndim=1)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/core/internals/blocks.py", line 2033, in new_block
+    klass = get_block_type(values.dtype)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "train.py", line 54, in <module>
+    train_one_epoch2(model, trainloader, optimizer,
+  File "/home/atharva1511/Downloads/CS6910/assignment2/task1/MLFFN/mlffn_functions.py", line 35, in train_one_epoch2
+    for i, (data, target) in enumerate(dataset):
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 530, in __next__
+    data = self._next_data()
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 570, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 49, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 49, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/atharva1511/Downloads/CS6910/assignment2/task1/MLFFN/dataloader.py", line 33, in __getitem__
+    input = self.X.loc[idx, :'x9'].values.astype(np.float32)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/core/indexing.py", line 961, in __getitem__
+    return self._getitem_tuple(key)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/core/indexing.py", line 1140, in _getitem_tuple
+    return self._getitem_lowerdim(tup)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/core/indexing.py", line 867, in _getitem_lowerdim
+    section = self._getitem_axis(key, axis=i)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/core/indexing.py", line 1202, in _getitem_axis
+    return self._get_label(key, axis=axis)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/core/indexing.py", line 1153, in _get_label
+    return self.obj.xs(label, axis=axis)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/core/generic.py", line 3898, in xs
+    result = self._constructor_sliced(
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/core/series.py", line 455, in __init__
+    data = SingleBlockManager.from_array(data, index)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/core/internals/managers.py", line 1736, in from_array
+    block = new_block(array, placement=slice(0, len(index)), ndim=1)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/core/internals/blocks.py", line 2033, in new_block
+    klass = get_block_type(values.dtype)
+KeyboardInterrupt
+Epoch - 23	 step - 158 	Train loss - 1.4660355549938273 	 ACC - 0.42822982180293495

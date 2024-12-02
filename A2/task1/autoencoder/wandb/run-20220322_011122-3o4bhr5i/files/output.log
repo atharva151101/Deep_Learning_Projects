@@ -1,0 +1,123 @@
+             x1
+0     -1.024177
+1     -8.979197
+2     -7.038486
+3     -2.310616
+4     15.243392
+...         ...
+1195  10.564027
+1196  -5.676772
+1197  -7.676042
+1198 -17.473110
+1199   5.176542
+[1200 rows x 1 columns]              x1
+0     -1.024177
+1     -8.979197
+2     -7.038486
+3     -2.310616
+4     15.243392
+...         ...
+1195  10.564027
+1196  -5.676772
+1197  -7.676042
+1198 -17.473110
+1199   5.176542
+[1200 rows x 1 columns]
+             x1
+0     -1.024177
+1     -8.979197
+2     -7.038486
+3     -2.310616
+4     15.243392
+...         ...
+1195  10.564027
+1196  -5.676772
+1197  -7.676042
+1198 -17.473110
+1199   5.176542
+[1200 rows x 1 columns]              x1
+0     -1.024177
+1     -8.979197
+2     -7.038486
+3     -2.310616
+4     15.243392
+...         ...
+1195  10.564027
+1196  -5.676772
+1197  -7.676042
+1198 -17.473110
+1199   5.176542
+[1200 rows x 1 columns]
+Traceback (most recent call last):
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 2131, in pandas._libs.hashtable.Int64HashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 2140, in pandas._libs.hashtable.Int64HashTable.get_item
+KeyError: 461
+The above exception was the direct cause of the following exception:
+Traceback (most recent call last):
+  File "train.py", line 173, in <module>
+    for i,(data, target) in enumerate(trainloader):
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 530, in __next__
+    data = self._next_data()
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 570, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 49, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 49, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/atharva1511/Downloads/CS6910/assignment2/code2/dataloader.py", line 32, in __getitem__
+    input = self.X.loc[idx, self.cols].values.astype(np.float32)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/core/indexing.py", line 961, in __getitem__
+    return self._getitem_tuple(key)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/core/indexing.py", line 1140, in _getitem_tuple
+    return self._getitem_lowerdim(tup)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/core/indexing.py", line 867, in _getitem_lowerdim
+    section = self._getitem_axis(key, axis=i)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/core/indexing.py", line 1202, in _getitem_axis
+    return self._get_label(key, axis=axis)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/core/indexing.py", line 1153, in _get_label
+    return self.obj.xs(label, axis=axis)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/core/generic.py", line 3876, in xs
+    loc = index.get_loc(key)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 461
+Traceback (most recent call last):
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 2131, in pandas._libs.hashtable.Int64HashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 2140, in pandas._libs.hashtable.Int64HashTable.get_item
+KeyError: 461
+The above exception was the direct cause of the following exception:
+Traceback (most recent call last):
+  File "train.py", line 173, in <module>
+    for i,(data, target) in enumerate(trainloader):
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 530, in __next__
+    data = self._next_data()
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 570, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 49, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 49, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/atharva1511/Downloads/CS6910/assignment2/code2/dataloader.py", line 32, in __getitem__
+    input = self.X.loc[idx, self.cols].values.astype(np.float32)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/core/indexing.py", line 961, in __getitem__
+    return self._getitem_tuple(key)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/core/indexing.py", line 1140, in _getitem_tuple
+    return self._getitem_lowerdim(tup)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/core/indexing.py", line 867, in _getitem_lowerdim
+    section = self._getitem_axis(key, axis=i)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/core/indexing.py", line 1202, in _getitem_axis
+    return self._get_label(key, axis=axis)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/core/indexing.py", line 1153, in _get_label
+    return self.obj.xs(label, axis=axis)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/core/generic.py", line 3876, in xs
+    loc = index.get_loc(key)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err

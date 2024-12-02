@@ -1,0 +1,33 @@
+
+Val loss: 3934.211590576172	 Val error: 188842.1578125
+Epoch - 0	 step - 158 	Train loss - 2209.688355259925 	 MAE - 2209.688353042016
+Val loss: 1695.8047790527344	 Val error: 81398.62918379935
+Epoch - 1	 step - 158 	Train loss - 1441.7999114030563 	 MAE - 1441.7999109765353
+Val loss: 1255.4276641845704	 Val error: 60260.52765727796
+Epoch - 2	 step - 158 	Train loss - 1141.1441761712608 	 MAE - 1141.1441637594994
+Val loss: 1089.1894424438476	 Val error: 52281.092973889805
+Epoch - 3	 step - 158 	Train loss - 1001.7818323291323 	 MAE - 1001.7818297273542
+Val loss: 946.6723342895508	 Val error: 45440.273175370065
+Epoch - 4	 step - 158 	Train loss - 910.2669224769064 	 MAE - 910.2669200883888
+Val loss: 895.1128631591797	 Val error: 42965.417578125
+Epoch - 5	 step - 158 	Train loss - 850.7298871886055 	 MAE - 850.7298885961249
+Val loss: 830.2539138793945	 Val error: 39852.18794716283
+Epoch - 6	 step - 158 	Train loss - 799.841925087215 	 MAE - 799.8419285846873
+Val loss: 784.1160079956055	 Val error: 37637.56872173109
+Epoch - 7	 step - 158 	Train loss - 757.7569223080042 	 MAE - 757.7569258481284
+Val loss: 763.1094390869141	 Val error: 36629.25362099095
+Epoch - 8	 step - 158 	Train loss - 724.0831337215016 	 MAE - 724.0831362806276
+Val loss: 723.0419570922852	 Val error: 34706.013432874184
+Epoch - 9	 step - 158 	Train loss - 702.4027917250147 	 MAE - 702.4027881848904
+Traceback (most recent call last):
+  File "train.py", line 70, in <module>
+    count_parameters(model2)
+  File "train.py", line 18, in count_parameters
+    table = PrettyTable(["Modules", "Parameters"])
+NameError: name 'PrettyTable' is not defined
+Traceback (most recent call last):
+  File "train.py", line 70, in <module>
+    count_parameters(model2)
+  File "train.py", line 18, in count_parameters
+    table = PrettyTable(["Modules", "Parameters"])
+NameError: name 'PrettyTable' is not defined

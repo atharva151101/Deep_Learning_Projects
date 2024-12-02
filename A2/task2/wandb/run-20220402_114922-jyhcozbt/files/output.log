@@ -1,0 +1,142 @@
+encoder1.0.weight 7200
+encoder1.0.bias 150
+encoder1.2.weight 12000
+encoder1.2.bias 80
+encoder1.4.weight 2800
+encoder1.4.bias 35
+decoder1.0.weight 2800
+decoder1.0.bias 80
+decoder1.2.weight 12000
+decoder1.2.bias 150
+decoder1.4.weight 7200
+decoder1.4.bias 48
+Total Trainable Params: 44543
+Val loss: 3930.562109375	 Val error: 188666.98018092106
+Epoch - 0	 step - 158 	Train loss - 2262.8364603294517 	 MAE - 2262.8364527373774
+Val loss: 1761.6618743896483	 Val error: 84559.76943873355
+Epoch - 1	 step - 158 	Train loss - 1490.7332356770833 	 MAE - 1490.7332216871941
+Val loss: 1280.9618041992187	 Val error: 61486.166205797694
+Epoch - 2	 step - 158 	Train loss - 1190.2351603957843 	 MAE - 1190.2351577513539
+Val loss: 1124.244920349121	 Val error: 53963.755592105255
+Epoch - 3	 step - 158 	Train loss - 1061.702897365738 	 MAE - 1061.7028965553482
+Val loss: 1025.8813186645507	 Val error: 49242.303541324014
+Epoch - 4	 step - 158 	Train loss - 969.2634215924725 	 MAE - 969.2634251752488
+Val loss: 934.9956237792969	 Val error: 44879.790542763156
+Epoch - 5	 step - 158 	Train loss - 904.067026966023 	 MAE - 904.0670293118887
+Val loss: 880.7950164794922	 Val error: 42278.16136924342
+Epoch - 6	 step - 158 	Train loss - 851.669735314711 	 MAE - 851.6697422243515
+Val loss: 854.6038009643555	 Val error: 41020.982442434215
+Epoch - 7	 step - 158 	Train loss - 812.4027583284198 	 MAE - 812.4027591814618
+Val loss: 797.7355438232422	 Val error: 38291.30607267681
+Epoch - 8	 step - 158 	Train loss - 778.3839829162981 	 MAE - 778.3839773288729
+Val loss: 783.5690841674805	 Val error: 37611.31627261513
+Epoch - 9	 step - 158 	Train loss - 754.0978324458284 	 MAE - 754.0978311236132
+encoder2.0.weight 2450
+encoder2.0.bias 70
+encoder2.2.weight 3500
+encoder2.2.bias 50
+encoder2.4.weight 1100
+encoder2.4.bias 22
+decoder2.0.weight 1100
+decoder2.0.bias 50
+decoder2.2.weight 3500
+decoder2.2.bias 70
+decoder2.4.weight 2450
+decoder2.4.bias 35
+Total Trainable Params: 14397
+Val loss: 5348.2667236328125	 Val error: 187189.3345394737
+Epoch - 0	 step - 158 	Train loss - 2734.180460611979 	 MAE - 2734.1804385669366
+Val loss: 1943.7857147216796	 Val error: 68032.49821648849
+Epoch - 1	 step - 158 	Train loss - 1570.865528418583 	 MAE - 1570.865545447739
+Val loss: 1387.3711151123048	 Val error: 48557.99013157895
+Epoch - 2	 step - 158 	Train loss - 1214.5356886761742 	 MAE - 1214.5356958015122
+Val loss: 1146.2196868896485	 Val error: 40117.68951994243
+Epoch - 3	 step - 158 	Train loss - 1054.4348324949635 	 MAE - 1054.4348429544775
+Val loss: 1010.8659149169922	 Val error: 35380.30597245066
+Epoch - 4	 step - 158 	Train loss - 927.906771677845 	 MAE - 927.9067756298665
+Val loss: 896.1011611938477	 Val error: 31363.540630139807
+Epoch - 5	 step - 158 	Train loss - 833.8458294178705 	 MAE - 833.8458332163449
+Val loss: 813.5266403198242	 Val error: 28473.432750822372
+Epoch - 6	 step - 158 	Train loss - 767.9384301143622 	 MAE - 767.9384308784441
+Val loss: 748.3315063476563	 Val error: 26191.60300678454
+Epoch - 7	 step - 158 	Train loss - 717.738992942954 	 MAE - 717.7389931257487
+Val loss: 694.5335586547851	 Val error: 24308.67466591283
+Epoch - 8	 step - 158 	Train loss - 665.6049850751768 	 MAE - 665.60499085149
+Val loss: 648.870979309082	 Val error: 22710.484459806743
+Epoch - 9	 step - 158 	Train loss - 607.6298006645538 	 MAE - 607.6297950125411
+encoder3.0.weight 1100
+encoder3.0.bias 50
+encoder3.2.weight 1750
+encoder3.2.bias 35
+encoder3.4.weight 350
+encoder3.4.bias 10
+decoder3.0.weight 350
+decoder3.0.bias 35
+decoder3.2.weight 1750
+decoder3.2.bias 50
+decoder3.4.weight 1100
+decoder3.4.bias 22
+Total Trainable Params: 6602
+Val loss: 9586.561962890624	 Val error: 210904.36449424346
+Epoch - 0	 step - 158 	Train loss - 4837.004958050806 	 MAE - 4837.004948512245
+Val loss: 3242.5995544433595	 Val error: 71337.19002878289
+Epoch - 1	 step - 158 	Train loss - 2628.939451589524 	 MAE - 2628.9394389800123
+Val loss: 2269.3929138183594	 Val error: 49926.64475226151
+Epoch - 2	 step - 158 	Train loss - 2145.5108504385316 	 MAE - 2145.5108477165522
+Val loss: 1994.5084411621094	 Val error: 43879.185963199016
+Epoch - 3	 step - 158 	Train loss - 1802.9872140944378 	 MAE - 1802.9872248427673
+Val loss: 1612.4602508544922	 Val error: 35474.125138774674
+Epoch - 4	 step - 158 	Train loss - 1534.8922909910573 	 MAE - 1534.8922864776896
+Val loss: 1436.8584747314453	 Val error: 31610.886158511516
+Epoch - 5	 step - 158 	Train loss - 1350.996395470961 	 MAE - 1350.9963846528372
+Val loss: 1276.9652587890625	 Val error: 28093.236595394737
+Epoch - 6	 step - 158 	Train loss - 1240.0279997819625 	 MAE - 1240.0279951639031
+Val loss: 1193.79375	 Val error: 26263.463031969568
+Epoch - 7	 step - 158 	Train loss - 1184.9268080993268 	 MAE - 1184.9268116006765
+Val loss: 1203.1579757690429	 Val error: 26469.475899465462
+Epoch - 8	 step - 158 	Train loss - 1147.1160017289455 	 MAE - 1147.1160080685988
+Val loss: 1149.628239440918	 Val error: 25291.821610300165
+/home/atharva1511/Downloads/CS6910/assignment2/task2/model.py:75: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  y=self.soft(self.linear(x))
+Epoch - 9	 step - 158 	Train loss - 1115.6675395845616 	 MAE - 1115.6675324888033
+encoder1.0.weight 7200
+encoder1.0.bias 150
+encoder1.2.weight 12000
+encoder1.2.bias 80
+encoder1.4.weight 2800
+encoder1.4.bias 35
+encoder2.0.weight 2450
+encoder2.0.bias 70
+encoder2.2.weight 3500
+encoder2.2.bias 50
+encoder2.4.weight 1100
+encoder2.4.bias 22
+encoder3.0.weight 1100
+encoder3.0.bias 50
+encoder3.2.weight 1750
+encoder3.2.bias 35
+encoder3.4.weight 350
+encoder3.4.bias 10
+linear.weight 50
+linear.bias 5
+Total Trainable Params: 32807
+Epoch - 0	 step - 158 	Train loss - 1.7763272636341598 	 ACC - 0.1285049790356394
+Val loss: 1.7616993755102157	 Val acc: 0.14313322368421053
+Epoch - 1	 step - 158 	Train loss - 1.7671639012090814 	 ACC - 0.13603904612159332
+Val loss: 1.5882028669118882	 Val acc: 0.3778577302631579
+Epoch - 2	 step - 158 	Train loss - 1.5097281677917864 	 ACC - 0.3823375262054507
+Val loss: 1.4713120609521866	 Val acc: 0.4137746710526316
+Epoch - 3	 step - 158 	Train loss - 1.467452217198018 	 ACC - 0.4388430293501048
+Val loss: 1.476933553814888	 Val acc: 0.4126027960526316
+Epoch - 4	 step - 158 	Train loss - 1.4559878253336973 	 ACC - 0.4619365828092243
+Val loss: 1.4535270184278488	 Val acc: 0.45587993421052636
+Epoch - 5	 step - 158 	Train loss - 1.4506898106269117 	 ACC - 0.4660311844863732
+Val loss: 1.4549301266670227	 Val acc: 0.4585526315789473
+Epoch - 6	 step - 158 	Train loss - 1.4460887908935547 	 ACC - 0.46979821802935007
+Val loss: 1.448391142487526	 Val acc: 0.4607730263157895
+Epoch - 7	 step - 158 	Train loss - 1.4428978446144727 	 ACC - 0.4703550838574424
+Val loss: 1.4464035332202911	 Val acc: 0.4590871710526316
+Epoch - 8	 step - 158 	Train loss - 1.4370311071287911 	 ACC - 0.4749737945492663
+Val loss: 1.4417650699615479	 Val acc: 0.46404194078947364
+Epoch - 9	 step - 158 	Train loss - 1.4349098085607372 	 ACC - 0.4748427672955975
+Val loss: 1.4433264285326004	 Val acc: 0.45832648026315786

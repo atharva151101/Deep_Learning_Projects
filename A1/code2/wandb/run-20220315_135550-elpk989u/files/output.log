@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "train.py", line 118, in <module>
+    train_one_epoch(model, trainloader, optimizer,
+  File "train.py", line 53, in train_one_epoch
+    acc.append(accuracy(classes, target))
+  File "train.py", line 19, in accuracy
+    input = input.numpy()
+AttributeError: 'list' object has no attribute 'numpy'

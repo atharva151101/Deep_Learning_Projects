@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "train.py", line 175, in <module>
+    train_one_epoch(model, trainloader, optimizer,
+NameError: name 'train_one_epoch' is not defined
+Traceback (most recent call last):
+  File "train.py", line 175, in <module>
+    train_one_epoch(model, trainloader, optimizer,
+NameError: name 'train_one_epoch' is not defined

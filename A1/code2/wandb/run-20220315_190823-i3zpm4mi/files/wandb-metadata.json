@@ -1,0 +1,21 @@
+{
+    "os": "macOS-10.16-x86_64-i386-64bit",
+    "python": "3.8.11",
+    "heartbeatAt": "2022-03-15T13:38:24.836956",
+    "startedAt": "2022-03-15T13:38:23.042443",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "--learning_rate=6.555860370318129e-05",
+        "--momentum=0.9862278743461222",
+        "--num_hidden1=21",
+        "--num_hidden2=25"
+    ],
+    "state": "running",
+    "program": "train.py",
+    "codePath": "train.py",
+    "host": "Tanays-MacBook-Pro.local",
+    "username": "tanay",
+    "executable": "/Users/tanay/opt/anaconda3/envs/pytorch_x86/bin/python"
+}

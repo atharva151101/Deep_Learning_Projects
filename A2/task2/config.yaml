@@ -1,0 +1,49 @@
+
+checkpoint_dir: models
+train_file_path: ../20/dataset1.csv
+val_file_path: ../20/dataset1.csv
+
+cuda: False
+wandb: False
+do_train: True
+do_val: True
+do_predict: True
+use_trained: True
+log_step: 100
+
+batch_size: 64
+
+val_batch_size: 64
+
+
+output_num: 5
+input_num: 48
+
+ae1_input: 48
+ae1_hidden1: 500
+ae1_hidden2: 200
+ae1_output: 35
+ae1_epochs: 100
+ae1_learning_rate: 0.001
+ae1_momentum: 0.9198
+ae1_weight_decay: 0.01
+
+ae2_input: 35
+ae2_hidden1: 250
+ae2_hidden2: 200
+ae2_output: 22
+ae2_epochs: 100
+ae2_learning_rate: 0.001
+ae2_weight_decay: 0.01
+
+ae3_input: 22
+ae3_hidden1: 200
+ae3_hidden2: 100
+ae3_output: 10
+ae3_epochs: 100
+ae3_learning_rate: 0.001
+ae3_weight_decay: 0.01
+
+epochs: 100
+learning_rate: 0.001
+weight_decay: 0.01

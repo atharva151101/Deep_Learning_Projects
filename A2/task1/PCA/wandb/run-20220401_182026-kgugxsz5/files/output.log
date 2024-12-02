@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "train.py", line 27, in <module>
+    X_train = pca.fit_transform(X_train)
+NameError: name 'X_train' is not defined
+Traceback (most recent call last):
+  File "train.py", line 27, in <module>
+    X_train = pca.fit_transform(X_train)
+NameError: name 'X_train' is not defined

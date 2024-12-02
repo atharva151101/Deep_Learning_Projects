@@ -1,0 +1,4 @@
+
+Val loss: 3934.211590576172	 Val error: 188842.1578125
+Epoch - 0	 step - 158 	Train loss - 2209.688355259925 	 MAE - 2209.688353042016
+Total Trainable Params: 0

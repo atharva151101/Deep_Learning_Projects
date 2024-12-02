@@ -1,0 +1,72 @@
+2022-03-16 23:51:48 INFO Running runs: []
+2022-03-16 23:51:49 INFO Agent received command: run
+2022-03-16 23:51:49 INFO Agent starting run with config:
+	learning_rate: 3.919658313672815e-05
+	num_hidden1: 99
+	num_hidden2: 50
+2022-03-16 23:51:49 INFO About to run command: /usr/bin/env python train.py --learning_rate=3.919658313672815e-05 --num_hidden1=99 --num_hidden2=50
+2022-03-16 23:51:54 INFO Running runs: ['3fgcd599']
+2022-03-16 23:52:31 INFO Running runs: []
+2022-03-16 23:52:32 INFO Agent received command: run
+2022-03-16 23:52:32 INFO Agent starting run with config:
+	learning_rate: 6.942175364486464e-05
+	num_hidden1: 61
+	num_hidden2: 24
+2022-03-16 23:52:32 INFO About to run command: /usr/bin/env python train.py --learning_rate=6.942175364486464e-05 --num_hidden1=61 --num_hidden2=24
+2022-03-16 23:52:37 INFO Running runs: ['4q6de1r0']
+2022-03-16 23:56:15 INFO Cleaning up finished run: 4q6de1r0
+2022-03-16 23:56:15 INFO Agent received command: run
+2022-03-16 23:56:15 INFO Agent starting run with config:
+	learning_rate: 3.724029316810715e-05
+	num_hidden1: 73
+	num_hidden2: 32
+2022-03-16 23:56:15 INFO About to run command: /usr/bin/env python train.py --learning_rate=3.724029316810715e-05 --num_hidden1=73 --num_hidden2=32
+2022-03-16 23:56:20 INFO Running runs: ['e229o2s7']
+2022-03-17 00:00:03 INFO Cleaning up finished run: e229o2s7
+2022-03-17 00:00:04 INFO Agent received command: run
+2022-03-17 00:00:04 INFO Agent starting run with config:
+	learning_rate: 6.69716285552368e-05
+	num_hidden1: 91
+	num_hidden2: 55
+2022-03-17 00:00:04 INFO About to run command: /usr/bin/env python train.py --learning_rate=6.69716285552368e-05 --num_hidden1=91 --num_hidden2=55
+2022-03-17 00:00:09 INFO Running runs: ['growkqco']
+2022-03-17 00:03:48 INFO Cleaning up finished run: growkqco
+2022-03-17 00:03:49 INFO Agent received command: run
+2022-03-17 00:03:49 INFO Agent starting run with config:
+	learning_rate: 7.187895340604443e-05
+	num_hidden1: 90
+	num_hidden2: 53
+2022-03-17 00:03:49 INFO About to run command: /usr/bin/env python train.py --learning_rate=7.187895340604443e-05 --num_hidden1=90 --num_hidden2=53
+2022-03-17 00:03:54 INFO Running runs: ['n1im3qhd']
+2022-03-17 00:07:44 INFO Cleaning up finished run: n1im3qhd
+2022-03-17 00:07:44 INFO Agent received command: run
+2022-03-17 00:07:44 INFO Agent starting run with config:
+	learning_rate: 8.676796948915919e-05
+	num_hidden1: 95
+	num_hidden2: 65
+2022-03-17 00:07:44 INFO About to run command: /usr/bin/env python train.py --learning_rate=8.676796948915919e-05 --num_hidden1=95 --num_hidden2=65
+2022-03-17 00:07:49 INFO Running runs: ['txu4pfl7']
+2022-03-17 00:11:42 INFO Cleaning up finished run: txu4pfl7
+2022-03-17 00:11:44 INFO Agent received command: run
+2022-03-17 00:11:44 INFO Agent starting run with config:
+	learning_rate: 9.490980998195971e-05
+	num_hidden1: 82
+	num_hidden2: 70
+2022-03-17 00:11:44 INFO About to run command: /usr/bin/env python train.py --learning_rate=9.490980998195971e-05 --num_hidden1=82 --num_hidden2=70
+2022-03-17 00:11:49 INFO Running runs: ['ybln1116']
+2022-03-17 00:15:36 INFO Cleaning up finished run: ybln1116
+2022-03-17 00:15:37 INFO Agent received command: run
+2022-03-17 00:15:37 INFO Agent starting run with config:
+	learning_rate: 9.948045993381796e-05
+	num_hidden1: 96
+	num_hidden2: 67
+2022-03-17 00:15:37 INFO About to run command: /usr/bin/env python train.py --learning_rate=9.948045993381796e-05 --num_hidden1=96 --num_hidden2=67
+2022-03-17 00:15:42 INFO Running runs: ['wpd7qny9']
+2022-03-17 00:19:38 INFO Cleaning up finished run: wpd7qny9
+2022-03-17 00:19:39 INFO Agent received command: run
+2022-03-17 00:19:39 INFO Agent starting run with config:
+	learning_rate: 4.053711195216586e-05
+	num_hidden1: 60
+	num_hidden2: 52
+2022-03-17 00:19:39 INFO About to run command: /usr/bin/env python train.py --learning_rate=4.053711195216586e-05 --num_hidden1=60 --num_hidden2=52
+2022-03-17 00:19:44 INFO Running runs: ['ngppw4e5']

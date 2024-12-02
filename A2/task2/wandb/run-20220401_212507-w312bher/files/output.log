@@ -1,0 +1,29 @@
+encoder1.0.weight 7200
+encoder1.0.bias 150
+encoder1.2.weight 12000
+encoder1.2.bias 80
+encoder1.4.weight 2400
+encoder1.4.bias 30
+decoder1.0.weight 2400
+decoder1.0.bias 80
+decoder1.2.weight 12000
+decoder1.2.bias 150
+decoder1.4.weight 7200
+decoder1.4.bias 48
+Total Trainable Params: 43738
+Val loss: 3934.211590576172	 Val error: 188842.1578125
+Epoch - 0	 step - 158 	Train loss - 2209.688355259925 	 MAE - 2209.688353042016
+Traceback (most recent call last):
+  File "train.py", line 61, in <module>
+    model2 = AE2(cfg,model1.encoder)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1185, in __getattr__
+    raise AttributeError("'{}' object has no attribute '{}'".format(
+AttributeError: 'AE1' object has no attribute 'encoder'
+Traceback (most recent call last):
+  File "train.py", line 61, in <module>
+    model2 = AE2(cfg,model1.encoder)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1185, in __getattr__
+    raise AttributeError("'{}' object has no attribute '{}'".format(
+AttributeError: 'AE1' object has no attribute 'encoder'
+Val loss: 1695.8047790527344	 Val error: 81398.62918379935
+Epoch - 1	 step - 158 	Train loss - 1441.7999114030563 	 MAE - 1441.7999109765353

@@ -1,0 +1,48 @@
+Epoch - 0	 step - 349 	Train loss - 139.48765793388554 	 MAE - 8.388622222542763
+Val loss: 50.45992933042055	 Val error: 5.3515659792750485
+Epoch - 1	 step - 349 	Train loss - 35.947619519794536 	 MAE - 4.33338390648365
+Val loss: 20.127083110236335	 Val error: 3.2813595474935044
+Epoch - 2	 step - 349 	Train loss - 17.5097502914886 	 MAE - 2.996618272619588
+Val loss: 9.37855058782346	 Val error: 2.273904494795145
+/home/atharva1511/.local/lib/python3.8/site-packages/torch/nn/modules/loss.py:529: UserWarning: Using a target size (torch.Size([1])) that is different to the input size (torch.Size([])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+Traceback (most recent call last):
+  File "train.py", line 146, in <module>
+    train_one_epoch(model, trainloader, optimizer,
+  File "train.py", line 66, in train_one_epoch
+    output = model(data)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/atharva1511/Downloads/CS6910/CS6910/code1/model.py", line 16, in forward
+    y = self.linear3(h2)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/nn/modules/linear.py", line 103, in forward
+    return F.linear(input, self.weight, self.bias)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "train.py", line 146, in <module>
+    train_one_epoch(model, trainloader, optimizer,
+  File "train.py", line 66, in train_one_epoch
+    output = model(data)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/atharva1511/Downloads/CS6910/CS6910/code1/model.py", line 16, in forward
+    y = self.linear3(h2)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/nn/modules/linear.py", line 103, in forward
+    return F.linear(input, self.weight, self.bias)
+KeyboardInterrupt
+Epoch - 3	 step - 349 	Train loss - 9.951662191292403 	 MAE - 2.213779758598123
+Val loss: 4.472017615427224	 Val error: 1.6077655273325302
+Epoch - 4	 step - 349 	Train loss - 5.9143182104637 	 MAE - 1.6520365403379713
+Val loss: 2.4822784880389186	 Val error: 1.0041225412312675
+Epoch - 5	 step - 349 	Train loss - 4.165847846651351 	 MAE - 1.3735632470675878
+Val loss: 2.138875395546504	 Val error: 1.1497595789385777
+Epoch - 6	 step - 349 	Train loss - 4.95119125460044 	 MAE - 1.5611882139103754
+Val loss: 1.7420501446415038	 Val error: 1.0030520412267423
+Epoch - 7	 step - 349 	Train loss - 4.116041937249957 	 MAE - 1.3573654796395982
+Val loss: 1.876308068267855	 Val error: 1.083149122841218
+Epoch - 8	 step - 349 	Train loss - 2.0518105638899993 	 MAE - 0.9607477293695722
+Val loss: 0.8831808308776303	 Val error: 0.7638937264096504

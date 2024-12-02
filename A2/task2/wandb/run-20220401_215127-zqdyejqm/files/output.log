@@ -1,0 +1,107 @@
+encoder1.0.weight 7200
+encoder1.0.bias 150
+encoder1.2.weight 12000
+encoder1.2.bias 80
+encoder1.4.weight 2400
+encoder1.4.bias 30
+decoder1.0.weight 2400
+decoder1.0.bias 80
+decoder1.2.weight 12000
+decoder1.2.bias 150
+decoder1.4.weight 7200
+decoder1.4.bias 48
+Total Trainable Params: 43738
+Traceback (most recent call last):
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'x48'
+The above exception was the direct cause of the following exception:
+Traceback (most recent call last):
+  File "train.py", line 56, in <module>
+    val_error = eval1(model1,
+  File "/home/atharva1511/Downloads/CS6910/assignment2/task2/encoder_functions.py", line 76, in eval1
+    for data, target in valloader:
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 530, in __next__
+    data = self._next_data()
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 570, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 49, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 49, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/atharva1511/Downloads/CS6910/assignment2/task2/dataloader.py", line 35, in __getitem__
+    input = self.X.loc[idx, :string].values.astype(np.float32)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/core/indexing.py", line 961, in __getitem__
+    return self._getitem_tuple(key)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/core/indexing.py", line 1140, in _getitem_tuple
+    return self._getitem_lowerdim(tup)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/core/indexing.py", line 891, in _getitem_lowerdim
+    return getattr(section, self.name)[new_key]
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/core/indexing.py", line 967, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/core/indexing.py", line 1180, in _getitem_axis
+    return self._get_slice_axis(key, axis=axis)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/core/indexing.py", line 1214, in _get_slice_axis
+    indexer = labels.slice_indexer(slice_obj.start, slice_obj.stop, slice_obj.step)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 6274, in slice_indexer
+    start_slice, end_slice = self.slice_locs(start, end, step=step)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 6490, in slice_locs
+    end_slice = self.get_slice_bound(end, "right")
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 6403, in get_slice_bound
+    raise err
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 6397, in get_slice_bound
+    slc = self.get_loc(label)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'x48'
+Traceback (most recent call last):
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'x48'
+The above exception was the direct cause of the following exception:
+Traceback (most recent call last):
+  File "train.py", line 56, in <module>
+    val_error = eval1(model1,
+  File "/home/atharva1511/Downloads/CS6910/assignment2/task2/encoder_functions.py", line 76, in eval1
+    for data, target in valloader:
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 530, in __next__
+    data = self._next_data()
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 570, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 49, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 49, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/atharva1511/Downloads/CS6910/assignment2/task2/dataloader.py", line 35, in __getitem__
+    input = self.X.loc[idx, :string].values.astype(np.float32)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/core/indexing.py", line 961, in __getitem__
+    return self._getitem_tuple(key)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/core/indexing.py", line 1140, in _getitem_tuple
+    return self._getitem_lowerdim(tup)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/core/indexing.py", line 891, in _getitem_lowerdim
+    return getattr(section, self.name)[new_key]
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/core/indexing.py", line 967, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/core/indexing.py", line 1180, in _getitem_axis
+    return self._get_slice_axis(key, axis=axis)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/core/indexing.py", line 1214, in _get_slice_axis
+    indexer = labels.slice_indexer(slice_obj.start, slice_obj.stop, slice_obj.step)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 6274, in slice_indexer
+    start_slice, end_slice = self.slice_locs(start, end, step=step)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 6490, in slice_locs
+    end_slice = self.get_slice_bound(end, "right")
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 6403, in get_slice_bound
+    raise err
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 6397, in get_slice_bound
+    slc = self.get_loc(label)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'x48'

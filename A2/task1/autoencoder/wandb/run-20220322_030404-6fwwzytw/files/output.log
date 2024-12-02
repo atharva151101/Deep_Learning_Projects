@@ -1,0 +1,38 @@
+
+Epoch - 0	 step - 10135 	Train loss - 3662.7929098826276 	 MAE - 3662.7929103322417
+/home/atharva1511/.local/lib/python3.8/site-packages/torch/nn/modules/loss.py:96: UserWarning: Using a target size (torch.Size([1, 48])) that is different to the input size (torch.Size([48])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.l1_loss(input, target, reduction=self.reduction)
+Val loss: 3435.760244849731	 Val error: 164916.48832749604
+Epoch - 1	 step - 10135 	Train loss - 3285.4602047650005 	 MAE - 3285.460202830053
+Val loss: 3157.073309051586	 Val error: 151539.5186402427
+Epoch - 2	 step - 10135 	Train loss - 3069.677306430398 	 MAE - 3069.6773093769784
+Val loss: 2991.2169390816152	 Val error: 143578.41311291436
+Epoch - 3	 step - 10135 	Train loss - 2939.345124350821 	 MAE - 2939.345125225963
+Val loss: 2888.8798767427056	 Val error: 138666.23451373816
+Epoch - 4	 step - 10135 	Train loss - 2858.1378391810827 	 MAE - 2858.137839397861
+Val loss: 2824.175660335839	 Val error: 135560.43171307715
+Epoch - 5	 step - 10135 	Train loss - 2806.5585203584765 	 MAE - 2806.558521683233
+Val loss: 2782.693093990094	 Val error: 133569.26815003454
+Epoch - 6	 step - 10135 	Train loss - 2773.5531176752997 	 MAE - 2773.55311482908
+Val loss: 2756.1848905664215	 Val error: 132296.8749907508
+Epoch - 7	 step - 10135 	Train loss - 2752.3232562660514 	 MAE - 2752.3232571692943
+Val loss: 2739.083382405535	 Val error: 131476.00228455506
+Epoch - 8	 step - 10135 	Train loss - 2738.662752917741 	 MAE - 2738.662750846303
+Val loss: 2728.0453984020446	 Val error: 130946.17800106057
+Epoch - 9	 step - 10135 	Train loss - 2729.7371089125395 	 MAE - 2729.737108591386
+Val loss: 2720.775823266467	 Val error: 130597.2389132794
+Epoch - 10	 step - 10135 	Train loss - 2723.93557487554 	 MAE - 2723.9355723745603
+Val loss: 2716.038923713666	 Val error: 130369.86810317186
+Epoch - 11	 step - 10135 	Train loss - 2720.1704033036444 	 MAE - 2720.17040199896
+Val loss: 2712.939627222123	 Val error: 130221.10242884274
+Epoch - 12	 step - 10135 	Train loss - 2717.6934938257664 	 MAE - 2717.6934933761518
+Val loss: 2710.937194776046	 Val error: 130124.98544790845
+Epoch - 13	 step - 10135 	Train loss - 2716.059324485821 	 MAE - 2716.0593232172655
+Val loss: 2709.6191815238535	 Val error: 130061.72146001874
+Epoch - 14	 step - 10135 	Train loss - 2714.978836396781 	 MAE - 2714.9788356059416
+Val loss: 2708.7622675846765	 Val error: 130020.58960635359
+Epoch - 15	 step - 10135 	Train loss - 2714.2591752290914 	 MAE - 2714.2591746229145
+Val loss: 2708.1870544481767	 Val error: 129992.97847092048
+Epoch - 16	 step - 10135 	Train loss - 2713.7806307364376 	 MAE - 2713.780634188834
+Val loss: 2707.807186810163	 Val error: 129974.74448130427
+Epoch - 17	 step - 10135 	Train loss - 2713.456029131738 	 MAE - 2713.4560251735256

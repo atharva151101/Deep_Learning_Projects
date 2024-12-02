@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "train.py", line 27, in <module>
+    optimizer = optim.Adam(model.parameters(), lr=cfg.learning_rate, weight_decay=cfg.weight_decay)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/optim/adam.py", line 77, in __init__
+    if not 0.0 <= weight_decay:
+TypeError: '<=' not supported between instances of 'float' and 'str'
+Traceback (most recent call last):
+  File "train.py", line 27, in <module>
+    optimizer = optim.Adam(model.parameters(), lr=cfg.learning_rate, weight_decay=cfg.weight_decay)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/optim/adam.py", line 77, in __init__
+    if not 0.0 <= weight_decay:
+TypeError: '<=' not supported between instances of 'float' and 'str'

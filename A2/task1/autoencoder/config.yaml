@@ -1,0 +1,26 @@
+
+checkpoint_dir: models
+train_file_path: ../../20/dataset1.csv
+val_file_path: ../../20/dataset1.csv
+out_file_path: ../../20/autoencoder_compressed.csv
+cuda: False
+wandb: False
+do_train: True
+do_val: True
+do_predict: True
+use_trained: True
+log_step: 100
+
+batch_size: 64
+epochs: 100
+val_batch_size: 64
+output_num: 5
+
+input_num: 48
+num_ae_hidden1: 100
+num_ae_hidden2: 500
+num_ae_output: 10
+
+learning_rate: 0.001
+momentum: 0.9198
+weight_decay: 0.01

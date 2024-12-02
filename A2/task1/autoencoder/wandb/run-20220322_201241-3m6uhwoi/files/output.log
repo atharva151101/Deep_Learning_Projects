@@ -1,0 +1,129 @@
+
+Val loss: 3935.540985107422	 Val error: 188905.9678248355
+Epoch - 0	 step - 158 	Train loss - 2773.4023744595124 	 MAE - 133123.31359735323
+Val loss: 2243.205935668945	 Val error: 107673.88338815789
+Epoch - 1	 step - 158 	Train loss - 2067.1962261079993 	 MAE - 99225.4189596436
+Val loss: 1917.3318939208984	 Val error: 92031.93089021381
+Epoch - 2	 step - 158 	Train loss - 1840.0251065620087 	 MAE - 88321.20512316561
+Val loss: 1794.8858978271485	 Val error: 86154.52273848685
+Epoch - 3	 step - 158 	Train loss - 1740.2050228478774 	 MAE - 83529.8413259958
+Val loss: 1693.8475860595704	 Val error: 81304.6841796875
+Epoch - 4	 step - 158 	Train loss - 1658.8995599326847 	 MAE - 79627.17927803982
+Val loss: 1643.8777404785155	 Val error: 78906.13113692435
+Epoch - 5	 step - 158 	Train loss - 1623.0309682402221 	 MAE - 77905.48601284067
+Val loss: 1613.5118469238282	 Val error: 77448.56788651316
+Epoch - 6	 step - 158 	Train loss - 1600.2765337866058 	 MAE - 76813.27352758124
+Val loss: 1595.9433013916016	 Val error: 76605.2771484375
+Epoch - 7	 step - 158 	Train loss - 1584.4808756510417 	 MAE - 76055.08218684485
+Val loss: 1583.2578063964843	 Val error: 75996.37730263158
+Epoch - 8	 step - 158 	Train loss - 1569.1904197069084 	 MAE - 75321.14052672956
+Val loss: 1567.9522033691405	 Val error: 75261.70602384869
+Epoch - 9	 step - 158 	Train loss - 1553.9912393437992 	 MAE - 74591.57924692087
+Val loss: 1550.4248352050781	 Val error: 74420.39417146382
+Epoch - 10	 step - 158 	Train loss - 1535.0114009065448 	 MAE - 73680.54784132598
+Val loss: 1526.0107330322267	 Val error: 73248.5160104852
+Epoch - 11	 step - 158 	Train loss - 1509.7365569108688 	 MAE - 72467.35478085691
+Val loss: 1495.6559204101563	 Val error: 71791.48486842106
+Epoch - 12	 step - 158 	Train loss - 1479.2382052439564 	 MAE - 71003.4338148585
+Val loss: 1463.0271301269531	 Val error: 70225.30204564144
+Epoch - 13	 step - 158 	Train loss - 1453.7001638352497 	 MAE - 69777.60759794289
+Val loss: 1437.372885131836	 Val error: 68993.89838610197
+Epoch - 14	 step - 158 	Train loss - 1434.9472947990369 	 MAE - 68877.46988829925
+Val loss: 1425.918051147461	 Val error: 68444.06655016447
+Epoch - 15	 step - 158 	Train loss - 1424.6383263929836 	 MAE - 68382.63978151206
+Val loss: 1410.7705352783203	 Val error: 67716.98663137337
+Epoch - 16	 step - 158 	Train loss - 1404.1601716047562 	 MAE - 67399.68831073113
+Val loss: 1386.113262939453	 Val error: 66533.435521176
+Epoch - 17	 step - 158 	Train loss - 1388.0795368698407 	 MAE - 66627.81800314465
+Val loss: 1368.4021697998046	 Val error: 65683.30421977796
+Epoch - 18	 step - 158 	Train loss - 1370.4349580200962 	 MAE - 65780.87827568133
+Val loss: 1358.8460205078125	 Val error: 65224.60926192434
+Epoch - 19	 step - 158 	Train loss - 1358.455280807783 	 MAE - 65205.85316758385
+Val loss: 1342.1014770507813	 Val error: 64420.87119140625
+Epoch - 20	 step - 158 	Train loss - 1348.0732283682194 	 MAE - 64707.51524010744
+Val loss: 1333.8018524169922	 Val error: 64022.48987458881
+Epoch - 21	 step - 158 	Train loss - 1337.9707361377261 	 MAE - 64222.594855542455
+Val loss: 1322.054705810547	 Val error: 63458.625627055924
+Epoch - 22	 step - 158 	Train loss - 1330.354268775796 	 MAE - 63857.00518376572
+Val loss: 1309.9712799072265	 Val error: 62878.62064658718
+Epoch - 23	 step - 158 	Train loss - 1318.798769776926 	 MAE - 63302.341194968554
+Val loss: 1299.5374267578125	 Val error: 62377.79698807566
+Epoch - 24	 step - 158 	Train loss - 1310.2401576012185 	 MAE - 62891.52719634434
+Val loss: 1296.7739532470703	 Val error: 62245.14951685855
+Epoch - 25	 step - 158 	Train loss - 1303.3203378353478 	 MAE - 62559.37513921646
+Val loss: 1288.6949279785156	 Val error: 61857.35613178454
+Epoch - 26	 step - 158 	Train loss - 1294.8855130177624 	 MAE - 62154.50478249477
+Val loss: 1277.0200607299805	 Val error: 61296.964555921055
+Epoch - 27	 step - 158 	Train loss - 1290.2804193076847 	 MAE - 61933.4601922825
+Val loss: 1279.0374664306642	 Val error: 61393.79850945724
+Epoch - 28	 step - 158 	Train loss - 1284.3365478515625 	 MAE - 61648.15442380766
+Val loss: 1264.794485473633	 Val error: 60710.13448807566
+Traceback (most recent call last):
+  File "train.py", line 47, in <module>
+    train_one_epoch1(model, trainloader, optimizer,
+  File "/home/atharva1511/Downloads/CS6910/assignment2/code2/encoder_functions.py", line 21, in train_one_epoch1
+    for i, (data, target) in enumerate(dataset):
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 530, in __next__
+    data = self._next_data()
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 570, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 49, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 49, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/atharva1511/Downloads/CS6910/assignment2/code2/dataloader.py", line 33, in __getitem__
+    input = self.X.loc[idx, :'x47'].values.astype(np.float32)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/core/indexing.py", line 961, in __getitem__
+    return self._getitem_tuple(key)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/core/indexing.py", line 1140, in _getitem_tuple
+    return self._getitem_lowerdim(tup)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/core/indexing.py", line 867, in _getitem_lowerdim
+    section = self._getitem_axis(key, axis=i)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/core/indexing.py", line 1202, in _getitem_axis
+    return self._get_label(key, axis=axis)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/core/indexing.py", line 1153, in _get_label
+    return self.obj.xs(label, axis=axis)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/core/generic.py", line 3898, in xs
+    result = self._constructor_sliced(
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/core/series.py", line 460, in __init__
+    self.name = name
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/core/generic.py", line 5605, in __setattr__
+    object.__setattr__(self, name, value)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/core/series.py", line 640, in name
+    @name.setter
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "train.py", line 47, in <module>
+    train_one_epoch1(model, trainloader, optimizer,
+  File "/home/atharva1511/Downloads/CS6910/assignment2/code2/encoder_functions.py", line 21, in train_one_epoch1
+    for i, (data, target) in enumerate(dataset):
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 530, in __next__
+    data = self._next_data()
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 570, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 49, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 49, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/atharva1511/Downloads/CS6910/assignment2/code2/dataloader.py", line 33, in __getitem__
+    input = self.X.loc[idx, :'x47'].values.astype(np.float32)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/core/indexing.py", line 961, in __getitem__
+    return self._getitem_tuple(key)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/core/indexing.py", line 1140, in _getitem_tuple
+    return self._getitem_lowerdim(tup)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/core/indexing.py", line 867, in _getitem_lowerdim
+    section = self._getitem_axis(key, axis=i)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/core/indexing.py", line 1202, in _getitem_axis
+    return self._get_label(key, axis=axis)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/core/indexing.py", line 1153, in _get_label
+    return self.obj.xs(label, axis=axis)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/core/generic.py", line 3898, in xs
+    result = self._constructor_sliced(
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/core/series.py", line 460, in __init__
+    self.name = name
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/core/generic.py", line 5605, in __setattr__
+    object.__setattr__(self, name, value)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/core/series.py", line 640, in name
+    @name.setter
+KeyboardInterrupt
+Epoch - 29	 step - 158 	Train loss - 1277.480953192561 	 MAE - 61319.08551985063

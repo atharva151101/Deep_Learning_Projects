@@ -1,0 +1,8 @@
+wandb_version: 1
+
+learning_rate:
+  value: 4.053711195216586e-05
+num_hidden1:
+  value: 60
+num_hidden2:
+  value: 52

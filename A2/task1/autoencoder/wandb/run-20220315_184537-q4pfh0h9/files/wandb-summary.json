@@ -1,0 +1,1 @@
+{"epoch": 99, "train_loss": 0.0667022782682352, "train_acc": 0.9825, "_timestamp": 1647350188, "_runtime": 50, "_step": 212, "val_loss": 0.12445034574826423, "val_acc": 0.96, "val_mae_best": 0.99, "_wandb": {"runtime": 51}}

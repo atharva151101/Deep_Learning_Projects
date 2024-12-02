@@ -1,0 +1,412 @@
+2022-03-15 18:41:49 INFO Running runs: []
+2022-03-15 18:41:51 INFO Agent received command: run
+2022-03-15 18:41:51 INFO Agent starting run with config:
+	learning_rate: 4.719156610699576e-05
+	momentum: 0.9090211891683104
+	num_hidden1: 22
+	num_hidden2: 7
+2022-03-15 18:41:51 INFO About to run command: /usr/bin/env python train.py --learning_rate=4.719156610699576e-05 --momentum=0.9090211891683104 --num_hidden1=22 --num_hidden2=7
+2022-03-15 18:41:56 INFO Running runs: ['7k1i4cpo']
+2022-03-15 18:43:01 INFO Cleaning up finished run: 7k1i4cpo
+2022-03-15 18:43:02 INFO Agent received command: run
+2022-03-15 18:43:02 INFO Agent starting run with config:
+	learning_rate: 4.142698749800712e-05
+	momentum: 0.9513353044886814
+	num_hidden1: 6
+	num_hidden2: 23
+2022-03-15 18:43:02 INFO About to run command: /usr/bin/env python train.py --learning_rate=4.142698749800712e-05 --momentum=0.9513353044886814 --num_hidden1=6 --num_hidden2=23
+2022-03-15 18:43:07 INFO Running runs: ['295ifkcr']
+2022-03-15 18:44:18 INFO Cleaning up finished run: 295ifkcr
+2022-03-15 18:44:20 INFO Agent received command: run
+2022-03-15 18:44:20 INFO Agent starting run with config:
+	learning_rate: 9.172147674993762e-05
+	momentum: 0.8129350777552065
+	num_hidden1: 4
+	num_hidden2: 18
+2022-03-15 18:44:20 INFO About to run command: /usr/bin/env python train.py --learning_rate=9.172147674993762e-05 --momentum=0.8129350777552065 --num_hidden1=4 --num_hidden2=18
+2022-03-15 18:44:25 INFO Running runs: ['ia19r3io']
+2022-03-15 18:45:32 INFO Cleaning up finished run: ia19r3io
+2022-03-15 18:45:35 INFO Agent received command: run
+2022-03-15 18:45:35 INFO Agent starting run with config:
+	learning_rate: 3.0134496769787737e-05
+	momentum: 0.9683526670261584
+	num_hidden1: 6
+	num_hidden2: 20
+2022-03-15 18:45:35 INFO About to run command: /usr/bin/env python train.py --learning_rate=3.0134496769787737e-05 --momentum=0.9683526670261584 --num_hidden1=6 --num_hidden2=20
+2022-03-15 18:45:40 INFO Running runs: ['q4pfh0h9']
+2022-03-15 18:46:42 INFO Cleaning up finished run: q4pfh0h9
+2022-03-15 18:46:42 INFO Agent received command: run
+2022-03-15 18:46:42 INFO Agent starting run with config:
+	learning_rate: 2.2784817526342888e-05
+	momentum: 0.9700571688152642
+	num_hidden1: 19
+	num_hidden2: 16
+2022-03-15 18:46:42 INFO About to run command: /usr/bin/env python train.py --learning_rate=2.2784817526342888e-05 --momentum=0.9700571688152642 --num_hidden1=19 --num_hidden2=16
+2022-03-15 18:46:47 INFO Running runs: ['cl940u5o']
+2022-03-15 18:47:50 INFO Cleaning up finished run: cl940u5o
+2022-03-15 18:47:50 INFO Agent received command: run
+2022-03-15 18:47:50 INFO Agent starting run with config:
+	learning_rate: 6.638889083253244e-06
+	momentum: 0.989210861905672
+	num_hidden1: 25
+	num_hidden2: 13
+2022-03-15 18:47:50 INFO About to run command: /usr/bin/env python train.py --learning_rate=6.638889083253244e-06 --momentum=0.989210861905672 --num_hidden1=25 --num_hidden2=13
+2022-03-15 18:47:55 INFO Running runs: ['4duks234']
+2022-03-15 18:48:57 INFO Cleaning up finished run: 4duks234
+2022-03-15 18:48:58 INFO Agent received command: run
+2022-03-15 18:48:58 INFO Agent starting run with config:
+	learning_rate: 9.30587348335588e-06
+	momentum: 0.970364221633489
+	num_hidden1: 22
+	num_hidden2: 25
+2022-03-15 18:48:58 INFO About to run command: /usr/bin/env python train.py --learning_rate=9.30587348335588e-06 --momentum=0.970364221633489 --num_hidden1=22 --num_hidden2=25
+2022-03-15 18:49:03 INFO Running runs: ['732ahqwn']
+2022-03-15 18:50:05 INFO Cleaning up finished run: 732ahqwn
+2022-03-15 18:50:06 INFO Agent received command: run
+2022-03-15 18:50:06 INFO Agent starting run with config:
+	learning_rate: 7.245321053462148e-06
+	momentum: 0.989265260270848
+	num_hidden1: 18
+	num_hidden2: 6
+2022-03-15 18:50:06 INFO About to run command: /usr/bin/env python train.py --learning_rate=7.245321053462148e-06 --momentum=0.989265260270848 --num_hidden1=18 --num_hidden2=6
+2022-03-15 18:50:11 INFO Running runs: ['53hwzvp2']
+2022-03-15 18:51:12 INFO Cleaning up finished run: 53hwzvp2
+2022-03-15 18:51:13 INFO Agent received command: run
+2022-03-15 18:51:13 INFO Agent starting run with config:
+	learning_rate: 2.117364588391893e-05
+	momentum: 0.9871127604253658
+	num_hidden1: 25
+	num_hidden2: 7
+2022-03-15 18:51:13 INFO About to run command: /usr/bin/env python train.py --learning_rate=2.117364588391893e-05 --momentum=0.9871127604253658 --num_hidden1=25 --num_hidden2=7
+2022-03-15 18:51:18 INFO Running runs: ['gj47feu1']
+2022-03-15 18:52:19 INFO Cleaning up finished run: gj47feu1
+2022-03-15 18:52:20 INFO Agent received command: run
+2022-03-15 18:52:20 INFO Agent starting run with config:
+	learning_rate: 5.345964629701125e-05
+	momentum: 0.9858927609520995
+	num_hidden1: 20
+	num_hidden2: 12
+2022-03-15 18:52:20 INFO About to run command: /usr/bin/env python train.py --learning_rate=5.345964629701125e-05 --momentum=0.9858927609520995 --num_hidden1=20 --num_hidden2=12
+2022-03-15 18:53:13 INFO Running runs: []
+2022-03-15 18:53:14 INFO Agent received command: run
+2022-03-15 18:53:14 INFO Agent starting run with config:
+	learning_rate: 6.137368538574786e-06
+	momentum: 0.9866069106419086
+	num_hidden1: 22
+	num_hidden2: 12
+2022-03-15 18:53:14 INFO About to run command: /usr/bin/env python train.py --learning_rate=6.137368538574786e-06 --momentum=0.9866069106419086 --num_hidden1=22 --num_hidden2=12
+2022-03-15 18:53:19 INFO Running runs: ['qf8g44bk']
+2022-03-15 18:54:24 INFO Cleaning up finished run: qf8g44bk
+2022-03-15 18:54:26 INFO Agent received command: run
+2022-03-15 18:54:26 INFO Agent starting run with config:
+	learning_rate: 2.703740082641411e-06
+	momentum: 0.953391863804196
+	num_hidden1: 9
+	num_hidden2: 5
+2022-03-15 18:54:26 INFO About to run command: /usr/bin/env python train.py --learning_rate=2.703740082641411e-06 --momentum=0.953391863804196 --num_hidden1=9 --num_hidden2=5
+2022-03-15 18:54:31 INFO Running runs: ['m4y87koh']
+2022-03-15 18:55:23 INFO Running runs: []
+2022-03-15 18:55:24 INFO Agent received command: run
+2022-03-15 18:55:24 INFO Agent starting run with config:
+	learning_rate: 5.789271353926142e-05
+	momentum: 0.9347690358624242
+	num_hidden1: 16
+	num_hidden2: 6
+2022-03-15 18:55:24 INFO About to run command: /usr/bin/env python train.py --learning_rate=5.789271353926142e-05 --momentum=0.9347690358624242 --num_hidden1=16 --num_hidden2=6
+2022-03-15 18:55:29 INFO Running runs: ['y41rfhae']
+2022-03-15 18:56:31 INFO Cleaning up finished run: y41rfhae
+2022-03-15 18:56:33 INFO Agent received command: run
+2022-03-15 18:56:33 INFO Agent starting run with config:
+	learning_rate: 5.2883293098343856e-05
+	momentum: 0.8370386424262612
+	num_hidden1: 19
+	num_hidden2: 5
+2022-03-15 18:56:33 INFO About to run command: /usr/bin/env python train.py --learning_rate=5.2883293098343856e-05 --momentum=0.8370386424262612 --num_hidden1=19 --num_hidden2=5
+2022-03-15 18:56:38 INFO Running runs: ['5ffkucsf']
+2022-03-15 18:59:14 INFO Running runs: []
+2022-03-15 18:59:15 INFO Agent received command: run
+2022-03-15 18:59:15 INFO Agent starting run with config:
+	learning_rate: 4.4949085015862845e-05
+	momentum: 0.948687952530975
+	num_hidden1: 12
+	num_hidden2: 24
+2022-03-15 18:59:15 INFO About to run command: /usr/bin/env python train.py --learning_rate=4.4949085015862845e-05 --momentum=0.948687952530975 --num_hidden1=12 --num_hidden2=24
+2022-03-15 18:59:20 INFO Running runs: ['azjdoub0']
+2022-03-15 19:00:21 INFO Cleaning up finished run: azjdoub0
+2022-03-15 19:00:22 INFO Agent received command: run
+2022-03-15 19:00:22 INFO Agent starting run with config:
+	learning_rate: 9.273173148904336e-05
+	momentum: 0.9197671589007932
+	num_hidden1: 13
+	num_hidden2: 18
+2022-03-15 19:00:22 INFO About to run command: /usr/bin/env python train.py --learning_rate=9.273173148904336e-05 --momentum=0.9197671589007932 --num_hidden1=13 --num_hidden2=18
+2022-03-15 19:00:27 INFO Running runs: ['xgej43nq']
+2022-03-15 19:01:28 INFO Cleaning up finished run: xgej43nq
+2022-03-15 19:01:29 INFO Agent received command: run
+2022-03-15 19:01:29 INFO Agent starting run with config:
+	learning_rate: 9.586300084639716e-05
+	momentum: 0.921353298642937
+	num_hidden1: 13
+	num_hidden2: 21
+2022-03-15 19:01:29 INFO About to run command: /usr/bin/env python train.py --learning_rate=9.586300084639716e-05 --momentum=0.921353298642937 --num_hidden1=13 --num_hidden2=21
+2022-03-15 19:01:34 INFO Running runs: ['jefblwrh']
+2022-03-15 19:02:36 INFO Cleaning up finished run: jefblwrh
+2022-03-15 19:02:37 INFO Agent received command: run
+2022-03-15 19:02:37 INFO Agent starting run with config:
+	learning_rate: 3.400084066285598e-05
+	momentum: 0.8634959317588872
+	num_hidden1: 21
+	num_hidden2: 5
+2022-03-15 19:02:37 INFO About to run command: /usr/bin/env python train.py --learning_rate=3.400084066285598e-05 --momentum=0.8634959317588872 --num_hidden1=21 --num_hidden2=5
+2022-03-15 19:02:42 INFO Running runs: ['9a6hz3az']
+2022-03-15 19:03:43 INFO Cleaning up finished run: 9a6hz3az
+2022-03-15 19:03:44 INFO Agent received command: run
+2022-03-15 19:03:44 INFO Agent starting run with config:
+	learning_rate: 8.568560971613835e-05
+	momentum: 0.94228743310269
+	num_hidden1: 10
+	num_hidden2: 15
+2022-03-15 19:03:44 INFO About to run command: /usr/bin/env python train.py --learning_rate=8.568560971613835e-05 --momentum=0.94228743310269 --num_hidden1=10 --num_hidden2=15
+2022-03-15 19:03:49 INFO Running runs: ['eibp1fn8']
+2022-03-15 19:04:51 INFO Cleaning up finished run: eibp1fn8
+2022-03-15 19:04:52 INFO Agent received command: run
+2022-03-15 19:04:52 INFO Agent starting run with config:
+	learning_rate: 9.472019178766024e-05
+	momentum: 0.882193735163742
+	num_hidden1: 3
+	num_hidden2: 21
+2022-03-15 19:04:52 INFO About to run command: /usr/bin/env python train.py --learning_rate=9.472019178766024e-05 --momentum=0.882193735163742 --num_hidden1=3 --num_hidden2=21
+2022-03-15 19:04:57 INFO Running runs: ['i1eakq9m']
+2022-03-15 19:05:58 INFO Cleaning up finished run: i1eakq9m
+2022-03-15 19:06:00 INFO Agent received command: run
+2022-03-15 19:06:00 INFO Agent starting run with config:
+	learning_rate: 8.005599608597922e-05
+	momentum: 0.9512464039839128
+	num_hidden1: 18
+	num_hidden2: 21
+2022-03-15 19:06:00 INFO About to run command: /usr/bin/env python train.py --learning_rate=8.005599608597922e-05 --momentum=0.9512464039839128 --num_hidden1=18 --num_hidden2=21
+2022-03-15 19:06:05 INFO Running runs: ['o7fk7oht']
+2022-03-15 19:07:06 INFO Cleaning up finished run: o7fk7oht
+2022-03-15 19:07:08 INFO Agent received command: run
+2022-03-15 19:07:08 INFO Agent starting run with config:
+	learning_rate: 9.084426229583444e-05
+	momentum: 0.9481099473590092
+	num_hidden1: 15
+	num_hidden2: 16
+2022-03-15 19:07:08 INFO About to run command: /usr/bin/env python train.py --learning_rate=9.084426229583444e-05 --momentum=0.9481099473590092 --num_hidden1=15 --num_hidden2=16
+2022-03-15 19:07:13 INFO Running runs: ['zw5z3eie']
+2022-03-15 19:08:19 INFO Cleaning up finished run: zw5z3eie
+2022-03-15 19:08:20 INFO Agent received command: run
+2022-03-15 19:08:20 INFO Agent starting run with config:
+	learning_rate: 6.555860370318129e-05
+	momentum: 0.9862278743461222
+	num_hidden1: 21
+	num_hidden2: 25
+2022-03-15 19:08:20 INFO About to run command: /usr/bin/env python train.py --learning_rate=6.555860370318129e-05 --momentum=0.9862278743461222 --num_hidden1=21 --num_hidden2=25
+2022-03-15 19:08:25 INFO Running runs: ['i3zpm4mi']
+2022-03-15 19:09:27 INFO Cleaning up finished run: i3zpm4mi
+2022-03-15 19:09:28 INFO Agent received command: run
+2022-03-15 19:09:28 INFO Agent starting run with config:
+	learning_rate: 6.619590458817926e-05
+	momentum: 0.978973405998848
+	num_hidden1: 16
+	num_hidden2: 23
+2022-03-15 19:09:28 INFO About to run command: /usr/bin/env python train.py --learning_rate=6.619590458817926e-05 --momentum=0.978973405998848 --num_hidden1=16 --num_hidden2=23
+2022-03-15 19:09:33 INFO Running runs: ['eiil26tp']
+2022-03-15 19:10:34 INFO Cleaning up finished run: eiil26tp
+2022-03-15 19:10:35 INFO Agent received command: run
+2022-03-15 19:10:35 INFO Agent starting run with config:
+	learning_rate: 9.599893956740069e-05
+	momentum: 0.9406866417854244
+	num_hidden1: 25
+	num_hidden2: 24
+2022-03-15 19:10:35 INFO About to run command: /usr/bin/env python train.py --learning_rate=9.599893956740069e-05 --momentum=0.9406866417854244 --num_hidden1=25 --num_hidden2=24
+2022-03-15 19:10:40 INFO Running runs: ['4yxmjcc8']
+2022-03-15 19:11:42 INFO Cleaning up finished run: 4yxmjcc8
+2022-03-15 19:11:43 INFO Agent received command: run
+2022-03-15 19:11:43 INFO Agent starting run with config:
+	learning_rate: 6.261171497807237e-05
+	momentum: 0.9257974287436253
+	num_hidden1: 23
+	num_hidden2: 24
+2022-03-15 19:11:43 INFO About to run command: /usr/bin/env python train.py --learning_rate=6.261171497807237e-05 --momentum=0.9257974287436253 --num_hidden1=23 --num_hidden2=24
+2022-03-15 19:11:48 INFO Running runs: ['aih7q7ok']
+2022-03-15 19:12:49 INFO Cleaning up finished run: aih7q7ok
+2022-03-15 19:12:50 INFO Agent received command: run
+2022-03-15 19:12:50 INFO Agent starting run with config:
+	learning_rate: 9.77473439216326e-05
+	momentum: 0.9812516214935932
+	num_hidden1: 24
+	num_hidden2: 25
+2022-03-15 19:12:50 INFO About to run command: /usr/bin/env python train.py --learning_rate=9.77473439216326e-05 --momentum=0.9812516214935932 --num_hidden1=24 --num_hidden2=25
+2022-03-15 19:12:55 INFO Running runs: ['mx53g8ec']
+2022-03-22 20:19:06 INFO Running runs: []
+2022-03-22 20:19:06 INFO Agent received command: run
+2022-03-22 20:19:06 INFO Agent starting run with config:
+	batch_size: 116
+	epochs: 161
+	learning_rate: 0.007439544575393058
+	momentum: 1.2781694338261778
+	num_ae_hidden1: 34
+	num_ae_hidden2: 18
+2022-03-22 20:19:06 INFO About to run command: /usr/bin/env python train.py --batch_size=116 --epochs=161 --learning_rate=0.007439544575393058 --momentum=1.2781694338261778 --num_ae_hidden1=34 --num_ae_hidden2=18
+2022-03-22 20:19:11 INFO Running runs: ['y97ynxfe']
+2022-03-22 20:19:11 INFO Cleaning up finished run: y97ynxfe
+2022-03-22 20:19:12 INFO Agent received command: run
+2022-03-22 20:19:12 INFO Agent starting run with config:
+	batch_size: 182
+	epochs: 190
+	learning_rate: 0.014593538265897533
+	momentum: 0.7898283271405888
+	num_ae_hidden1: 30
+	num_ae_hidden2: 34
+2022-03-22 20:19:12 INFO About to run command: /usr/bin/env python train.py --batch_size=182 --epochs=190 --learning_rate=0.014593538265897533 --momentum=0.7898283271405888 --num_ae_hidden1=30 --num_ae_hidden2=34
+2022-03-22 20:19:17 INFO Running runs: ['k7y62njx']
+2022-03-22 20:19:17 INFO Cleaning up finished run: k7y62njx
+2022-03-22 20:19:17 INFO Agent received command: run
+2022-03-22 20:19:17 INFO Agent starting run with config:
+	batch_size: 117
+	epochs: 132
+	learning_rate: 0.007368308454818432
+	momentum: 1.690293506630574
+	num_ae_hidden1: 9
+	num_ae_hidden2: 29
+2022-03-22 20:19:17 INFO About to run command: /usr/bin/env python train.py --batch_size=117 --epochs=132 --learning_rate=0.007368308454818432 --momentum=1.690293506630574 --num_ae_hidden1=9 --num_ae_hidden2=29
+2022-03-22 20:20:21 INFO Running runs: []
+2022-03-22 20:20:22 INFO Agent received command: run
+2022-03-22 20:20:22 INFO Agent starting run with config:
+	batch_size: 64
+	epochs: 109
+	learning_rate: 0.0016940205172546396
+	momentum: 1.5739831023640718
+	num_ae_hidden1: 36
+	num_ae_hidden2: 31
+2022-03-22 20:20:22 INFO About to run command: /usr/bin/env python train.py --batch_size=64 --epochs=109 --learning_rate=0.0016940205172546396 --momentum=1.5739831023640718 --num_ae_hidden1=36 --num_ae_hidden2=31
+2022-03-22 20:20:27 INFO Running runs: ['3fze2whx']
+2022-03-22 20:20:27 INFO Cleaning up finished run: 3fze2whx
+2022-03-22 20:20:27 INFO Agent received command: run
+2022-03-22 20:20:27 INFO Agent starting run with config:
+	batch_size: 136
+	epochs: 126
+	learning_rate: 0.008077358643062211
+	momentum: 0.6008993392957843
+	num_ae_hidden1: 34
+	num_ae_hidden2: 9
+2022-03-22 20:20:27 INFO About to run command: /usr/bin/env python train.py --batch_size=136 --epochs=126 --learning_rate=0.008077358643062211 --momentum=0.6008993392957843 --num_ae_hidden1=34 --num_ae_hidden2=9
+2022-03-22 20:20:32 INFO Running runs: ['zlwp4xfh']
+2022-03-22 20:20:32 INFO Cleaning up finished run: zlwp4xfh
+2022-03-22 20:20:33 INFO Agent received command: run
+2022-03-22 20:20:33 INFO Agent starting run with config:
+	batch_size: 75
+	epochs: 145
+	learning_rate: 0.0066696143673366055
+	momentum: 1.492055745478012
+	num_ae_hidden1: 17
+	num_ae_hidden2: 13
+2022-03-22 20:20:33 INFO About to run command: /usr/bin/env python train.py --batch_size=75 --epochs=145 --learning_rate=0.0066696143673366055 --momentum=1.492055745478012 --num_ae_hidden1=17 --num_ae_hidden2=13
+2022-03-22 20:20:57 INFO Running runs: []
+2022-03-22 20:20:57 INFO Agent received command: run
+2022-03-22 20:20:57 INFO Agent starting run with config:
+	batch_size: 185
+	epochs: 122
+	learning_rate: 0.0174893054981896
+	momentum: 0.5889238502099093
+	num_ae_hidden1: 13
+	num_ae_hidden2: 14
+2022-03-22 20:20:57 INFO About to run command: /usr/bin/env python train.py --batch_size=185 --epochs=122 --learning_rate=0.0174893054981896 --momentum=0.5889238502099093 --num_ae_hidden1=13 --num_ae_hidden2=14
+2022-03-22 20:23:15 INFO Running runs: []
+2022-03-22 20:23:15 INFO Agent received command: run
+2022-03-22 20:23:15 INFO Agent starting run with config:
+	batch_size: 135
+	epochs: 177
+	learning_rate: 0.001938301552397411
+	momentum: 1.43708983236417
+	num_ae_hidden1: 34
+	num_ae_hidden2: 28
+2022-03-22 20:23:15 INFO About to run command: /usr/bin/env python train.py --batch_size=135 --epochs=177 --learning_rate=0.001938301552397411 --momentum=1.43708983236417 --num_ae_hidden1=34 --num_ae_hidden2=28
+2022-03-22 20:23:20 INFO Running runs: ['psxyle7n']
+2022-03-22 20:23:20 INFO Cleaning up finished run: psxyle7n
+2022-03-22 20:23:21 INFO Agent received command: run
+2022-03-22 20:23:21 INFO Agent starting run with config:
+	batch_size: 211
+	epochs: 150
+	learning_rate: 0.000988287327992646
+	momentum: 0.828915578991509
+	num_ae_hidden1: 19
+	num_ae_hidden2: 36
+2022-03-22 20:23:21 INFO About to run command: /usr/bin/env python train.py --batch_size=211 --epochs=150 --learning_rate=0.000988287327992646 --momentum=0.828915578991509 --num_ae_hidden1=19 --num_ae_hidden2=36
+2022-03-22 20:26:28 INFO Running runs: []
+2022-03-22 20:26:28 INFO Agent received command: run
+2022-03-22 20:26:28 INFO Agent starting run with config:
+	batch_size: 234
+	epochs: 166
+	learning_rate: 0.006304020886450178
+	momentum: 0.6266552831060919
+	num_ae_hidden1: 28
+	num_ae_hidden2: 13
+2022-03-22 20:26:28 INFO About to run command: /usr/bin/env python train.py --batch_size=234 --epochs=166 --learning_rate=0.006304020886450178 --momentum=0.6266552831060919 --num_ae_hidden1=28 --num_ae_hidden2=13
+2022-03-22 20:26:33 INFO Running runs: ['mkos8v8n']
+2022-03-22 20:26:33 INFO Cleaning up finished run: mkos8v8n
+2022-03-22 20:26:34 INFO Agent received command: run
+2022-03-22 20:26:34 INFO Agent starting run with config:
+	batch_size: 48
+	epochs: 122
+	learning_rate: 0.011924364491045874
+	momentum: 1.3848118189555558
+	num_ae_hidden1: 14
+	num_ae_hidden2: 24
+2022-03-22 20:26:34 INFO About to run command: /usr/bin/env python train.py --batch_size=48 --epochs=122 --learning_rate=0.011924364491045874 --momentum=1.3848118189555558 --num_ae_hidden1=14 --num_ae_hidden2=24
+2022-03-22 20:27:16 INFO Running runs: []
+2022-03-22 20:27:17 INFO Agent received command: run
+2022-03-22 20:27:17 INFO Agent starting run with config:
+	batch_size: 181
+	epochs: 55
+	learning_rate: 0.018090534487434744
+	momentum: 1.77431239156157
+	num_ae_hidden1: 35
+	num_ae_hidden2: 31
+2022-03-22 20:27:17 INFO About to run command: /usr/bin/env python train.py --batch_size=181 --epochs=55 --learning_rate=0.018090534487434744 --momentum=1.77431239156157 --num_ae_hidden1=35 --num_ae_hidden2=31
+2022-03-22 20:27:22 INFO Running runs: ['7brtg5qr']
+2022-03-22 20:27:22 INFO Cleaning up finished run: 7brtg5qr
+2022-03-22 20:27:22 INFO Agent received command: run
+2022-03-22 20:27:22 INFO Agent starting run with config:
+	batch_size: 254
+	epochs: 53
+	learning_rate: 0.012583735038428492
+	momentum: 1.622060487814932
+	num_ae_hidden1: 20
+	num_ae_hidden2: 11
+2022-03-22 20:27:22 INFO About to run command: /usr/bin/env python train.py --batch_size=254 --epochs=53 --learning_rate=0.012583735038428492 --momentum=1.622060487814932 --num_ae_hidden1=20 --num_ae_hidden2=11
+2022-03-22 20:34:14 INFO Running runs: []
+2022-03-22 20:34:16 INFO Agent received command: run
+2022-03-22 20:34:16 INFO Agent starting run with config:
+	batch_size: 86
+	epochs: 126
+	learning_rate: 0.009237613940849232
+	momentum: 0.798406301835656
+	num_ae_hidden1: 16
+	num_ae_hidden2: 21
+2022-03-22 20:34:16 INFO About to run command: /usr/bin/env python3 train.py --batch_size=86 --epochs=126 --learning_rate=0.009237613940849232 --momentum=0.798406301835656 --num_ae_hidden1=16 --num_ae_hidden2=21
+2022-03-22 20:34:21 INFO Running runs: ['xdl0dy5d']
+2022-03-22 20:45:22 INFO Running runs: []
+2022-03-22 20:45:23 INFO Agent received command: run
+2022-03-22 20:45:23 INFO Agent starting run with config:
+	batch_size: 99
+	epochs: 241
+	learning_rate: 0.01000866401077483
+	num_ae_hidden1: 20
+	num_ae_hidden2: 34
+	weight_decay: 0.27094810725914437
+2022-03-22 20:45:23 INFO About to run command: /usr/bin/env python3 train.py --batch_size=99 --epochs=241 --learning_rate=0.01000866401077483 --num_ae_hidden1=20 --num_ae_hidden2=34 --weight_decay=0.27094810725914437
+2022-03-22 20:45:28 INFO Running runs: ['ee59zmg7']
+2022-03-22 20:52:56 INFO Running runs: []
+2022-03-22 20:52:57 INFO Agent received command: run
+2022-03-22 20:52:57 INFO Agent starting run with config:
+	batch_size: 149
+	epochs: 189
+	learning_rate: 0.00963950027005861
+	num_ae_hidden1: 32
+	num_ae_hidden2: 13
+	weight_decay: 0.1332467382263669
+2022-03-22 20:52:57 INFO About to run command: /usr/bin/env python3 train.py --batch_size=149 --epochs=189 --learning_rate=0.00963950027005861 --num_ae_hidden1=32 --num_ae_hidden2=13 --weight_decay=0.1332467382263669
+2022-03-22 20:53:02 INFO Running runs: ['goq371xx']

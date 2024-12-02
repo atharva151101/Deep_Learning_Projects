@@ -1,0 +1,22 @@
+Traceback (most recent call last):
+  File "train.py", line 103, in <module>
+    train_dataset = TrainDatasetReader(file_path = cfg.train_file_path)
+  File "/Users/tanay/Documents/sem6/CS6910/code2/dataloader.py", line 10, in __init__
+    self.X = pd.read_csv(file_path, usecols = ['x1', 'x2'])
+  File "/Users/tanay/opt/anaconda3/envs/pytorch_x86/lib/python3.8/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/tanay/opt/anaconda3/envs/pytorch_x86/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 586, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/tanay/opt/anaconda3/envs/pytorch_x86/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 482, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/tanay/opt/anaconda3/envs/pytorch_x86/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 811, in __init__
+    self._engine = self._make_engine(self.engine)
+  File "/Users/tanay/opt/anaconda3/envs/pytorch_x86/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1040, in _make_engine
+    return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]
+  File "/Users/tanay/opt/anaconda3/envs/pytorch_x86/lib/python3.8/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 51, in __init__
+    self._open_handles(src, kwds)
+  File "/Users/tanay/opt/anaconda3/envs/pytorch_x86/lib/python3.8/site-packages/pandas/io/parsers/base_parser.py", line 222, in _open_handles
+    self.handles = get_handle(
+  File "/Users/tanay/opt/anaconda3/envs/pytorch_x86/lib/python3.8/site-packages/pandas/io/common.py", line 701, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '20/task2a/train_t20.csv'

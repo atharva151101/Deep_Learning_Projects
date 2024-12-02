@@ -1,0 +1,14 @@
+/home/atharva1511/.local/lib/python3.8/site-packages/torch/nn/modules/loss.py:529: UserWarning: Using a target size (torch.Size([1, 48])) that is different to the input size (torch.Size([48])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+Traceback (most recent call last):
+  File "train.py", line 176, in <module>
+    train_one_epoch1(model, trainloader, optimizer,
+  File "train.py", line 51, in train_one_epoch1
+    print(target.detach().numpy(),output.squeeze().detach(),numpy())
+NameError: name 'numpy' is not defined
+Traceback (most recent call last):
+  File "train.py", line 176, in <module>
+    train_one_epoch1(model, trainloader, optimizer,
+  File "train.py", line 51, in train_one_epoch1
+    print(target.detach().numpy(),output.squeeze().detach(),numpy())
+NameError: name 'numpy' is not defined

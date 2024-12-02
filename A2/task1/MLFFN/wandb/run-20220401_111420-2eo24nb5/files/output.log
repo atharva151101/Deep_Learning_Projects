@@ -1,0 +1,36 @@
+Traceback (most recent call last):
+  File "train.py", line 35, in <module>
+    train_dataset = DatasetReader1(file_path = cfg.train_file_path, mode = 'train')
+  File "/home/atharva1511/Downloads/CS6910/assignment2/code2/MLFFN/dataloader.py", line 15, in __init__
+    X = pd.read_csv(file_path, usecols = self.cols)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/io/common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '../encoder_compressed.csv'
+Traceback (most recent call last):
+  File "train.py", line 35, in <module>
+    train_dataset = DatasetReader1(file_path = cfg.train_file_path, mode = 'train')
+  File "/home/atharva1511/Downloads/CS6910/assignment2/code2/MLFFN/dataloader.py", line 15, in __init__
+    X = pd.read_csv(file_path, usecols = self.cols)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/io/common.py", line 789, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '../encoder_compressed.csv'

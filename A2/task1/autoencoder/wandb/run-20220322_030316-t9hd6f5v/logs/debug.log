@@ -1,0 +1,37 @@
+2022-03-22 03:03:16,458 INFO    MainThread:16499 [wandb_setup.py:_flush():75] Loading settings from /home/atharva1511/.config/wandb/settings
+2022-03-22 03:03:16,458 INFO    MainThread:16499 [wandb_setup.py:_flush():75] Loading settings from /home/atharva1511/Downloads/CS6910/assignment2/code2/wandb/settings
+2022-03-22 03:03:16,458 INFO    MainThread:16499 [wandb_setup.py:_flush():75] Loading settings from environment variables: {}
+2022-03-22 03:03:16,458 INFO    MainThread:16499 [wandb_setup.py:_flush():75] Inferring run settings from compute environment: {'program_relpath': 'Downloads/CS6910/assignment2/code2/train.py', 'program': 'train.py'}
+2022-03-22 03:03:16,458 INFO    MainThread:16499 [wandb_init.py:_log_setup():405] Logging user logs to /home/atharva1511/Downloads/CS6910/assignment2/code2/wandb/run-20220322_030316-t9hd6f5v/logs/debug.log
+2022-03-22 03:03:16,458 INFO    MainThread:16499 [wandb_init.py:_log_setup():406] Logging internal logs to /home/atharva1511/Downloads/CS6910/assignment2/code2/wandb/run-20220322_030316-t9hd6f5v/logs/debug-internal.log
+2022-03-22 03:03:16,458 INFO    MainThread:16499 [wandb_init.py:init():439] calling init triggers
+2022-03-22 03:03:16,458 INFO    MainThread:16499 [wandb_init.py:init():442] wandb.init called with sweep_config: {}
+config: {'checkpoint_dir': 'models', 'train_file_path': '../20/dataset1.csv', 'val_file_path': '../20/dataset1.csv', 'cuda': False, 'wandb': False, 'do_train': True, 'do_val': True, 'do_predict': True, 'use_trained': True, 'batch_size': 1, 'epochs': 1000, 'val_batch_size': 1, 'output_num': 1, 'input_num': 48, 'num_ae_hidden1': 30, 'num_ae_hidden2': 20, 'num_ae_output': 10, 'num_hidden1': 13, 'num_hidden2': 18, 'learning_rate': 0.01, 'momentum': 0.9198}
+2022-03-22 03:03:16,458 INFO    MainThread:16499 [wandb_init.py:init():492] starting backend
+2022-03-22 03:03:16,458 INFO    MainThread:16499 [backend.py:_multiprocessing_setup():99] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2022-03-22 03:03:16,463 INFO    MainThread:16499 [backend.py:ensure_launched():219] starting backend process...
+2022-03-22 03:03:16,468 INFO    MainThread:16499 [backend.py:ensure_launched():224] started backend process with pid: 16522
+2022-03-22 03:03:16,469 INFO    MainThread:16499 [wandb_init.py:init():501] backend started and connected
+2022-03-22 03:03:16,472 INFO    MainThread:16499 [wandb_init.py:init():565] updated telemetry
+2022-03-22 03:03:16,474 INFO    MainThread:16499 [wandb_init.py:init():596] communicating run to backend with 30 second timeout
+2022-03-22 03:03:46,475 INFO    MainThread:16499 [interface_shared.py:_communicate_run():322] couldn't get run from backend
+2022-03-22 03:03:46,475 ERROR   MainThread:16499 [wandb_init.py:init():601] backend process timed out
+2022-03-22 03:03:46,475 ERROR   MainThread:16499 [wandb_init.py:init():610] encountered error: Error communicating with wandb process
+try: wandb.init(settings=wandb.Settings(start_method='fork'))
+or:  wandb.init(settings=wandb.Settings(start_method='thread'))
+For more info see: https://docs.wandb.ai/library/init#init-start-error
+2022-03-22 03:03:58,468 WARNING MainThread:16499 [wandb_init.py:init():975] interrupted
+Traceback (most recent call last):
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 954, in init
+    run = wi.init()
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 614, in init
+    backend.cleanup()
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/wandb/sdk/backend/backend.py", line 250, in cleanup
+    self.wandb_process.join()
+  File "/usr/lib/python3.8/multiprocessing/process.py", line 149, in join
+    res = self._popen.wait(timeout)
+  File "/usr/lib/python3.8/multiprocessing/popen_fork.py", line 47, in wait
+    return self.poll(os.WNOHANG if timeout == 0.0 else 0)
+  File "/usr/lib/python3.8/multiprocessing/popen_fork.py", line 27, in poll
+    pid, sts = os.waitpid(self.pid, flag)
+KeyboardInterrupt

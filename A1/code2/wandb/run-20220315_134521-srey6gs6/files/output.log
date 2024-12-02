@@ -1,0 +1,14 @@
+
+torch.Size([1, 1]) torch.Size([1])
+Traceback (most recent call last):
+  File "train.py", line 117, in <module>
+    train_one_epoch(model, trainloader, optimizer,
+  File "train.py", line 52, in train_one_epoch
+    acc.append(accuracy(classes, target))
+  File "train.py", line 20, in accuracy
+    return 1 - (np.abs(input - target).sum())/len(input)
+  File "/Users/tanay/opt/anaconda3/envs/pytorch_x86/lib/python3.8/site-packages/torch/_tensor.py", line 544, in __rsub__
+    return _C._VariableFunctions.rsub(self, other)
+TypeError: rsub() received an invalid combination of arguments - got (Tensor, list), but expected one of:
+ * (Tensor input, Tensor other, *, Number alpha)
+ * (Tensor input, Number other, Number alpha)

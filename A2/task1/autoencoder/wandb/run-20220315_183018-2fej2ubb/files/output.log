@@ -1,0 +1,43 @@
+
+Epoch - 0	 step - 1199 	Train loss - 0.6406761605540912 	 ACC - 0.65
+Traceback (most recent call last):
+  File "/Users/tanay/opt/anaconda3/envs/pytorch_x86/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 3361, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 76, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 108, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'y'
+The above exception was the direct cause of the following exception:
+Traceback (most recent call last):
+  File "train.py", line 115, in <module>
+    val_acc = eval(model,
+  File "train.py", line 69, in eval
+    for data, target in valloader:
+  File "/Users/tanay/opt/anaconda3/envs/pytorch_x86/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 521, in __next__
+    data = self._next_data()
+  File "/Users/tanay/opt/anaconda3/envs/pytorch_x86/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 561, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/Users/tanay/opt/anaconda3/envs/pytorch_x86/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 44, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/Users/tanay/opt/anaconda3/envs/pytorch_x86/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 44, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/Users/tanay/Documents/sem6/CS6910/code2/dataloader.py", line 35, in __getitem__
+    output = self.y.loc[idx, 'y'].astype(np.float32)
+  File "/Users/tanay/opt/anaconda3/envs/pytorch_x86/lib/python3.8/site-packages/pandas/core/indexing.py", line 925, in __getitem__
+    return self._getitem_tuple(key)
+  File "/Users/tanay/opt/anaconda3/envs/pytorch_x86/lib/python3.8/site-packages/pandas/core/indexing.py", line 1100, in _getitem_tuple
+    return self._getitem_lowerdim(tup)
+  File "/Users/tanay/opt/anaconda3/envs/pytorch_x86/lib/python3.8/site-packages/pandas/core/indexing.py", line 862, in _getitem_lowerdim
+    return getattr(section, self.name)[new_key]
+  File "/Users/tanay/opt/anaconda3/envs/pytorch_x86/lib/python3.8/site-packages/pandas/core/indexing.py", line 931, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "/Users/tanay/opt/anaconda3/envs/pytorch_x86/lib/python3.8/site-packages/pandas/core/indexing.py", line 1164, in _getitem_axis
+    return self._get_label(key, axis=axis)
+  File "/Users/tanay/opt/anaconda3/envs/pytorch_x86/lib/python3.8/site-packages/pandas/core/indexing.py", line 1113, in _get_label
+    return self.obj.xs(label, axis=axis)
+  File "/Users/tanay/opt/anaconda3/envs/pytorch_x86/lib/python3.8/site-packages/pandas/core/generic.py", line 3776, in xs
+    loc = index.get_loc(key)
+  File "/Users/tanay/opt/anaconda3/envs/pytorch_x86/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 3363, in get_loc
+    raise KeyError(key) from err
+KeyError: 'y'

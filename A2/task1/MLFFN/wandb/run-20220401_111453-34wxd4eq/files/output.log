@@ -1,0 +1,185 @@
+/home/atharva1511/Downloads/CS6910/assignment2/code2/MLFFN/model.py:17: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  y=self.soft(self.linear3(h2))
+Epoch - 0	 step - 158 	Train loss - 1.5568668767341278 	 ACC - 0.2578616352201258
+Val loss: 1.5206233888864518	 Val acc: 0.45
+Epoch - 1	 step - 158 	Train loss - 1.5046532686401464 	 ACC - 0.4025157232704403
+Val loss: 1.4926484882831574	 Val acc: 0.325
+Epoch - 2	 step - 158 	Train loss - 1.481511781800468 	 ACC - 0.389937106918239
+Val loss: 1.4786622375249863	 Val acc: 0.45
+Epoch - 3	 step - 158 	Train loss - 1.468725322927319 	 ACC - 0.5157232704402516
+Val loss: 1.4676931262016297	 Val acc: 0.35
+Epoch - 4	 step - 158 	Train loss - 1.461449127527153 	 ACC - 0.48427672955974843
+Val loss: 1.4682396560907365	 Val acc: 0.45
+Epoch - 5	 step - 158 	Train loss - 1.4541778212073464 	 ACC - 0.4276729559748428
+Val loss: 1.4594151228666306	 Val acc: 0.55
+Epoch - 6	 step - 158 	Train loss - 1.4492931515915588 	 ACC - 0.389937106918239
+Val loss: 1.4561567664146424	 Val acc: 0.625
+Epoch - 7	 step - 158 	Train loss - 1.4464127005271192 	 ACC - 0.4716981132075472
+Val loss: 1.4565128952264785	 Val acc: 0.35
+Epoch - 8	 step - 158 	Train loss - 1.4473540468036004 	 ACC - 0.4716981132075472
+Val loss: 1.4548518985509873	 Val acc: 0.4
+Epoch - 9	 step - 158 	Train loss - 1.4438854500932514 	 ACC - 0.4088050314465409
+Val loss: 1.4504336386919021	 Val acc: 0.475
+Epoch - 10	 step - 158 	Train loss - 1.439529077811811 	 ACC - 0.4276729559748428
+Val loss: 1.451062935590744	 Val acc: 0.45
+Epoch - 11	 step - 158 	Train loss - 1.4403260766335253 	 ACC - 0.44025157232704404
+Val loss: 1.4471734642982483	 Val acc: 0.375
+Epoch - 12	 step - 158 	Train loss - 1.4377141448686708 	 ACC - 0.4779874213836478
+Val loss: 1.4459015339612962	 Val acc: 0.4
+Epoch - 13	 step - 158 	Train loss - 1.4361862431532182 	 ACC - 0.46540880503144655
+Val loss: 1.4446616053581238	 Val acc: 0.55
+Epoch - 14	 step - 158 	Train loss - 1.4333038555001312 	 ACC - 0.5031446540880503
+Val loss: 1.4399160712957382	 Val acc: 0.5
+Epoch - 15	 step - 158 	Train loss - 1.4306804728957843 	 ACC - 0.48427672955974843
+Val loss: 1.437636250257492	 Val acc: 0.35
+Epoch - 16	 step - 158 	Train loss - 1.4276531694820092 	 ACC - 0.5220125786163522
+Val loss: 1.4369365394115448	 Val acc: 0.35
+Epoch - 17	 step - 158 	Train loss - 1.4274500893346918 	 ACC - 0.4591194968553459
+Val loss: 1.4354291528463363	 Val acc: 0.475
+Epoch - 18	 step - 158 	Train loss - 1.4245436641405214 	 ACC - 0.4528301886792453
+Val loss: 1.4342142552137376	 Val acc: 0.375
+Epoch - 19	 step - 158 	Train loss - 1.4239397393832416 	 ACC - 0.5283018867924528
+Val loss: 1.4317555636167527	 Val acc: 0.5
+Epoch - 20	 step - 158 	Train loss - 1.420518159116589 	 ACC - 0.5220125786163522
+Val loss: 1.4298260152339934	 Val acc: 0.5
+Epoch - 21	 step - 158 	Train loss - 1.4204570489859432 	 ACC - 0.48427672955974843
+Val loss: 1.426491066813469	 Val acc: 0.525
+Epoch - 22	 step - 158 	Train loss - 1.4210517196535315 	 ACC - 0.42138364779874216
+Val loss: 1.4286225527524947	 Val acc: 0.5
+Epoch - 23	 step - 158 	Train loss - 1.42053725209626 	 ACC - 0.4716981132075472
+Val loss: 1.4295145928859712	 Val acc: 0.45
+Epoch - 24	 step - 158 	Train loss - 1.416628250535929 	 ACC - 0.5157232704402516
+Val loss: 1.4288656026124955	 Val acc: 0.525
+Epoch - 25	 step - 158 	Train loss - 1.4152903226936389 	 ACC - 0.5534591194968553
+Val loss: 1.4294060707092284	 Val acc: 0.475
+Epoch - 26	 step - 158 	Train loss - 1.4155657043996848 	 ACC - 0.4088050314465409
+Val loss: 1.4260686427354812	 Val acc: 0.5
+Epoch - 27	 step - 158 	Train loss - 1.4165017844745948 	 ACC - 0.5283018867924528
+Val loss: 1.4253290951251985	 Val acc: 0.375
+Epoch - 28	 step - 158 	Train loss - 1.4151189417209264 	 ACC - 0.4779874213836478
+Val loss: 1.4258031338453292	 Val acc: 0.35
+Epoch - 29	 step - 158 	Train loss - 1.4142365897976377 	 ACC - 0.4716981132075472
+Val loss: 1.4243020087480545	 Val acc: 0.425
+Epoch - 30	 step - 158 	Train loss - 1.414895329085536 	 ACC - 0.4339622641509434
+Val loss: 1.421577775478363	 Val acc: 0.5
+Epoch - 31	 step - 158 	Train loss - 1.4146339720899954 	 ACC - 0.5031446540880503
+Val loss: 1.4294852823019029	 Val acc: 0.425
+Epoch - 32	 step - 158 	Train loss - 1.4177751181260594 	 ACC - 0.4968553459119497
+Val loss: 1.4276693522930146	 Val acc: 0.45
+Epoch - 33	 step - 158 	Train loss - 1.4168544910238974 	 ACC - 0.4339622641509434
+Val loss: 1.4273478478193282	 Val acc: 0.475
+Epoch - 34	 step - 158 	Train loss - 1.4147706204240427 	 ACC - 0.4591194968553459
+Val loss: 1.4314784288406373	 Val acc: 0.325
+Epoch - 35	 step - 158 	Train loss - 1.4129572559452657 	 ACC - 0.5031446540880503
+Val loss: 1.4279152274131774	 Val acc: 0.525
+Epoch - 36	 step - 158 	Train loss - 1.4133707749768623 	 ACC - 0.4968553459119497
+Val loss: 1.43386609852314	 Val acc: 0.45
+Epoch - 37	 step - 158 	Train loss - 1.414705661857653 	 ACC - 0.5283018867924528
+Val loss: 1.4343391865491868	 Val acc: 0.475
+Epoch - 38	 step - 158 	Train loss - 1.414268693833981 	 ACC - 0.4716981132075472
+Val loss: 1.428004625439644	 Val acc: 0.475
+Epoch - 39	 step - 158 	Train loss - 1.4132822654532187 	 ACC - 0.4968553459119497
+Val loss: 1.4269412815570832	 Val acc: 0.475
+Epoch - 40	 step - 158 	Train loss - 1.4125394738695156 	 ACC - 0.4339622641509434
+Val loss: 1.4292435705661775	 Val acc: 0.3
+Epoch - 41	 step - 158 	Train loss - 1.414202945037458 	 ACC - 0.5157232704402516
+Val loss: 1.4284127950668335	 Val acc: 0.525
+Epoch - 42	 step - 158 	Train loss - 1.4138040587587177 	 ACC - 0.42138364779874216
+Val loss: 1.4330668956041337	 Val acc: 0.4
+Epoch - 43	 step - 158 	Train loss - 1.4134343142779369 	 ACC - 0.48427672955974843
+Val loss: 1.430273300409317	 Val acc: 0.55
+Epoch - 44	 step - 158 	Train loss - 1.415705532397864 	 ACC - 0.4528301886792453
+Val loss: 1.4260108768939972	 Val acc: 0.575
+Epoch - 45	 step - 158 	Train loss - 1.4149821974196524 	 ACC - 0.4591194968553459
+Val loss: 1.4259470969438552	 Val acc: 0.625
+Epoch - 46	 step - 158 	Train loss - 1.4129968544222273 	 ACC - 0.44654088050314467
+Val loss: 1.4245294868946075	 Val acc: 0.55
+Epoch - 47	 step - 158 	Train loss - 1.4140913381516558 	 ACC - 0.44025157232704404
+Val loss: 1.4276520878076553	 Val acc: 0.35
+Epoch - 48	 step - 158 	Train loss - 1.4131565978692013 	 ACC - 0.4528301886792453
+Val loss: 1.428165227174759	 Val acc: 0.4
+Epoch - 49	 step - 158 	Train loss - 1.4142641346409637 	 ACC - 0.4968553459119497
+Val loss: 1.4338932305574417	 Val acc: 0.5
+Epoch - 50	 step - 158 	Train loss - 1.4128179295257952 	 ACC - 0.4025157232704403
+Val loss: 1.4328936159610748	 Val acc: 0.575
+Epoch - 51	 step - 158 	Train loss - 1.41281868976617 	 ACC - 0.4591194968553459
+Val loss: 1.4351149290800094	 Val acc: 0.575
+Epoch - 52	 step - 158 	Train loss - 1.4138203851831783 	 ACC - 0.4591194968553459
+Val loss: 1.432107111811638	 Val acc: 0.475
+Epoch - 53	 step - 158 	Train loss - 1.4125331535279375 	 ACC - 0.4591194968553459
+Val loss: 1.4269024908542634	 Val acc: 0.4
+Epoch - 54	 step - 158 	Train loss - 1.4099397494358086 	 ACC - 0.4528301886792453
+Val loss: 1.4246092647314073	 Val acc: 0.475
+Epoch - 55	 step - 158 	Train loss - 1.4113667438615043 	 ACC - 0.4339622641509434
+Val loss: 1.428479042649269	 Val acc: 0.425
+Epoch - 56	 step - 158 	Train loss - 1.413014996726558 	 ACC - 0.48427672955974843
+Val loss: 1.4308085471391678	 Val acc: 0.525
+Epoch - 57	 step - 158 	Train loss - 1.4108393904548022 	 ACC - 0.5283018867924528
+Val loss: 1.4240717887878418	 Val acc: 0.45
+Epoch - 58	 step - 158 	Train loss - 1.4099654244176996 	 ACC - 0.4716981132075472
+Val loss: 1.4237389653921126	 Val acc: 0.4
+Epoch - 59	 step - 158 	Train loss - 1.4094426946819953 	 ACC - 0.4716981132075472
+Val loss: 1.4306711047887801	 Val acc: 0.475
+Epoch - 60	 step - 158 	Train loss - 1.4080205413530458 	 ACC - 0.5220125786163522
+Val loss: 1.429273647069931	 Val acc: 0.425
+Epoch - 61	 step - 158 	Train loss - 1.40979602651776 	 ACC - 0.49056603773584906
+Val loss: 1.4244981378316879	 Val acc: 0.45
+Epoch - 62	 step - 158 	Train loss - 1.4115071903984502 	 ACC - 0.5471698113207547
+Val loss: 1.4260526090860366	 Val acc: 0.475
+Epoch - 63	 step - 158 	Train loss - 1.4094413586382597 	 ACC - 0.5283018867924528
+Val loss: 1.4197098106145858	 Val acc: 0.6
+Epoch - 64	 step - 158 	Train loss - 1.40459310183735 	 ACC - 0.4591194968553459
+Val loss: 1.419503852725029	 Val acc: 0.45
+Epoch - 65	 step - 158 	Train loss - 1.4044975207286812 	 ACC - 0.5408805031446541
+Val loss: 1.4222527384757995	 Val acc: 0.425
+Epoch - 66	 step - 158 	Train loss - 1.4069401093249052 	 ACC - 0.4968553459119497
+Val loss: 1.4185327559709549	 Val acc: 0.575
+Traceback (most recent call last):
+  File "train.py", line 48, in <module>
+    train_one_epoch2(model, trainloader, optimizer,
+  File "/home/atharva1511/Downloads/CS6910/assignment2/code2/MLFFN/mlffn_functions.py", line 34, in train_one_epoch2
+    for i, (data, target) in enumerate(dataset):
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 530, in __next__
+    data = self._next_data()
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 570, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 49, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 49, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/atharva1511/Downloads/CS6910/assignment2/code2/MLFFN/dataloader.py", line 33, in __getitem__
+    input = self.X.loc[idx, :'x9'].values.astype(np.float32)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/core/indexing.py", line 961, in __getitem__
+    return self._getitem_tuple(key)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/core/indexing.py", line 1140, in _getitem_tuple
+    return self._getitem_lowerdim(tup)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/core/indexing.py", line 867, in _getitem_lowerdim
+    section = self._getitem_axis(key, axis=i)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/core/indexing.py", line 1181, in _getitem_axis
+    elif com.is_bool_indexer(key):
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "train.py", line 48, in <module>
+    train_one_epoch2(model, trainloader, optimizer,
+  File "/home/atharva1511/Downloads/CS6910/assignment2/code2/MLFFN/mlffn_functions.py", line 34, in train_one_epoch2
+    for i, (data, target) in enumerate(dataset):
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 530, in __next__
+    data = self._next_data()
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 570, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 49, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 49, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/atharva1511/Downloads/CS6910/assignment2/code2/MLFFN/dataloader.py", line 33, in __getitem__
+    input = self.X.loc[idx, :'x9'].values.astype(np.float32)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/core/indexing.py", line 961, in __getitem__
+    return self._getitem_tuple(key)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/core/indexing.py", line 1140, in _getitem_tuple
+    return self._getitem_lowerdim(tup)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/core/indexing.py", line 867, in _getitem_lowerdim
+    section = self._getitem_axis(key, axis=i)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/core/indexing.py", line 1181, in _getitem_axis
+    elif com.is_bool_indexer(key):
+KeyboardInterrupt
+Epoch - 67	 step - 158 	Train loss - 1.4070262721499558 	 ACC - 0.5157232704402516

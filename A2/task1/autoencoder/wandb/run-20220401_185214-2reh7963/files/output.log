@@ -1,0 +1,22 @@
+
+Val loss: 3937.9973999023437	 Val error: 189023.8760279605
+Traceback (most recent call last):
+  File "train.py", line 50, in <module>
+    train_one_epoch1(model, trainloader, optimizer,
+  File "/home/atharva1511/Downloads/CS6910/assignment2/code2/autoencoder/encoder_functions.py", line 46, in train_one_epoch1
+    loss.backward()
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/_tensor.py", line 363, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/autograd/__init__.py", line 173, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "train.py", line 50, in <module>
+    train_one_epoch1(model, trainloader, optimizer,
+  File "/home/atharva1511/Downloads/CS6910/assignment2/code2/autoencoder/encoder_functions.py", line 46, in train_one_epoch1
+    loss.backward()
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/_tensor.py", line 363, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/autograd/__init__.py", line 173, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt

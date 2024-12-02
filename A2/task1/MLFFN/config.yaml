@@ -1,0 +1,27 @@
+
+checkpoint_dir: models
+
+use_autoencoder: False
+
+autoencoder_compressed_path: ../../20/autoencoder_compressed.csv
+pca_compressed_path: ../../20/pca_compressed.csv
+
+cuda: False
+wandb: False
+do_train: True
+do_val: True
+do_predict: True
+use_trained: True
+log_step: 100
+
+batch_size: 64
+epochs: 100
+val_batch_size: 64
+output_num: 5
+
+input_num: 10
+num_hidden1: 25
+num_hidden2: 40
+learning_rate: 0.0001
+momentum: 0.9198
+weight_decay: 0.0

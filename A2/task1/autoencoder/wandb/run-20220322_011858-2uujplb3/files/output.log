@@ -1,0 +1,40 @@
+Traceback (most recent call last):
+  File "train.py", line 163, in <module>
+    train_dataset = DatasetReader1(file_path = cfg.train_file_path, mode = 'train')
+  File "/home/atharva1511/Downloads/CS6910/assignment2/code2/dataloader.py", line 15, in __init__
+    X = pd.read_csv(file_path, usecols = ['x0'])
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1231, in _make_engine
+    return mapping[engine](f, **self.options)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 131, in __init__
+    self._validate_usecols_names(usecols, self.orig_names)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/io/parsers/base_parser.py", line 913, in _validate_usecols_names
+    raise ValueError(
+ValueError: Usecols do not match columns, columns expected but not found: ['x0']
+Traceback (most recent call last):
+  File "train.py", line 163, in <module>
+    train_dataset = DatasetReader1(file_path = cfg.train_file_path, mode = 'train')
+  File "/home/atharva1511/Downloads/CS6910/assignment2/code2/dataloader.py", line 15, in __init__
+    X = pd.read_csv(file_path, usecols = ['x0'])
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1231, in _make_engine
+    return mapping[engine](f, **self.options)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 131, in __init__
+    self._validate_usecols_names(usecols, self.orig_names)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/pandas/io/parsers/base_parser.py", line 913, in _validate_usecols_names
+    raise ValueError(
+ValueError: Usecols do not match columns, columns expected but not found: ['x0']

@@ -1,0 +1,34 @@
+<class 'pandas.core.frame.DataFrame'> <class 'pandas.core.frame.DataFrame'>
+<class 'pandas.core.frame.DataFrame'> <class 'pandas.core.frame.DataFrame'>
+Traceback (most recent call last):
+  File "train.py", line 173, in <module>
+    for i,(data, target) in enumerate(trainloader):
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 530, in __next__
+    data = self._next_data()
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 570, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 52, in fetch
+    return self.collate_fn(data)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/utils/data/_utils/collate.py", line 172, in default_collate
+    return [default_collate(samples) for samples in transposed]  # Backwards compatibility.
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/utils/data/_utils/collate.py", line 172, in <listcomp>
+    return [default_collate(samples) for samples in transposed]  # Backwards compatibility.
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/utils/data/_utils/collate.py", line 180, in default_collate
+    raise TypeError(default_collate_err_msg_format.format(elem_type))
+TypeError: default_collate: batch must contain tensors, numpy arrays, numbers, dicts or lists; found <class 'pandas.core.series.Series'>
+Traceback (most recent call last):
+  File "train.py", line 173, in <module>
+    for i,(data, target) in enumerate(trainloader):
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 530, in __next__
+    data = self._next_data()
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 570, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 52, in fetch
+    return self.collate_fn(data)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/utils/data/_utils/collate.py", line 172, in default_collate
+    return [default_collate(samples) for samples in transposed]  # Backwards compatibility.
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/utils/data/_utils/collate.py", line 172, in <listcomp>
+    return [default_collate(samples) for samples in transposed]  # Backwards compatibility.
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/torch/utils/data/_utils/collate.py", line 180, in default_collate
+    raise TypeError(default_collate_err_msg_format.format(elem_type))
+TypeError: default_collate: batch must contain tensors, numpy arrays, numbers, dicts or lists; found <class 'pandas.core.series.Series'>

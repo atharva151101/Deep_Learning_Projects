@@ -1,0 +1,25 @@
+Val loss: 3937.5411933765076	 Val error: 189001.97752192983
+Epoch - 0	 step - 1266 	Train loss - 3904.565964792879 	 MAE - 3904.5659630586524
+yoooo [0.2871256  0.15180565 0.16452289 0.1445822  0.2519637 ] 4
+/home/atharva1511/Downloads/CS6910/assignment2/code2/model.py:40: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  y=self.soft(self.linear3(h2))
+Traceback (most recent call last):
+  File "train.py", line 212, in <module>
+    train_one_epoch2(model, trainloader, optimizer,
+  File "train.py", line 96, in train_one_epoch2
+    if i % cfg.log_step == 0:
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/wandb/sdk/wandb_config.py", line 163, in __getattr__
+    return self.__getitem__(key)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/wandb/sdk/wandb_config.py", line 131, in __getitem__
+    return self._items[key]
+KeyError: 'log_step'
+Traceback (most recent call last):
+  File "train.py", line 212, in <module>
+    train_one_epoch2(model, trainloader, optimizer,
+  File "train.py", line 96, in train_one_epoch2
+    if i % cfg.log_step == 0:
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/wandb/sdk/wandb_config.py", line 163, in __getattr__
+    return self.__getitem__(key)
+  File "/home/atharva1511/.local/lib/python3.8/site-packages/wandb/sdk/wandb_config.py", line 131, in __getitem__
+    return self._items[key]
+KeyError: 'log_step'

@@ -1,0 +1,25 @@
+Epoch - 0	 step - 1266 	Train loss - 3937.546503875419 	 MAE - 3937.546495525437
+Val loss: 3937.546350311815	 Val error: 189002.22409539475
+/home/atharva1511/.local/lib/python3.8/site-packages/torch/nn/modules/loss.py:96: UserWarning: Using a target size (torch.Size([1, 48])) that is different to the input size (torch.Size([48])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.l1_loss(input, target, reduction=self.reduction)
+Epoch - 1	 step - 1266 	Train loss - 3937.545782051598 	 MAE - 3937.545774343923
+Val loss: 3937.5456607216283	 Val error: 189002.1910635965
+Epoch - 2	 step - 1266 	Train loss - 3937.5450663939178 	 MAE - 3937.5450665223784
+Val loss: 3937.5449325829222	 Val error: 189002.15720942983
+Epoch - 3	 step - 1266 	Train loss - 3937.5443661515883 	 MAE - 3937.5443566454546
+Val loss: 3937.54422586006	 Val error: 189002.12321820174
+Epoch - 4	 step - 1266 	Train loss - 3937.5436489523727 	 MAE - 3937.5436603854246
+Val loss: 3937.543480588679	 Val error: 189002.08826754385
+Epoch - 5	 step - 1266 	Train loss - 3937.5429537200325 	 MAE - 3937.5429435715937
+Val loss: 3937.5428316885964	 Val error: 189002.05564692983
+Epoch - 6	 step - 1266 	Train loss - 3937.5422482750223 	 MAE - 3937.542241659267
+Val loss: 3937.5421292489036	 Val error: 189002.02165570174
+Epoch - 7	 step - 1266 	Train loss - 3937.541525102358 	 MAE - 3937.541530497731
+Val loss: 3937.541416101288	 Val error: 189001.98780153508
+Epoch - 8	 step - 1266 	Train loss - 3937.54082909925 	 MAE - 3937.540820363885
+Val loss: 3937.540711520011	 Val error: 189001.95367324562
+Epoch - 9	 step - 1266 	Train loss - 3937.5401207638615 	 MAE - 3937.5401176807914
+Val loss: 3937.5400519120067	 Val error: 189001.9216008772
+Epoch - 10	 step - 1266 	Train loss - 3937.539419365381 	 MAE - 3937.539421163838
+Val loss: 3937.539334481223	 Val error: 189001.88815789475
+Epoch - 11	 step - 1266 	Train loss - 3937.5387050565437 	 MAE - 3937.5387184807446

@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "train.py", line 162, in <module>
+    train_dataset = DatasetReader1(file_path = cfg.train_file_path, mode = 'train')
+  File "/home/atharva1511/Downloads/CS6910/assignment2/code2/dataloader.py", line 12, in __init__
+    self.transform = transforms.Compose([transforms.ToTensor()])
+NameError: name 'transforms' is not defined
+Traceback (most recent call last):
+  File "train.py", line 162, in <module>
+    train_dataset = DatasetReader1(file_path = cfg.train_file_path, mode = 'train')
+  File "/home/atharva1511/Downloads/CS6910/assignment2/code2/dataloader.py", line 12, in __init__
+    self.transform = transforms.Compose([transforms.ToTensor()])
+NameError: name 'transforms' is not defined

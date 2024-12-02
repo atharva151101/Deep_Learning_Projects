@@ -1,0 +1,106 @@
+encoder1.0.weight 7200
+encoder1.0.bias 150
+encoder1.2.weight 12000
+encoder1.2.bias 80
+encoder1.4.weight 2800
+encoder1.4.bias 35
+decoder1.0.weight 2800
+decoder1.0.bias 80
+decoder1.2.weight 12000
+decoder1.2.bias 150
+decoder1.4.weight 7200
+decoder1.4.bias 48
+Total Trainable Params: 44543
+Val loss: 3930.562109375	 Val error: 188666.98018092106
+Epoch - 0	 step - 158 	Train loss - 2262.8364603294517 	 MAE - 2262.8364527373774
+encoder2.0.weight 2450
+encoder2.0.bias 70
+encoder2.2.weight 3500
+encoder2.2.bias 50
+encoder2.4.weight 1100
+encoder2.4.bias 22
+decoder2.0.weight 1100
+decoder2.0.bias 50
+decoder2.2.weight 3500
+decoder2.2.bias 70
+decoder2.4.weight 2450
+decoder2.4.bias 35
+Total Trainable Params: 14397
+Val loss: 3962.758093261719	 Val error: 138696.53453947368
+Epoch - 0	 step - 158 	Train loss - 1764.948361954599 	 MAE - 1764.9483776018265
+/home/atharva1511/Downloads/CS6910/assignment2/task2/model.py:75: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  y=self.soft(self.linear(x))
+encoder3.0.weight 1100
+encoder3.0.bias 50
+encoder3.2.weight 1750
+encoder3.2.bias 35
+encoder3.4.weight 350
+encoder3.4.bias 10
+decoder3.0.weight 350
+decoder3.0.bias 35
+decoder3.2.weight 1750
+decoder3.2.bias 50
+decoder3.4.weight 1100
+decoder3.4.bias 22
+Total Trainable Params: 6602
+Val loss: 5763.309338378906	 Val error: 126792.80565378288
+Epoch - 0	 step - 158 	Train loss - 2420.0474640468383 	 MAE - 2420.0474565264976
+encoder1.0.weight 7200
+encoder1.0.bias 150
+encoder1.2.weight 12000
+encoder1.2.bias 80
+encoder1.4.weight 2800
+encoder1.4.bias 35
+encoder2.0.weight 2450
+encoder2.0.bias 70
+encoder2.2.weight 3500
+encoder2.2.bias 50
+encoder2.4.weight 1100
+encoder2.4.bias 22
+encoder3.0.weight 1100
+encoder3.0.bias 50
+encoder3.2.weight 1750
+encoder3.2.bias 35
+encoder3.4.weight 350
+encoder3.4.bias 10
+linear.weight 50
+linear.bias 5
+Total Trainable Params: 32807
+Parameter containing:
+tensor([[ 0.1026,  0.1549, -0.0003,  ..., -0.0602,  0.0872,  0.0613],
+        [ 0.0744, -0.0919, -0.1296,  ...,  0.1178, -0.0924, -0.0726],
+        [ 0.1407, -0.0493, -0.0685,  ..., -0.1148,  0.1128, -0.0990],
+        ...,
+        [ 0.0670, -0.0581,  0.0230,  ...,  0.1396, -0.0899,  0.0045],
+        [ 0.0547,  0.1085, -0.0082,  ...,  0.0747, -0.1238, -0.1564],
+        [ 0.1375,  0.1141, -0.0396,  ...,  0.1331,  0.0032,  0.0039]],
+       requires_grad=True)
+Parameter containing:
+tensor([[ 0.1026,  0.1549, -0.0003,  ..., -0.0602,  0.0872,  0.0613],
+        [ 0.0744, -0.0919, -0.1296,  ...,  0.1178, -0.0924, -0.0726],
+        [ 0.1407, -0.0493, -0.0685,  ..., -0.1148,  0.1128, -0.0990],
+        ...,
+        [ 0.0670, -0.0581,  0.0230,  ...,  0.1396, -0.0899,  0.0045],
+        [ 0.0547,  0.1085, -0.0082,  ...,  0.0747, -0.1238, -0.1564],
+        [ 0.1375,  0.1141, -0.0396,  ...,  0.1331,  0.0032,  0.0039]],
+       requires_grad=True)
+Epoch - 0	 step - 158 	Train loss - 1.6073777293259244 	 ACC - 0.280562106918239
+Val loss: 1.4621661126613616	 Val acc: 0.43277138157894735
+Epoch - 1	 step - 158 	Train loss - 1.4405259621218316 	 ACC - 0.449685534591195
+Val loss: 1.4291648149490357	 Val acc: 0.45873766447368425
+Epoch - 2	 step - 158 	Train loss - 1.4280469582515694 	 ACC - 0.46334512578616355
+Val loss: 1.4301420539617538	 Val acc: 0.4591077302631579
+Epoch - 3	 step - 158 	Train loss - 1.4209218062694717 	 ACC - 0.47078092243186576
+Val loss: 1.4481875419616699	 Val acc: 0.44451069078947364
+Epoch - 4	 step - 158 	Train loss - 1.413051426785547 	 ACC - 0.4790683962264151
+Val loss: 1.4144512444734574	 Val acc: 0.4812294407894736
+Epoch - 5	 step - 158 	Train loss - 1.4060645905680627 	 ACC - 0.4889281970649896
+Val loss: 1.4349378556013108	 Val acc: 0.46328125
+Epoch - 6	 step - 158 	Train loss - 1.4069164564024728 	 ACC - 0.49125393081761004
+Val loss: 1.4315241813659667	 Val acc: 0.4549136513157895
+Epoch - 7	 step - 158 	Train loss - 1.4061874203711935 	 ACC - 0.4961674528301887
+Val loss: 1.4176196664571763	 Val acc: 0.47586348684210533
+Epoch - 8	 step - 158 	Train loss - 1.39841520711311 	 ACC - 0.5063875786163522
+Val loss: 1.4015226811170578	 Val acc: 0.4971422697368421
+Epoch - 9	 step - 158 	Train loss - 1.3895178958305023 	 ACC - 0.515297431865828
+Val loss: 1.390252709388733	 Val acc: 0.5072985197368421
